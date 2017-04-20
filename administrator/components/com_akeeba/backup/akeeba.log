@@ -1,0 +1,106 @@
+DEBUG   |170214 06:29:45|PHP WARNING (not an error; you can ignore) on line 149 in file <root>/administrator/components/com_akeeba/BackupEngine/Driver/Mysql.php:
+DEBUG   |170214 06:29:45|mysql_close(): 69 is not a valid MySQL-Link resource
+DEBUG   |170214 06:29:46|PHP WARNING (not an error; you can ignore) on line 149 in file <root>/administrator/components/com_akeeba/BackupEngine/Driver/Mysql.php:
+DEBUG   |170214 06:29:46|mysql_close(): 69 is not a valid MySQL-Link resource
+DEBUG   |170214 06:29:46|PHP WARNING (not an error; you can ignore) on line 149 in file <root>/administrator/components/com_akeeba/BackupEngine/Driver/Mysql.php:
+DEBUG   |170214 06:29:46|mysql_close(): 69 is not a valid MySQL-Link resource
+DEBUG   |170214 06:29:47|PHP WARNING (not an error; you can ignore) on line 149 in file <root>/administrator/components/com_akeeba/BackupEngine/Driver/Mysql.php:
+DEBUG   |170214 06:29:47|mysql_close(): 69 is not a valid MySQL-Link resource
+DEBUG   |170214 06:29:51|PHP WARNING (not an error; you can ignore) on line 149 in file <root>/administrator/components/com_akeeba/BackupEngine/Driver/Mysql.php:
+DEBUG   |170214 06:29:51|mysql_close(): 69 is not a valid MySQL-Link resource
+DEBUG   |170214 06:29:51|PHP WARNING (not an error; you can ignore) on line 149 in file <root>/administrator/components/com_akeeba/BackupEngine/Driver/Mysql.php:
+DEBUG   |170214 06:29:51|mysql_close(): 69 is not a valid MySQL-Link resource
+DEBUG   |170214 06:29:51|PHP WARNING (not an error; you can ignore) on line 149 in file <root>/administrator/components/com_akeeba/BackupEngine/Driver/Mysql.php:
+DEBUG   |170214 06:29:51|mysql_close(): 69 is not a valid MySQL-Link resource
+DEBUG   |170214 06:29:52|PHP WARNING (not an error; you can ignore) on line 149 in file <root>/administrator/components/com_akeeba/BackupEngine/Driver/Mysql.php:
+DEBUG   |170214 06:29:52|mysql_close(): 69 is not a valid MySQL-Link resource
+DEBUG   |170214 06:29:53|PHP WARNING (not an error; you can ignore) on line 149 in file <root>/administrator/components/com_akeeba/BackupEngine/Driver/Mysql.php:
+DEBUG   |170214 06:29:53|mysql_close(): 69 is not a valid MySQL-Link resource
+DEBUG   |170214 06:29:54|PHP WARNING (not an error; you can ignore) on line 149 in file <root>/administrator/components/com_akeeba/BackupEngine/Driver/Mysql.php:
+DEBUG   |170214 06:29:54|mysql_close(): 69 is not a valid MySQL-Link resource
+DEBUG   |170214 06:29:56|PHP WARNING (not an error; you can ignore) on line 149 in file <root>/administrator/components/com_akeeba/BackupEngine/Driver/Mysql.php:
+DEBUG   |170214 06:29:56|mysql_close(): 69 is not a valid MySQL-Link resource
+DEBUG   |170214 06:29:57|PHP WARNING (not an error; you can ignore) on line 149 in file <root>/administrator/components/com_akeeba/BackupEngine/Driver/Mysql.php:
+DEBUG   |170214 06:29:57|mysql_close(): 69 is not a valid MySQL-Link resource
+DEBUG   |170214 06:29:58|PHP WARNING (not an error; you can ignore) on line 149 in file <root>/administrator/components/com_akeeba/BackupEngine/Driver/Mysql.php:
+DEBUG   |170214 06:29:58|mysql_close(): 69 is not a valid MySQL-Link resource
+DEBUG   |170214 06:29:59|PHP WARNING (not an error; you can ignore) on line 149 in file <root>/administrator/components/com_akeeba/BackupEngine/Driver/Mysql.php:
+DEBUG   |170214 06:29:59|mysql_close(): 69 is not a valid MySQL-Link resource
+DEBUG   |170214 06:30:01|PHP WARNING (not an error; you can ignore) on line 149 in file <root>/administrator/components/com_akeeba/BackupEngine/Driver/Mysql.php:
+DEBUG   |170214 06:30:01|mysql_close(): 69 is not a valid MySQL-Link resource
+DEBUG   |170214 06:30:13|PHP WARNING (not an error; you can ignore) on line 149 in file <root>/administrator/components/com_akeeba/BackupEngine/Driver/Mysql.php:
+DEBUG   |170214 06:30:13|mysql_close(): 69 is not a valid MySQL-Link resource
+DEBUG   |170214 06:30:23|PHP WARNING (not an error; you can ignore) on line 149 in file <root>/administrator/components/com_akeeba/BackupEngine/Driver/Mysql.php:
+DEBUG   |170214 06:30:23|mysql_close(): 69 is not a valid MySQL-Link resource
+DEBUG   |170214 06:30:39|PHP WARNING (not an error; you can ignore) on line 149 in file <root>/administrator/components/com_akeeba/BackupEngine/Driver/Mysql.php:
+DEBUG   |170214 06:30:39|mysql_close(): 69 is not a valid MySQL-Link resource
+DEBUG   |170214 06:30:43|PHP WARNING (not an error; you can ignore) on line 149 in file <root>/administrator/components/com_akeeba/BackupEngine/Driver/Mysql.php:
+DEBUG   |170214 06:30:43|mysql_close(): 69 is not a valid MySQL-Link resource
+DEBUG   |170214 06:30:47|PHP WARNING (not an error; you can ignore) on line 149 in file <root>/administrator/components/com_akeeba/BackupEngine/Driver/Mysql.php:
+DEBUG   |170214 06:30:47|mysql_close(): 69 is not a valid MySQL-Link resource
+DEBUG   |170214 06:31:00|PHP WARNING (not an error; you can ignore) on line 149 in file <root>/administrator/components/com_akeeba/BackupEngine/Driver/Mysql.php:
+DEBUG   |170214 06:31:00|mysql_close(): 69 is not a valid MySQL-Link resource
+DEBUG   |170214 06:31:08|PHP WARNING (not an error; you can ignore) on line 149 in file <root>/administrator/components/com_akeeba/BackupEngine/Driver/Mysql.php:
+DEBUG   |170214 06:31:08|mysql_close(): 69 is not a valid MySQL-Link resource
+DEBUG   |170214 06:31:28|PHP WARNING (not an error; you can ignore) on line 149 in file <root>/administrator/components/com_akeeba/BackupEngine/Driver/Mysql.php:
+DEBUG   |170214 06:31:28|mysql_close(): 69 is not a valid MySQL-Link resource
+DEBUG   |170214 06:31:33|PHP WARNING (not an error; you can ignore) on line 149 in file <root>/administrator/components/com_akeeba/BackupEngine/Driver/Mysql.php:
+DEBUG   |170214 06:31:33|mysql_close(): 69 is not a valid MySQL-Link resource
+DEBUG   |170214 06:31:48|PHP WARNING (not an error; you can ignore) on line 149 in file <root>/administrator/components/com_akeeba/BackupEngine/Driver/Mysql.php:
+DEBUG   |170214 06:31:48|mysql_close(): 69 is not a valid MySQL-Link resource
+DEBUG   |170214 06:31:54|PHP WARNING (not an error; you can ignore) on line 149 in file <root>/administrator/components/com_akeeba/BackupEngine/Driver/Mysql.php:
+DEBUG   |170214 06:31:54|mysql_close(): 69 is not a valid MySQL-Link resource
+DEBUG   |170214 06:32:24|PHP WARNING (not an error; you can ignore) on line 149 in file <root>/administrator/components/com_akeeba/BackupEngine/Driver/Mysql.php:
+DEBUG   |170214 06:32:24|mysql_close(): 69 is not a valid MySQL-Link resource
+DEBUG   |170214 06:32:44|PHP WARNING (not an error; you can ignore) on line 149 in file <root>/administrator/components/com_akeeba/BackupEngine/Driver/Mysql.php:
+DEBUG   |170214 06:32:44|mysql_close(): 69 is not a valid MySQL-Link resource
+DEBUG   |170214 06:32:58|PHP WARNING (not an error; you can ignore) on line 149 in file <root>/administrator/components/com_akeeba/BackupEngine/Driver/Mysql.php:
+DEBUG   |170214 06:32:58|mysql_close(): 69 is not a valid MySQL-Link resource
+DEBUG   |170214 06:33:00|PHP WARNING (not an error; you can ignore) on line 149 in file <root>/administrator/components/com_akeeba/BackupEngine/Driver/Mysql.php:
+DEBUG   |170214 06:33:00|mysql_close(): 69 is not a valid MySQL-Link resource
+DEBUG   |170214 06:33:14|PHP WARNING (not an error; you can ignore) on line 149 in file <root>/administrator/components/com_akeeba/BackupEngine/Driver/Mysql.php:
+DEBUG   |170214 06:33:14|mysql_close(): 69 is not a valid MySQL-Link resource
+DEBUG   |170214 06:33:17|PHP WARNING (not an error; you can ignore) on line 149 in file <root>/administrator/components/com_akeeba/BackupEngine/Driver/Mysql.php:
+DEBUG   |170214 06:33:17|mysql_close(): 69 is not a valid MySQL-Link resource
+DEBUG   |170214 06:33:24|PHP WARNING (not an error; you can ignore) on line 149 in file <root>/administrator/components/com_akeeba/BackupEngine/Driver/Mysql.php:
+DEBUG   |170214 06:33:24|mysql_close(): 69 is not a valid MySQL-Link resource
+DEBUG   |170214 06:33:24|PHP WARNING (not an error; you can ignore) on line 149 in file <root>/administrator/components/com_akeeba/BackupEngine/Driver/Mysql.php:
+DEBUG   |170214 06:33:24|mysql_close(): 69 is not a valid MySQL-Link resource
+DEBUG   |170214 06:33:25|PHP WARNING (not an error; you can ignore) on line 149 in file <root>/administrator/components/com_akeeba/BackupEngine/Driver/Mysql.php:
+DEBUG   |170214 06:33:25|mysql_close(): 69 is not a valid MySQL-Link resource
+DEBUG   |170214 06:33:26|PHP WARNING (not an error; you can ignore) on line 149 in file <root>/administrator/components/com_akeeba/BackupEngine/Driver/Mysql.php:
+DEBUG   |170214 06:33:26|mysql_close(): 69 is not a valid MySQL-Link resource
+DEBUG   |170214 06:33:26|PHP WARNING (not an error; you can ignore) on line 149 in file <root>/administrator/components/com_akeeba/BackupEngine/Driver/Mysql.php:
+DEBUG   |170214 06:33:26|mysql_close(): 69 is not a valid MySQL-Link resource
+DEBUG   |170214 06:33:32|Fetching filter data from database
+DEBUG   |170214 06:33:32|Loading filters
+DEBUG   |170214 06:33:32|-- Loading filter Regextabledata
+DEBUG   |170214 06:33:32|-- Loading filter Regexfiles
+DEBUG   |170214 06:33:32|-- Loading filter Regextables
+DEBUG   |170214 06:33:32|-- Loading filter Regexskipfiles
+DEBUG   |170214 06:33:32|-- Loading filter Regexdirectories
+DEBUG   |170214 06:33:32|-- Loading filter Multidb
+DEBUG   |170214 06:33:32|-- Loading filter Skipdirs
+DEBUG   |170214 06:33:32|-- Loading filter Tables
+DEBUG   |170214 06:33:32|-- Loading filter Files
+DEBUG   |170214 06:33:32|-- Loading filter Tabledata
+DEBUG   |170214 06:33:32|-- Loading filter Incremental
+DEBUG   |170214 06:33:32|-- Loading filter Extradirs
+DEBUG   |170214 06:33:32|-- Loading filter Skipfiles
+DEBUG   |170214 06:33:32|-- Loading filter Directories
+DEBUG   |170214 06:33:32|-- Loading filter Regexskipdirs
+DEBUG   |170214 06:33:32|-- Loading filter Libraries
+DEBUG   |170214 06:33:32|-- Loading filter Excludefolders
+DEBUG   |170214 06:33:32|-- Loading filter Joomlaskipfiles
+DEBUG   |170214 06:33:32|-- Loading filter Sitedb
+DEBUG   |170214 06:33:32|-- Loading filter Systemcachefiles
+DEBUG   |170214 06:33:32|-- Loading filter Excludetabledata
+DEBUG   |170214 06:33:32|-- Loading filter Excludefiles
+DEBUG   |170214 06:33:32|-- Loading filter Cvsfolders
+DEBUG   |170214 06:33:32|-- Loading filter Siteroot
+DEBUG   |170214 06:33:32|-- Loading filter Joomlaskipdirs
+DEBUG   |170214 06:33:32|Loading optional filters
+DEBUG   |170214 06:33:32|-- Loading optional filter Stack\StackHoststats
+DEBUG   |170214 06:33:32|-- Loading optional filter Stack\StackErrorlogs
+DEBUG   |170214 06:33:32|-- Loading optional filter Stack\StackMyjoomla
+DEBUG   |170214 06:33:32|-- Loading optional filter Stack\StackFinder

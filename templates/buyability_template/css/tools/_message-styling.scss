@@ -1,0 +1,31 @@
+/* message styling */
+
+#system-message-container
+{
+		#system-message
+		{
+			background-color:$primary-blue;
+
+			.alert-message
+			{
+				a.close
+				{
+					color:$primary-white;
+					font-size:30px;
+					opacity:0.8;
+				}
+
+				h4.alert-heading
+				{
+					color:$primary-white;
+					font-family:$primary-font;
+
+				}
+
+				p
+				{
+					color:$primary-white;
+				}
+			}
+		}
+}

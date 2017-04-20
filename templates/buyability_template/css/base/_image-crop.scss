@@ -1,0 +1,39 @@
+/* all the image sizes get cropped */
+
+.image-crop
+{
+	width:300px;
+	height:160px;
+	background-position:center;
+	background-size:cover;
+	overflow:hidden;
+
+	@include breakpoint(tablet) {
+		width:220px;
+		height:130px;
+	}
+
+	@include breakpoint(mobile) {
+		width:280px;
+		height:150px;
+	}
+} 
+
+.image-crop-employee-listing
+{
+	width:260px;
+	height:160px;
+	background-position:center;
+	background-size:cover;
+	overflow:hidden;
+
+	@include breakpoint(tablet) {
+		width:220px;
+		height:130px;
+	}
+
+	@include breakpoint(mobile) {
+		width:280px;
+		height:150px;
+	}
+} 

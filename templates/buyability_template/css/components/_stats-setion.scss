@@ -1,0 +1,314 @@
+/* all the stat styling goes here */
+
+section#sp-stats-section
+{
+
+	#sp-first-box-with-numbers,
+	#sp-second-box-with-numbers,
+	#sp-third-box-with-numbers,
+	#sp-fourth-box-with-numbers
+	{
+		@include breakpoint(mobile)
+		{
+			margin:35px;
+		}
+	}
+
+	min-height:243px;
+
+		@include breakpoint(mobile_landscape)
+				{
+					display:none;	 
+				} 
+			 
+
+	.container
+	{
+		padding-top:20px;
+
+		@include breakpoint(mobile) {
+			padding-top:10px;
+		}
+
+
+	 
+
+			 
+		div.first-stats-box
+		{
+			background-color:$primary-blue;
+ 			
+ 			@include breakpoint(tablet)
+ 			{
+ 				min-height:210px;
+ 			}
+
+				.odom_container
+				{
+
+					@extend .align-stats;
+
+
+					#flex_odometer92
+					{
+						font-weight:bold;
+
+
+							@include breakpoint(tablet) {
+								font-size:20px !important;
+								line-height:40px !important;
+								}
+							@include breakpoint(mobile) {
+								font-size:20px !important;
+								line-height:40px !important;
+								}
+
+					}
+
+					#flex_odometer92,
+					#flexodo_outro92
+					{
+						color:$primary-white;
+					}
+
+					#flexodo_outro92
+					{
+						@extend .align-stats;
+						padding-left:0px;
+
+								@include breakpoint(tablet) {
+								font-size:14px !important;
+ 								}
+					}
+					&::after
+					{	
+						content:url(/images/buyability/icon_buyability.png);
+ 						@extend .stat-boxes-image-include;
+					}
+				}
+		}
+ 
+
+	 
+		div.second-stats-box
+		{
+
+				@include breakpoint(tablet)
+	 			{
+	 				min-height:210px;
+	 			}
+
+				@include breakpoint(mobile) {
+					padding-top:25px;
+				}
+
+				background-color:$primary-purple;
+				min-height:180px;
+				.odom_container
+				{
+					@extend .align-stats;
+				 
+
+
+
+					#flexodo_outro93
+					{
+						@extend .align-stats;
+						padding-left:10px;
+
+						@include breakpoint(tablet) {
+								font-size:14px !important;
+ 								}
+
+					}
+
+					.odometer-inside::after
+					{
+						@extend .m-sign;
+					} 
+
+					#flex_odometer93::before
+					{
+						@extend .dollar-sign;
+					}
+
+					#flex_odometer93
+					{
+						font-weight:bold;
+						margin-left:-20px;
+						    padding-left: 20px;
+
+						@include breakpoint(tablet) {
+								font-size:20px !important;
+								line-height:40px !important;
+								}
+
+						@include breakpoint(mobile) {
+								font-size:20px !important;
+								line-height:40px !important;
+								}
+					}
+					#flex_odometer93,
+					#flexodo_outro93
+					{
+						color:$primary-white;
+					}
+ 
+
+					&::after
+					{	
+						content:url(/images/buyability/icon_pig.png);
+ 						@extend .stat-boxes-image-include;
+					}
+
+				}
+		}
+
+		div.third-stats-box
+		{
+
+				@include breakpoint(tablet)
+		 			{
+		 				min-height:210px;
+		 			}
+
+				background-color:$primary-red;
+				min-height:180px;
+
+				@include breakpoint(mobile) {
+								padding-top:25px;
+				}
+
+
+				.odom_container
+				{
+
+					@extend .align-stats;
+
+					#flex_odometer94
+					{
+						font-weight:bold;
+
+						@include breakpoint(tablet) {
+								font-size:20px !important;
+								line-height:40px !important;
+								}
+
+						@include breakpoint(mobile) {
+								font-size:20px !important;
+								line-height:40px !important;
+								}
+
+					}
+
+					#flex_odometer94,
+					#flexodo_outro94
+					{
+						color:$primary-white;
+					}
+
+					#flexodo_outro94
+					{
+						@extend .align-stats;
+						padding-left:0px;
+
+						@include breakpoint(tablet) {
+								font-size:14px !important;
+ 								}
+
+					}
+
+ 
+					&::after
+					{	
+						content:url(/images/buyability/icon_smile.png);
+						@extend .stat-boxes-image-include;
+
+					}
+				}
+		}
+
+		div.fourth-stat-box
+		{
+ 
+				@include breakpoint(mobile) {
+								padding-top:25px;
+								padding-bottom:25px;
+				}
+
+				@include breakpoint(tablet)
+	 			{
+	 				min-height:210px;
+	 			}
+
+
+				background-color:$primary-yellow;
+				min-height:180px;
+
+				.odom_container
+				{
+					@extend .align-stats;
+
+					#flex_odometer95
+					{
+						font-weight:bold;
+
+						@include breakpoint(tablet) {
+								font-size:20px !important;
+								line-height:40px !important;
+								}
+
+						@include breakpoint(mobile) {
+								font-size:20px !important;
+								line-height:40px !important;
+								}		
+ 
+					}
+
+					#flexodo_outro95
+					{
+						@extend .align-stats;
+						padding-left:0px;
+
+						@include breakpoint(tablet) {
+								font-size:14px !important;
+ 							}
+
+
+					}
+
+					#flex_odometer95
+					{
+					margin-left:-20px;
+					    padding-left: 20px;
+					}
+
+					#flex_odometer95::before
+					{
+						@extend .dollar-sign;
+					}
+
+					.odometer-inside::after
+					{
+						@extend .m-sign;
+					}
+ 
+
+					#flex_odometer95,
+					#flexodo_outro95
+					{
+						color:$primary-white;
+					}
+
+					&::after
+					{	
+						content:url(/images/buyability/icon_flag.png);
+						@extend .stat-boxes-image-include;
+
+					}
+				}
+		} 
+
+	}
+	
+}

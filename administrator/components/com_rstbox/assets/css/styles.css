@@ -1,0 +1,150 @@
+.boxtypes h2 {
+    border-bottom: 1px solid #cccccc;
+    margin-bottom: 1em;
+    padding-bottom: 0.5em;
+}
+span.h3 label {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: -6px;
+    margin-top: 5px;
+}
+td {
+    vertical-align: middle !important;
+}
+.chzn-container.disabled {
+    pointer-events: none;
+}
+.helpcontrol {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.well > .control-group:last-child {
+    margin-bottom: 0;
+}
+textarea {
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+/* Medium and Up */
+@media only screen and (min-width: 768px) {
+    .paddingLeft {
+        padding-left: 20px;
+    }
+    .paddingRight {
+        padding-right: 20px;
+    }  
+}
+
+.rstbox label.hasTooltip:before, .rstbox label.hasPopover:before {
+    background-color: #ffffff;
+    border: 1px solid #c1c1c1;
+    border-radius: 100%;
+    color: #929292;
+    content: "i";
+    display: inline-block;
+    float: left;
+    font-family: georgia;
+    font-size: 10px;
+    font-weight: bold;
+    height: 13px;
+    left: 0;
+    line-height: 13px;
+    position: relative;
+    margin-right:5px;
+    text-align: center;
+    top: 2px;
+    transition: all 200ms ease 0s;
+    width: 13px;
+}
+.rstbox label.hasTooltip:hover:before, .rstbox label.hasPopover:hover:before {
+    background-color: #0088cc;
+    border-color: #0088cc;
+    color: #fff;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    .rstbox .hasTooltip::before {
+        top: 1px;
+    }
+}
+#rstboxfooter {
+    margin-bottom:20px;
+}
+#rstboxfooter .icon-star {
+    width: 11px;
+    color: #fcac0a;
+}
+.control-group[class*="rstbox-spacer"] {
+    display: block !important;
+    float: none;
+    width: 100%;
+}
+.control-group[class*="rstbox-spacer-line"] {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #eeeeee;
+}
+.spacer .h2 label {
+    font-size: 14px;
+    font-weight: bold;
+}
+.well.boxtype {
+    padding: 10px 20px;
+}
+.control-group.boxtype label {
+    font-weight: bold;
+}
+.control-group.boxtype .controls {
+    margin-left: 160px;
+}
+/* Fucking MCE Editor */
+.boxtypes > div:not(#custom):not(#module) .mceEditor {
+    overflow: hidden;
+}
+.well.ss {
+    background-color:#fff;
+}
+
+.nr-icons .icon-new {
+    color:#30A967;
+}
+.nr-icons {
+    list-style:none;
+    float:left;
+    margin:0;
+    padding:0;
+    margin-left:-5px;
+    margin-right:-5px;
+}
+
+.nr-icons li {
+    float:left;
+    margin: 5px;
+}
+
+.nr-icons a {
+    border-radius: 5px;
+    display:block;
+    background-color:#fff;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding:15px;
+    text-align: center;
+    width: 85px;
+    height: 75px;
+}
+.nr-icons a:hover, .nr-icons a:focus {
+    text-decoration: none;
+    background-color:#F5F5F5;
+}
+.nr-icons span {
+    display: block !important;
+}
+.nr-img {
+    font-size: 40px !important;
+    height: auto !important;
+    line-height: 1 !important;
+    margin: 0 auto 10px 0 !important;
+    width: auto !important;
+}
+

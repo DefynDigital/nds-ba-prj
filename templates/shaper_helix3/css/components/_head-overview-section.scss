@@ -1,0 +1,39 @@
+/* head overview section */
+
+#sp-home-overview-section
+{
+	min-height:460px;
+
+			@include breakpoint(mobile) {
+					min-height:400px;
+				}
+	#sp-home-page-overview-text
+	{
+		h1
+		{
+			padding-top:60px;
+			line-height:50px;
+			text-align:center;
+			font-size:40px;
+			font-weight:bold;
+
+			@include breakpoint(mobile) {
+								padding-top:2px;
+								font-size:20px;
+				}
+
+		}
+
+		p
+		{
+			padding-top:20px;
+			font-size:26px;
+			text-align:center;
+			line-height:35px;
+						@include breakpoint(mobile) {
+								padding-top:12px;
+								font-size:14px;
+				}
+		}
+	}
+}

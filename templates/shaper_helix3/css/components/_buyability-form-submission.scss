@@ -1,0 +1,84 @@
+/* styling for submission and edit form */
+
+.buyability_network_form
+{
+	margin-bottom:120px;
+
+	input[type="text"],
+	textarea
+	{
+		width:75%;
+	}
+
+	label
+	{
+		font-weight:bold;
+		padding-top: 5px;
+	}
+
+	textarea#organisation_overview
+	{
+		min-height:200px;
+	}
+
+	.product_and_services_main,
+	.cck_form_checkbox
+	{
+	    -webkit-columns: 100px 3; /* Chrome, Safari, Opera */
+	    -moz-columns: 100px 3; /* Firefox */
+	    columns: 100px 3;
+		
+    
+	}
+
+	#cck1r_form_product_and_services__print_and_copy,
+	#cck1r_form_product_and_services__retail_and_sales,
+	#cck1r_form_product_and_services__building_products,
+	#cck1r_form_product_and_services__mail_and_packaging,
+	#cck1r_form_product_and_services__waste_and_recycling,
+	#cck1r_form_product_and_services__manufacturing
+	{
+	    -webkit-columns: 100px 4; /* Chrome, Safari, Opera */
+	    -moz-columns: 100px 4; /* Firefox */
+	    columns: 100px 4;
+	}
+ 
+	.cck_form_freetext
+	{
+		h2
+		{
+			text-transform: uppercase;
+		    font-size: 20px;
+		    color: $primary-blue;
+		    font-weight: bold;
+		}
+	}
+
+	fieldset.checkboxes
+	{
+		input[type="checkbox"]+label
+		{
+			font-weight:normal;
+		}
+	}
+
+	#cck1r_form_button_save,
+	#cck1r_button_cancel
+	{
+		width:200px; 
+		float:left;
+	}
+	.btn-submission,
+	.btn-submission-cancel
+	{
+		background-color:$primary-blue;
+		border:none;
+		padding :10px 40px;
+		color:$primary-white;
+	}
+
+	#cck1r_button_save
+	{
+		margin-top:35px;
+	}
+} 

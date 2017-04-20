@@ -1,0 +1,76 @@
+/*_buyability-directory-listing.scss */
+
+#buyability-directory
+{
+
+
+	.listing-item
+	{
+		padding-bottom:20px;
+		margin-bottom: 20px;
+		margin-top: 20px;
+    	border-bottom: 1px solid $secondary-grey;
+	}
+	.org-logo
+	{
+		max-width:200px;
+		padding:10px;
+		border:1px solid $secondary-grey;
+
+		img
+		{
+			    text-align: center;
+   				margin:auto;
+   				 
+		} 
+	}
+
+	.org-details
+	{
+
+		h2.org-title
+		{
+			text-transform: uppercase;
+		    font-size: 20px;
+		    color: $primary-blue;
+		    font-weight: bold;
+		}
+
+		p
+		{
+
+
+		}
+		.fa
+		{
+			color:$primary-red;
+		}
+
+		.list-area
+		{
+			ul.listing-column
+			{
+			 
+				    columns: 2;
+				    -webkit-columns: 2;
+				    -moz-columns: 2;
+
+				    li
+					{
+						list-style:none;
+
+						&:before
+						{
+							content: "\2714";
+							color:$primary-red;
+							font-size:16px;
+							padding-right:5px;
+						}
+					}
+
+
+			}
+		}
+	}
+}
+ 

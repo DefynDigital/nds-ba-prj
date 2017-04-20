@@ -1,0 +1,63 @@
+/* follow on stat page box styling */
+
+
+#sp-stats-in-follow-on-pages
+{
+	.container
+	{
+			.row
+			{
+
+			}
+
+	}
+
+}
+#sp-top2
+{
+	width:25%;
+}
+
+
+
+#sp-followon-pages-stat-box
+{
+	width:74%;
+	margin-top:20px;
+
+	.followonstatbox
+	{
+
+ 		margin-left:0px;
+
+		.col-md-2
+		{
+			width:12%;
+			padding-right:0px;
+		}
+
+		.col-md-8
+		{
+			padding-left:0px;
+		}
+
+		.col-md-10
+		{
+			padding-left:0px;
+		}
+
+		.followon-text-stats
+		{
+			
+
+			p
+			{
+				text-transform:uppercase;
+			    font-size: 30px;
+    			line-height: 30px;
+				color:$primary-purple;
+			}
+
+		}
+	}
+}  

@@ -1,0 +1,79 @@
+/* all the extends goes here */
+
+.stat-boxes-image-include
+{
+ 
+	width:60px;
+	height:60px;
+	 
+}
+
+.dollar-sign
+{
+	content: "$";
+	position: absolute;
+	font-weight: bold;
+	left: 0px;
+}
+
+.m-sign
+{
+	content: "M";
+	position: absolute;
+	font-weight: bold;
+	padding-top:2px;
+	 
+	
+}
+
+.align-stats
+{
+	text-align:center;
+	padding:5px;
+	line-height:22px;
+}
+
+
+.flexodo_outro
+{
+	@include breakpoint(mobile) {
+	font-size:16px !important;
+ 	}
+}
+
+
+.image-crop-emp
+{
+	width:180px;
+	height:180px;
+	background-position: center center;
+  	background-repeat: no-repeat;
+  	overflow: hidden; 
+
+  	img
+  	{
+  			width:180px;
+			height:180px;
+			background-position: center center;
+		  	background-repeat: no-repeat;
+		  	overflow: hidden; 
+  	}
+
+
+ 
+}
+  
+.image-circle
+{
+	
+
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background: url(http://link-to-your/image.jpg) no-repeat;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	
+}
+

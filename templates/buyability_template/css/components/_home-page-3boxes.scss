@@ -1,0 +1,199 @@
+/* home page box styling goes here */
+
+section#sp-home-page-3boxes
+{
+	min-height:525px;
+
+	.container
+	{
+		padding-top:55px;
+
+		.custom
+		{
+			p + p
+			{
+
+				min-height:170px;
+ 
+ 			 			@include breakpoint(tablet)
+			 			{
+			 				min-height:225px;
+			 			}
+
+
+			}
+		}
+
+		#sp-home-page-3box-1stbox
+		{
+			.custom
+			{
+				width:300px;
+
+				
+
+				@include breakpoint(tablet) {
+			    width:220px;
+			    margin:auto;
+				}
+
+				@include breakpoint(mobile) {
+			    width:280px;
+			    margin:auto;
+				}
+
+				.ba-btn-container
+				{
+					@extend .initial-ba-btn-container;
+
+					.ba-btn
+					{
+						@extend .initial-ba-btn;
+						width:300px;
+
+						@include breakpoint(tablet) {
+					    width:220px;
+						}
+
+						@include breakpoint(mobile) {
+						    width:280px;
+							}
+
+						.ba-default-state
+						{
+							@extend .ba-default-state-blue;
+						}
+
+						.ba-active-state
+						{
+							@extend .ba-active-state-blue;
+
+							a
+							{
+								@extend .ba-active-state-a;
+							}
+						}
+					}
+
+
+				}
+
+
+			}
+		}
+
+		#sp-home-page-3box-2ndbox
+		{
+			.custom
+			{
+				width:300px;
+
+				@include breakpoint(tablet) {
+			    width:220px;
+			    margin:auto;
+				}
+
+				@include breakpoint(mobile) {
+			    width:280px;
+			    margin:auto;
+				}
+				.ba-btn-container
+				{
+					@extend .initial-ba-btn-container;
+
+					.ba-btn
+					{
+						@extend .initial-ba-btn;
+						width:300px;
+
+						@include breakpoint(tablet) {
+					    width:220px;
+						}
+
+						@include breakpoint(mobile) {
+					    width:280px;
+						}
+
+						.ba-default-state
+						{
+							@extend .ba-default-state-purple;
+
+						}  
+
+						.ba-active-state
+						{
+							@extend .ba-active-state-purple;
+
+
+							a
+							{
+								@extend .ba-active-state-a;
+							}
+						}
+					}
+
+
+				}
+
+
+			}
+		}
+
+		#sp-home-page-3box-3rdbox
+		{
+			.custom
+			{
+				width:300px;
+
+				@include breakpoint(tablet) {
+			    width:220px;
+			    margin:auto;
+				}
+
+				@include breakpoint(mobile) {
+			    width:280px;
+			    margin:auto;
+				}
+
+				.ba-btn-container
+				{
+					@extend .initial-ba-btn-container;
+
+					.ba-btn
+					{
+						@extend .initial-ba-btn;
+						width:300px;
+
+						@include breakpoint(tablet) {
+						    width:220px;
+							}
+
+						@include breakpoint(mobile) {
+						    width:280px;
+							}
+
+						.ba-default-state
+						{
+							@extend .ba-default-state-red;
+						}
+
+						.ba-active-state
+						{
+							@extend .ba-active-state-red;
+
+
+							a
+							{
+								@extend .ba-active-state-a;
+							}
+						}
+					}
+
+
+				}
+
+
+			}
+		}
+	}
+}

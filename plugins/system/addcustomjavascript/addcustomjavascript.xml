@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" version="1.7" group="system"	method="upgrade">
+	<name>System - Add Custom Javascript</name>
+	<creationDate>2013-07-01</creationDate>
+	<author>Impression eStudio</author>
+	<authorEmail>info@impression-estudio.gr</authorEmail>
+	<authorUrl>http://joomla.impression-estudio.gr</authorUrl>
+	<copyright>All rights reserved by Impression eStudio 2013.</copyright>
+	<license>GPL 2.0</license>
+	<version>1.0.0</version>
+	<description><![CDATA[<p>Load your custom Javascript file after all other Javascript files.</p><p style="background-color:#CA1F17; color:#FFF; padding:5px; border-radius:5px; float:left;"><strong>Caution: Put this plugin at the end of the plugin order in the Plug-in Manager.</strong></p>]]></description>
+	<files>
+		<filename plugin="addcustomjavascript">addcustomjavascript.php</filename>
+		<filename>index.html</filename>
+		<folder>addcustomjavascript</folder>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.plg_system_addcustomjavascript.ini</language>
+	</languages>
+	<config>
+		<fields name="params" addfieldpath="plugins/system/addcustomjavascript/addcustomjavascript/admin">
+			<fieldset name="basic">
+				<field name="spacer_info" type="spacerinfo" default="" label=" " description="" />
+				<field name="custom_javascript_file_path" type="text" default="" label="Custom Javascript File Path" description="ACJ_CUSTOM_JAVASCRIPT_FILE_PATH_DESCRIPTION"/>
+				<field name="remove_comments" type="checkbox" label="Remove Comments" description="ACJ_REMOVE_COMMENTS_DESCRIPTION" value="1" default="0" />
+				<field name="minimize" type="checkbox" label="Minimize" description="ACJ_MINIMIZE_DESCRIPTION" value="1" default="0" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>

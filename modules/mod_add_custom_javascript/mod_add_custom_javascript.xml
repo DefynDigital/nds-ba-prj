@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="1.7.0" client="site" method="upgrade">
+	<name>Add Custom Javascript</name>
+	<author>Impression eStudio</author>
+	<creationDate>2013-07-01</creationDate>
+	<copyright>All rights reserved by Impression eStudio 2013.</copyright>
+	<license>GPL 2.0</license>
+	<authorEmail>info@impression-estudio.gr</authorEmail>
+	<authorUrl>www.impression-estudio.gr</authorUrl>
+	<version>1.0.0</version>
+	<description><![CDATA[<p>Load your custom Javascript file after the Javascript files of the template and the modules.</p><p style="background-color:#CA1F17; color:#FFF; padding:5px; margin:10px 0px; border-radius:5px; float:left;"><strong>Caution: In order to load your custom Javascript code after a specific module put Add Custom Javascript in the same module position and later in the order.</strong></p>]]></description>
+	<files>
+		<filename module="mod_add_custom_javascript">mod_add_custom_javascript.php</filename>
+		<filename>index.html</filename>
+		<filename>mod_add_custom_javascript.xml</filename>
+		<folder>includes</folder>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.mod_add_custom_javascript.ini</language>
+	</languages>
+	<config>
+		<fields name="params" addfieldpath="/modules/mod_add_custom_javascript/includes/admin">
+			<fieldset name="basic">
+				<field name="spacer_info" type="spacerinfo" default="" label=" " description="" />
+				<field name="custom_js_file_path" type="text" default="" label="Custom JS File Path" description="ACJ_custom_js_file_path_DESCRIPTION"/>
+				<field name="remove_comments" type="checkbox" label="Remove Comments" description="ACJ_REMOVE_COMMENTS_DESCRIPTION" value="1" default="0" />
+				<field name="minimize" type="checkbox" label="Minimize" description="ACJ_MINIMIZE_DESCRIPTION" value="1" default="0" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>

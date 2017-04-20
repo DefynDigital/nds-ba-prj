@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="plugin" group="content">
+        <name>Jo Unique Alias</name>
+        <author>Jo (Seblod Forum)</author>
+        <creationDate>2013</creationDate>
+        <copyright>Copyright (C) 2005 - 2013 Open Source Matters. All rights reserved.</copyright>
+        <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+        <authorEmail>admin@joomla.org</authorEmail>
+        <authorUrl>www.joomla.org</authorUrl>
+        <version>1.0.0</version>
+        <description>Urls únicas nos artigos e categorias</description>
+        <files>
+                <filename plugin="jo_unique_alias">jo_unique_alias.php</filename>
+                <filename>jo_unique_alias.xml</filename>
+        </files>
+</extension>

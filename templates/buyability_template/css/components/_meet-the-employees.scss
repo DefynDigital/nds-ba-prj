@@ -1,0 +1,43 @@
+/* style _meet-the-employees.scss */
+
+.meet-the-employees
+{
+	padding-top:50px;
+
+	.meet-each-employee
+	{
+		min-height:400px;
+	}
+
+	.cck_value_text
+	{
+ 		font-size:18px;
+		color:$primary-black;
+		font-weight:bold;
+		margin:0px;
+ 	}
+
+ 	.intro-image
+ 	{
+ 		text-align:center;
+ 		margin:auto;
+ 	}
+} 
+
+
+.each-employee
+{
+	.full-image
+	{
+		padding-left:30px;
+	}
+
+	h1
+	{
+		font-size:24px;
+		color:$primary-black;
+		font-weight:bold;
+		margin:0px;
+		padding-bottom:10px;
+	}
+}

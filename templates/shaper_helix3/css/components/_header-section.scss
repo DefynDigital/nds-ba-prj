@@ -1,0 +1,122 @@
+/* all the header styling goes here */
+
+#sp-header
+{
+	height:179px;
+	box-shadow:none;
+	border-bottom:2px solid $primary-blue;
+	#sp-logo,
+	#sp-menu
+	{
+		padding:0px;
+	}
+
+	#sp-menu
+	{
+
+				@include breakpoint(mobile) {
+			    padding-right:30px;
+			}
+		ul.sp-megamenu-parent
+		{
+
+
+			@include breakpoint(mobile) {
+			    display:none;
+			}
+
+			@include breakpoint(tablet) {
+			    display:none;
+			}
+
+			min-height:90px;
+			display:inline-flex;
+
+			li.sp-menu-item
+			{
+				 border-right:2px solid $primary-blue;
+
+				a
+				{
+					font-size:14px;
+					padding:30px 0px 0px 10px;
+					width:135px;
+ 					color:$primary-blue;
+					line-height:20px;
+					text-align:left;
+				} 
+
+				a:hover,
+				a:active
+				{
+					text-decoration:none;
+ 
+				}
+
+			 
+
+ 
+			}
+
+			li.home-menu-css, 
+			li.contact-menu-css,
+			li.about-menu-css,
+			li.login-menu-css
+			{
+				a
+				{
+					width:120px;
+					word-wrap:break-word;
+				}
+			}
+
+			  
+			li.logout-menu-css,
+			li.about-menu-css,
+			li.login-menu-css
+			{
+				a
+				{
+					width:100px;
+					word-wrap:break-word;
+				}
+			}
+
+
+			li.contact-menu-css
+			{
+				 
+			}
+			li.login-menu-css
+			{
+
+				background-color:$primary-red;
+				border:none;
+
+				a
+				{
+					color:$primary-white;
+				}
+			}
+
+
+			li.active
+			{
+				background-color:$primary-blue;
+
+				a
+				{
+					color:$primary-white;
+				}
+			}
+
+			 
+		}
+		#offcanvas-toggler
+		{
+				@include breakpoint(desktop) {
+					display:none
+				}
+		}
+	}
+}

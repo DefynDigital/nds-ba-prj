@@ -1,0 +1,39 @@
+/* timeline css overrides */
+
+
+
+.jux-tl-item
+{
+	.jux-tl-time
+	{
+		color:$primary-blue;
+		font-size:16px;
+	}
+
+
+	.jux-tl-info
+	{
+		background-color:$primary-blue;
+
+		.arrow
+		{
+			border-left-color:$primary-blue;
+			border-right-color:$primary-blue;
+		}
+	}
+
+	.jux-tl-desc
+	{
+		color:$primary-white;
+	}
+
+	.jux-tl-title
+	{
+		margin:0px;
+		
+		a
+		{
+		color:$primary-yellow;
+		}
+	}
+} 

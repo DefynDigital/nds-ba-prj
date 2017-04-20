@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.4" method="upgrade">
+	<name>Flexible Odometer Counter</name>
+	<author>Adrien Roussel</author>
+	<creationDate>15/01/2014</creationDate>
+	<copyright>2015 Nordmograph.com</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>contact@nordmograph.com</authorEmail>
+	<authorUrl>https://www.nordmograph.com/extensions</authorUrl>
+	<version>1.1.2</version>
+	<description><![CDATA[Create a nice animated (Javascript) counter for any Joomla data. You can build your MySQL query in beginner or expert mode or even use a fixe value without any query. Counter comes with various themes and customisation options. Intro and outro text support Joomla language strings and module can be set multiple times on the same page. Module now has a Check Viewpoint option in case you want the animation to be visible even when the module is down the page.<br /><br /><iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fpages%2FNordmograph-Web-marketing-and-Joomla-expertise%2F368385633962&amp;width&amp;layout=button_count&amp;action=recommend&amp;show_faces=false&amp;share=false&amp;height=21&amp;appId=739550822721946" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:21px;" allowTransparency="true"></iframe>
+]]></description>
+	<files>
+		<filename module="mod_flexible_odometer" >mod_flexible_odometer.php</filename>
+		<filename>mod_flexible_odometer.xml</filename>
+		<filename>helper.php</filename>
+		<folder>css</folder>
+		<folder>elements</folder>
+		<folder>js</folder>
+		<folder>tmpl</folder>
+	</files>
+	<languages>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic" addfieldpath="/modules/mod_flexible_odometer/elements">
+				<field name="mode" type="list" default="wizard" label="MySQL Query Type" description="Select the mode you want to build the Query. If you are beginner choose the wizard mode, or you can prefer the expert mode and write your query by yourself. Remember the result must be a number value. Finaly you can ignore the query and enter a fixed value in the Additional Value field" >
+					<option value="wizard">Wizard</option>					
+				  	<option value="expert">Expert</option>
+					<option value="none">Additional Value Only</option>
+				</field>
+				<field name="spacer_expert" type="spacer" default="" label="Expert Query --------------------------------" />
+				<field name="expert_query"  type="textarea"  label="Expert Query" default="SELECT COUNT(*) FROM #__content" description="Write your own query, make sure the result is a numeric value. You can use $user->id for anything related to the current visitor"/>
+				<field name="spacer_wizard" type="spacer" default="" label="Wizard Query --------------------------------" />
+				
+				<field name="wizard_select" type="radio" default="SELECT" label="Wizard Query: SELECT" description="" class="radio btn-group btn-group-yesno">
+					<option value="SELECT ">SELECT </option>
+				  	<option value="SELECT COUNT">SELECT COUNT()</option>
+					<option value="SELECT SUM">SELECT SUM()</option>
+				</field>
+				<field name="wizard_column"  type="text"  label="Wizard Column" default="id" description="What table column value are you selecting ?"/>
+				<field name="wizard_table" type="tables" default="#__users" label="Wizard Query Table: FROM" description="Select in which of your site database table the query should get the result" />
+				
+				<field name="wizard_condition_column"  type="text"  label="Wizard Condition Column: WHERE" default="" description=""/>
+				<field name="wizard_condition_compare"  type="list"  label="Wizard Condition Compare" default="" description="" >
+					<option value="=">equal</option>
+				  	<option value="!=">different</option>
+					<option value=">">greater</option>
+					<option value=">=">greater or equal</option>
+					<option value="&lt;">lower</option>
+					<option value="&lt;=">lower or equal</option>
+					<option value="LIKE">LIKE</option>
+					<option value="NOT LIKE">NOT LIKE</option>
+				</field>
+				<field name="wizard_condition_value"  type="text"  label="Wizard Condition Value" default="" description=""/>
+				
+				
+				<field name="spacer_theme" type="spacer" default="" label="Layout --------------------------------" description=""/>	
+				<field name="incrementer"  type="text"  label="Additional Value" default="0" description="You can artificialy raise the counter result value"/>
+				<field name="fontsize"  type="text"  label="Font Size" default="40" description="for the counter, in Pixels"/>
+				
+				<field name="theme" type="list" default="default" label="Theme" description="Themes for the counter" >
+					<option value="default">default</option>
+					<option value="car">car</option>	
+					<option value="digital">digital</option>	
+					<option value="minimal">minimal</option>	
+					<option value="plaza">plaza</option>	
+					<option value="slot-machine">slot-machine</option>	
+					<option value="train-station">train-station</option>	
+				</field>
+				<field name="format" type="list" default="d" label="Format" description="Counter number format" >
+					<option value="d">12345678</option>
+					<option value="( ddd),dd">12 345 678,09</option>	
+					<option value="(.ddd),dd">12.345.678,09</option>	
+					<option value="(,ddd).dd">12,345,678.09</option>	
+					<option value="(,ddd)">12,345,678</option>
+				</field>
+				<field name="intro_text"  type="textarea"  label="Intro Text" default="" description="Intro text to show before the counter. This supports language strings." filter="raw"/>
+				<field name="outro_text"  type="textarea"  label="Outro Text" default="" description="Outro text to show after the counter. This supports language strings." filter="raw" />
+				<field name="init"  type="text"  label="Initial Value" default="0" description="Counter initial value, before it starts incrementing."/>
+				<field name="link"  type="text"  label="Hypertext Link URL" default="" description="You can make the counter clickable with a hypertext link. Set absolute or relative URL"/>
+				<field name="link_title"  type="text"  label="Link Title (New)" default="" description="This will show as tooltip title when on link rollover."/>
+				<field name="checkviewpoint" type="radio" default="1" label="Check ViewPoint (new)" description="Enable this in case your module is down the page and you want the odometer animation to start only when viewed by visitor. You can disable this if the module is on top of the page." class="radio btn-group btn-group-yesno">
+					<option value="0">JNo</option>					
+				  	<option value="1">JYes</option>
+				</field>
+			</fieldset>
+		
+
+		<fieldset name="advanced">
+				<field name="layout" type="modulelayout"
+					label="JFIELD_ALT_LAYOUT_LABEL"
+					description="JFIELD_ALT_MODULE_LAYOUT_DESC" />
+				<field
+					name="moduleclass_sfx"
+					type="textarea" rows="3"
+					label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+					description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+				<field
+					name="cache"
+					type="list"
+					default="1"
+					label="COM_MODULES_FIELD_CACHING_LABEL"
+					description="COM_MODULES_FIELD_CACHING_DESC">
+					<option
+						value="1">JGLOBAL_USE_GLOBAL</option>
+					<option
+						value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+				</field>
+				<field
+					name="cache_time"
+					type="text"
+					default="900"
+
+					label="COM_MODULES_FIELD_CACHE_TIME_LABEL"
+					description="COM_MODULES_FIELD_CACHE_TIME_DESC" />
+				<field
+					name="cachemode"
+					type="hidden"
+					default="static">
+					<option
+						value="static"></option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+	<!-- UPDATESERVER DEFINITION -->
+	<updateservers>
+		<!-- Note: No spaces or linebreaks allowed between the server tags -->
+		<server type="extension" priority="1" name="Flexible Module Update Site">https://www.nordmograph.com/extensions/updateserver/mod_flexible_odometer-update.xml</server>
+	</updateservers>
+</extension>

@@ -1,0 +1,77 @@
+/* top buttons */
+
+#sp-topcontactusmember-button
+{
+	padding:0px;
+
+
+	.topcontactusmemberbuttons
+	{
+
+		.top-two-buttons
+		{
+			width:300px;
+			float:right;
+			 
+
+			@include breakpoint(mobile) {
+				float:right;
+				width:100%;
+				}
+
+			.top-contact-button,
+			.top-member-button
+			{
+				width:50%;
+				float:left;
+				color:$primary-white;
+				text-align:center;
+				font-family:$header-font;
+				padding:8px 12px;
+
+				a
+				{
+				 	&:hover
+				 	{
+				 		color:$primary-yellow;
+				 	}
+				}
+			}
+
+			.top-contact-button
+			{
+			 	background-color:$primary-blue;
+			}
+			.top-member-button
+			{
+			 	background-color:$primary-red;
+			}
+
+		}
+
+		.logged-in-top-two-buttons
+		{
+			width:610px;
+
+			.top-contact-button,
+			.top-member-button
+			{
+				width:33%;
+
+				@include breakpoint(tablet)
+				{
+					width:30%;
+					float:right;
+				 	 
+				}
+			}
+
+
+
+
+
+		}
+
+	}
+
+}

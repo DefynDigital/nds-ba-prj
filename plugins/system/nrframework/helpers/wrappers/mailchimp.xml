@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fieldset name="service">
+        <field name="api_row_start" type="nr_inline" 
+            label="NR_MAILCHIMP_KEY"
+            description="NR_MAILCHIMP_KEY_DESC"
+        />
+        <field name="api" type="text"
+            hiddenLabel="true"
+            class="input-xlarge"
+        />
+        <field name="wheretofindapikey" type="nrurl"
+            hiddenLabel="true"
+            text="NR_MAILCHIMP_FIND_API_KEY"
+            url="http://kb.mailchimp.com/integrations/api-integrations/about-api-keys"
+        />
+        <field name="api_row_end" type="nr_inline"
+            end="1"
+        />
+        <field name="list_row_start" type="nr_inline" 
+            label="NR_MAILCHIMP_LIST_ID"
+            description="NR_MAILCHIMP_LIST_ID_DESC"
+        />
+        <field name="list" type="text"
+            hiddenLabel="true"
+            class="input-xlarge"
+        />
+        <field name="wheretofindlist" type="nrurl"
+            hiddenLabel="true"
+            text="NR_MAILCHIMP_FIND_LIST"
+            url="http://kb.mailchimp.com/lists/managing-subscribers/find-your-list-id"
+        />
+        <field name="list_row_end" type="nr_inline"
+            end="1"
+        />
+        <field name="doubleoptin" type="radio"
+            label="NR_MAILCHIMP_DOUBLE_OPTIN"
+            description="NR_MAILCHIMP_DOUBLE_OPTIN_DESC"
+            class="btn-group btn-group-yesno"
+            default="0">
+            <option value="0">JNO</option>
+            <option value="1">JYES</option>
+        </field>
+        <field name="updateexisting" type="radio"
+            label="NR_MAILCHIMP_UPDATE_EXISTING_USER"
+            description="NR_MAILCHIMP_UPDATE_EXISTING_USER_DESC"
+            class="btn-group btn-group-yesno"
+            default="1">
+            <option value="0">JNO</option>
+            <option value="1">JYES</option>
+        </field>
+    </fieldset>
+</form>

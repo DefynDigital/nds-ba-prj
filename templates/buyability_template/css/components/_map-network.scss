@@ -1,0 +1,22 @@
+/* all the map styling goes here */
+
+.organisation-logo
+{
+	float:right;
+	max-width:200px !important;
+}
+
+#network-locator
+{
+		.total
+		{
+			background-color:$primary-blue;
+			color:$primary-white;
+			padding:10px;
+
+			span:before
+			{
+				content:"BuyAbility Member Sites : ";
+			}
+		}
+}

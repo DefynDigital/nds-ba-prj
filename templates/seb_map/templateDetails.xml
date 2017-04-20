@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="template" version="2.5" method="upgrade">
+	<name>seb_map</name>
+	<author>Octopoos</author>
+	<authorEmail>contact@seblod.com</authorEmail>
+	<authorUrl>http://www.seblod.com</authorUrl>
+	<copyright>Copyright (C) 2009 - 2016 SEBLOD. All Rights Reserved.</copyright>
+	<license>GNU General Public License version 2 or later.</license>
+	<creationDate>May 2013</creationDate>
+	<description>SEBLOD 3.x - www.seblod.com // by Octopoos - www.octopoos.com</description>
+	<version>2.0.0</version>
+	
+	<files>
+		<folder>css</folder>
+		<folder>js</folder>
+		<folder>fields</folder>
+		<folder>images</folder>
+		<folder>includes</folder>
+		<folder>languages</folder>
+		<folder>positions</folder>
+		<folder>variations</folder>
+		<folder>tmpl</folder>
+		
+		<filename>config.php</filename>
+		<filename>index.php</filename>
+		<filename>template_picker.png</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>index.html</filename>
+	</files>
+	
+	<languages folder="languages">
+			<language tag="en-GB">en-GB/en-GB.tpl_seb_map.ini</language>
+			<language tag="fr-FR">fr-FR/fr-FR.tpl_seb_map.ini</language>
+	</languages>
+	
+	<positions>
+		<position toggle="map_mode" toggle_value="0">location</position>
+		<position toggle="map_mode" toggle_value="1">latitude</position>
+		<position toggle="map_mode" toggle_value="1">longitude</position>
+		<position toggle="map_marker_icon_dynamic">markericon</position>
+		<position>infowindow</position>
+	</positions>
+	
+	<config addfieldpath="/libraries/cck/construction/field">
+		<fields name="params">
+			<fieldset name="map" label="TPL_SEB_MAP_LEGEND_MAP">
+				<field name="cck_client_item" type="hidden" default="0" />
+				<field name="map_typeid" type="cck" construction="more_google_map_typeid" default="" label="TPL_SEB_MAP_TYPE_ID" description="" class="inputbox" />
+				<field name="map_mode" type="cck" construction="more_google_map_mode" default="0" label="TPL_SEB_MAP_MODE" description="" class="inputbox" />
+				<field name="map_width" type="cck" construction="more_google_map_width" default="" label="TPL_SEB_MAP_WIDTH" description="" class="inputbox" />
+				<field name="map_height" type="cck" construction="more_google_map_height" default="" label="TPL_SEB_MAP_HEIGHT" description="" class="inputbox" />
+				<field name="map_lat" type="cck" construction="more_google_map_lat" default="" label="TPL_SEB_MAP_LAT" description="" class="inputbox" />
+				<field name="map_lng" type="cck" construction="more_google_map_lng" default="" label="TPL_SEB_MAP_LNG" description="" class="inputbox" />
+				<field name="map_zoom" type="cck" construction="more_google_map_zoom" default="" label="TPL_SEB_MAP_ZOOM_DEFAULT" description="" class="inputbox" />
+			</fieldset>
+			<fieldset name="controls" label="TPL_SEB_MAP_LEGEND_CONTROLS">
+				<field name="map_pancontrol" type="cck" construction="more_google_map_pancontrol" default="" label="TPL_SEB_MAP_PAN_CONTROL" description="" class="inputbox" />
+				<field name="map_streetviewcontrol" type="cck" construction="more_google_map_streetviewcontrol" default="" label="TPL_SEB_MAP_STREETVIEW_CONTROL" description="" class="inputbox" />
+				<field name="map_typecontrol" type="cck" construction="more_google_map_typecontrol" default="" label="TPL_SEB_MAP_TYPE_CONTROL" description="" class="inputbox" />
+				<field name="map_typecontrolstyle" type="cck" construction="more_google_map_typecontrolstyle" default="" label="TPL_SEB_MAP_TYPE_CONTROL_STYLE" description="" class="inputbox" />
+				<field name="map_zoomcontrol" type="cck" construction="more_google_map_zoomcontrol" default="" label="TPL_SEB_MAP_ZOOM_CONTROL" description="" class="inputbox" />
+				<field name="map_zoomcontrolstyle" type="cck" construction="more_google_map_zoomcontrolstyle" default="" label="TPL_SEB_MAP_ZOOM_CONTROL_STYLE" description="" class="inputbox" />
+				<field name="map_scrollwheel" type="cck" construction="more_google_map_scrollwheel" default="" label="TPL_SEB_MAP_ZOOM_SCROLL_WHEEL" description="" class="inputbox" />
+			</fieldset>
+			<fieldset name="markers" label="TPL_SEB_MAP_LEGEND_MARKERS">
+				<field name="map_marker_init_animation" type="cck" construction="more_google_map_marker_init_animation" default="" label="TPL_SEB_MAP_MARKER_INIT_ANIMATION" description="" class="inputbox" />
+				<field name="map_marker_init_timeout" type="cck" construction="more_google_map_marker_init_timeout" default="" label="TPL_SEB_MAP_MARKER_INIT_TIMEOUT" description="" class="inputbox" />
+				<field name="map_marker_init_timeoutms" type="cck" construction="more_google_map_marker_init_timeoutms" default="200" label="" description="" class="inputbox"
+					   js_format="raw" hidden="true" js_appendto="params_map_marker_init_timeout=#params_map_marker_init_timeoutms"
+					   js_isvisiblewhen="#params_map_marker_init_timeoutms='params_map_marker_init_timeout','1',false" />
+				<field name="map_marker_icon" type="cck" construction="more_google_map_marker_icon" default="red-dot.png" label="TPL_SEB_MAP_MARKER_ICON" description="" class="inputbox" />
+				<field name="map_marker_icon_custom" type="cck" construction="more_google_map_marker_icon_custom" default="" label="TPL_SEB_MAP_MARKER_ICON_CUSTOM" description=""
+					   class="inputbox" js_isvisiblewhen="#params_map_marker_icon_custom='params_map_marker_icon','-1',true" js_format="raw" />
+				<field name="map_marker_icon_dynamic" type="cck" construction="more_google_map_marker_icon_dynamic" default="0" label="TPL_SEB_MAP_MARKER_ICON_DYNAMIC" description=""
+					   class="inputbox" />
+				<field name="map_marker_icon_dynamicpath" type="cck" construction="more_google_map_marker_icon_dynamicpath" default="" label="TPL_SEB_MAP_MARKER_ICON_DYNAMIC_PATH" 
+					   description="" class="inputbox" js_isvisiblewhen="#params_map_marker_icon_dynamicpath='params_map_marker_icon_dynamic','1',true" js_format="raw" />
+				<field name="map_marker_autozoom" type="cck" construction="core_bool" default="0" label="TPL_SEB_MAP_MARKER_AUTOZOOM" description=""
+				       class="inputbox" />
+				<field name="map_marker_clustering" type="cck" construction="core_bool" default="0" label="TPL_SEB_MAP_MARKER_CLUSTERING" description=""
+				       	class="inputbox" />
+				<field name="map_marker_clustering_extension" type="cck" construction="more_google_map_marker_clustering_extension" default="0" label="TPL_SEB_MAP_MARKER_CLUSTERING" description="" class="inputbox"
+						js_format="raw" hidden="true" js_appendto="params_map_marker_clustering=#params_map_marker_clustering_extension"
+						js_isvisiblewhen="#params_map_marker_clustering_extension='params_map_marker_clustering','1',false" />
+			</fieldset>
+			<fieldset name="infowindows" label="TPL_SEB_MAP_LEGEND_INFOWINDOWS">
+				<field name="map_infowindow_openevent" type="cck" construction="more_google_map_infowindow_openevent" default="" label="TPL_SEB_MAP_INFOWINDOW_OPEN_EVENT" description="" class="inputbox" />
+			</fieldset>
+			<fieldset name="style" label="TPL_SEB_MAP_LEGEND_STYLE" class="adminformlist adminformlist-1col">
+				<field name="map_styles" type="cck" construction="more_google_map_styles" default="" label="TPL_SEB_MAP_STYLES" description="" class="inputbox" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>

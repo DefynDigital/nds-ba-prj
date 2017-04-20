@@ -1,0 +1,162 @@
+/* all the header styling goes here */
+
+#sp-header
+{
+	height:100px;
+	box-shadow:none;
+	 
+	#sp-logo,
+	#sp-menu
+	{
+		padding:0px;
+	}
+
+	#sp-logo
+	{
+		    margin-top: -30px;
+
+ 			@include breakpoint(mobile)
+			    {
+					margin-top:0px;
+					width:45%;
+			    }
+
+		    img
+		    {
+
+		    @include breakpoint(mobile)
+			    {
+					width: 110px;
+				    padding-left: 10px;
+				    padding-top: 10px;
+			    }
+
+		    }
+		    
+	}
+	#sp-menu
+	{
+				margin-top:20px;
+
+				@include breakpoint(mobile) {
+			    padding-right:30px;
+			    margin-top:0px;
+			}
+		ul.sp-megamenu-parent
+		{
+
+
+			@include breakpoint(mobile) {
+			    display:none;
+			}
+
+			@include breakpoint(tablet) {
+			    display:none;
+			}
+
+			min-height:30px;
+			display:inline-flex;
+
+			li.sp-menu-item
+			{
+				 border-right:2px solid #C9E9EF;
+
+				a
+				{
+					font-size:18px;
+					padding:5px 0px 0px 5px;
+					width:230px;
+ 					color:$primary-blue;
+					line-height:20px;
+					text-align:center;
+					font-family:$header-font;
+					padding-bottom: 5px;
+
+					&:hover
+					{
+						border-bottom:2px solid $primary-red;
+					}
+ 
+				} 
+
+		
+
+			 
+
+ 
+			}
+
+			li.join-menu-item
+			{
+				a
+				{
+					 
+					width: 220px;
+				}
+			}
+
+
+			li.work-menu-item
+			{
+
+				border-right:none;
+
+				a
+				{
+					width:300px;
+					text-align:right;
+				}
+			}
+
+			li.about-menu-css
+			{
+				a{
+					width:100px;
+				}
+			}
+ 
+
+			li.buy-menu-item
+			{
+				a{
+				padding:5px 15px 5px 15px;
+
+				}
+			}
+
+
+
+			li.active
+			{
+				border-bottom:2px solid $primary-yellow;
+
+
+				a
+				{
+					&:hover
+					{
+						border-bottom:none;
+
+					} 
+				}
+			}
+
+			 
+		}
+		#offcanvas-toggler
+		{
+				@include breakpoint(desktop) {
+					display:none
+				}
+		}
+	}
+}
+
+
+section#sp-banner-section
+{
+	@include breakpoint(mobile)
+	{
+		 
+	}
+}

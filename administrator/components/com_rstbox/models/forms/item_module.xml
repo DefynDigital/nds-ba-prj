@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fieldset name="module" addfieldpath="plugins/system/nrframework/fields">
+        <field name="moduleid" type="modules"
+            label="COM_RSTBOX_ITEM_MODULEID"
+            description="COM_RSTBOX_ITEM_MODULEID_DESC"
+        />   
+        <field name="modulepretext" type="editor"
+            rows="5" 
+            cols="40" 
+            buttons="true"
+            filter="raw" 
+            label="COM_RSTBOX_TEXT" 
+            description="COM_RSTBOX_TEXT_DESC"
+        />
+    </fieldset>
+</form>

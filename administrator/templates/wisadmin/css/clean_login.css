@@ -1,0 +1,153 @@
+/**********login page******************/
+.view-login {background: url(../images/cleanlogin_bg.png);
+}
+.login.well{ 
+  margin: 0 auto;
+  padding:10px 20px 20px 20px;
+  background: #F8F9FA;
+  border-radius:0px 0px 5px 5px;
+  border:1px solid #c5c8cc;
+  border-top:0;
+  box-shadow:5px 5px rgba(102, 102, 102, 0.1);}
+.register-title {
+  line-height:50px;
+  margin:0px;
+  font-size: 19px;
+  font-weight: 500;
+  font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: white;
+  color: #636363;
+  text-align: center;
+  text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+  background:#f8f9fa url(../images/logintitle_bg.png) repeat-x -5px 50px;
+  border:1px solid #c5c8cc;
+  border-bottom:0;
+  border-radius:5px 5px 0px 0px;
+  padding-bottom:35px;
+}
+.register-title span { margin-bottom:10px;}
+.register {
+  margin: 0 auto;
+  padding: 20px;
+  background: #f4f4f4;
+  border-radius: 0px;
+  -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+#form-login .btn-group {height: 42px;
+  margin-bottom:0;
+  margin-top:25px;
+  padding: 4px;
+  background: #da954e;
+  border-radius:2px;
+  background-image: -webkit-linear-gradient(top, #da954e, #e4b658);
+  background-image: -moz-linear-gradient(top, #da954e, #e4b658);
+  background-image: -o-linear-gradient(top, #da954e, #e4b658);
+  background-image: linear-gradient(to bottom, #da954e, #e4b658);
+  -webkit-box-shadow: inset 0 1px rgba(0, 0, 0, 0.05), inset 1px 0 rgba(0, 0, 0, 0.02), inset -1px 0 rgba(0, 0, 0, 0.02);
+  box-shadow: inset 0 1px rgba(0, 0, 0, 0.05), inset 1px 0 rgba(0, 0, 0, 0.02), inset -1px 0 rgba(0, 0, 0, 0.02);}
+#form-login .btn-group > .btn {
+  display:block;
+  line-height: 42px;
+  color: white;
+  text-align: center;
+  text-shadow: 0 -1px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  font-weight: 500;
+  color: #434248;
+  text-shadow: 0 1px rgba(255, 255, 255, 0.5);
+  background: white;
+  border-radius: 2px;
+  background-image: -webkit-linear-gradient(top, #fefefe, #eeeeee);
+  background-image: -moz-linear-gradient(top, #fefefe, #eeeeee);
+  background-image: -o-linear-gradient(top, #fefefe, #eeeeee);
+  background-image: linear-gradient(to bottom, #fefefe, #eeeeee);
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), 0 0 0 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), 0 0 0 1px rgba(0, 0, 0, 0.1);
+  padding:0;
+  margin:0;
+  border:0;
+}
+#form-login .btn-group > .btn:hover,#form-login .btn-group > .btn:focus {
+	background-position: 0 -40px;background-color: #eeeeee;
+	background-image: -moz-linear-gradient(top,#eeeeee,#eeeeee);
+	background-image: -webkit-gradient(linear,0 0,0 100%,from(#eeeeee),to(#eeeeee));
+	background-image: -webkit-linear-gradient(top,#eeeeee,#eeeeee);
+	background-image: -o-linear-gradient(top,#eeeeee,#eeeeee);
+	background-image: linear-gradient(to bottom,#eeeeee,#eeeeee);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eeeeee', endColorstr='#eeeeee', GradientType=0);
+	border-color: #eeeeee #eeeeee #eeeeee;
+	*background-color: #eeeeee;
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);}
+#form-login .btn:hover,#form-login .btn:focus{background-position: 0 -40px;}
+#form-login .input-append .add-on, #form-login .input-prepend .add-on,#form-login .btn.width-auto.hasTooltip {background-color:transparent;
+    border: 0;
+    display: inline-block;
+    font-size:18px;
+    font-weight: normal;
+    height: 18px;
+    line-height: 18px;
+    min-width: 16px;
+    padding: 10px;
+    text-align: center;
+    text-shadow: 0 1px 0 #ffffff;
+    width: auto;
+	border-right:1px solid #d8d8d8;
+	margin-left: 0;
+}
+#form-login .btn.width-auto.hasTooltip{border-right:0;border-left:1px solid #d8d8d8; margin-right:0px;}
+.view-login .input-medium{ max-width:166px;background:none; border:0;padding: 10px 5px; color:#636363;text-shadow: 0 1px rgba(255, 255, 255, 0.5); font-size:15px;}
+#form-login .input-prepend,#form-login .input-append{ background:transparent;display: inline-block;
+  height: 38px;
+  margin-top: 2px;
+  font-weight: 500;
+  background: none;
+  border: 0;
+  border: 1px solid #d8d8d8;
+  max-width:255px;}
+#form-login .icon-user,#form-login .icon-lock,#form-login .icon-help{ font-size:18px; color:#aaaaaa}
+#form-login{ margin-bottom:0;}
+.login .chzn-single,.input-prepend .chzn-container-single .chzn-single, .input-append .chzn-container-single .chzn-single{ background:none; border:0; max-width:206px; line-height:36px}
+.login .chzn-container, .login .chzn-drop{width:216px;max-width:216px; }
+.login .chzn-container, .login .chzn-drop {
+    font-family: "Lucida Grande",Arial,sans-serif;
+}
+/*******/
+.view-login .container {
+    left: 50%;
+    margin-left: -150px;
+    margin-top: -245px;
+    position: absolute;
+    top: 50%;
+    width: 300px;
+}
+.view-login .navbar-fixed-bottom{margin: 0px auto 0px;
+  padding:8px 4px 0px 8px;
+  font: 10px/18px 'Lucida Grande', Arial, sans-serif;
+  color: #666;
+  text-align: center;
+  text-shadow: 0 1px rgba(255, 255, 255, 0.25);
+  background: #eee;
+  background: rgba(250, 250, 250, 0.8);
+  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1));
+  background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1));
+  background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1));
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1));
+  -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.3), inset 0 0 0 1px rgba(255, 255, 255, 0.1), 0 0 6px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 1px rgba(255, 255, 255, 0.3), inset 0 0 0 1px rgba(255, 255, 255, 0.1), 0 0 6px rgba(0, 0, 0, 0.2);}
+  
+.view-login .navbar-fixed-bottom a {
+  color: #333;
+  text-decoration: none;
+  -webkit-transition: background 0.1s;
+  -moz-transition: background 0.1s;
+  -o-transition: background 0.1s;
+    transition: all 0.3s linear 0s;
+}
+.view-login .navbar-fixed-bottom a:hover {
+  color: #000;
+  text-decoration: none;
+}
+.alert {font-family: rajdhani,arial,helvetica;}

@@ -1,0 +1,64 @@
+/* follow on page styling goes here */
+
+#sp-component
+{
+				@include breakpoint(desktop) {
+			   		min-height:600px;
+
+				}
+
+				h2
+				{
+					 
+					font-weight:bold;
+					text-transform:uppercase;
+				}
+
+				h3
+				{
+					 
+					font-weight:bold;
+				}
+
+}
+#sp-main-body
+{
+	padding:50px 0px 0px 0px;
+
+		min-height:910px;
+		
+} 
+
+.entry-header
+{
+	margin:0px;
+}
+.page-header
+{
+	margin:10px 0px 20px 0;
+	border:none;
+	padding-bottom:0px;
+
+
+	h1
+	{
+		text-transform:uppercase;
+		font-size:28px;
+		color:$primary-black;
+		font-weight:bold;
+		margin:0px;
+		border-bottom:2px solid $primary-blue;
+	} 
+	
+} 
+
+h1.page-heading
+{ 
+	text-transform:uppercase;
+	font-size:28px; 
+	color:$primary-black;
+	font-weight:bold;
+	border-bottom:2px solid $primary-blue;
+	margin:0px;
+} 
+

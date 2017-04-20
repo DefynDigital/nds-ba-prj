@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="3.1" type="template" client="administrator">
+	<name>wisadmin</name>
+	<version>1.1</version>
+	<creationDate>Dec 2015</creationDate>
+	<author>JoomlaTema.Net</author>
+	<authorEmail>destek@joomlatema.net</authorEmail>
+	<license>GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
+	<copyright>Copyright (C) 2016 joomlatema.net, Inc. All rights reserved.</copyright>
+	<description>TPL_WISADMIN_XML_DESCRIPTION</description>
+	<files>
+		<filename>component.php</filename>
+		<filename>cpanel.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>index.php</filename>
+		<filename>login.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+		<folder>language</folder>
+	</files>
+	<positions>
+		<position>menu</position>
+		<position>submenu</position>
+		<position>toolbar</position>
+		<position>title</position>
+		<position>status</position>
+		<position>icon</position>
+		<position>cp_shell</position>
+		<position>cpanel</position>
+		<position>bottom</position>
+		<position>footer</position>
+		<position>login</position>
+		<position>debug</position>
+	</positions>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.tpl_wisadmin.ini</language>
+		<language tag="en-GB">en-GB/en-GB.tpl_wisadmin.sys.ini</language>
+		<language tag="tr-TR">tr-TR/tr-TR.tpl_wisadmin.ini</language>
+		<language tag="tr-TR">tr-TR/tr-TR.tpl_wisadmin.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="Settings">
+<field name="colorVariation" type="list"
+				default="blue"
+				label="TPL_WISADMIN_COLORVARIATION_LABEL"
+				description="TPL_WISADMIN_COLORVARIATION_DESC">
+				<option	value="white">TPL_WISADMIN_COLORVARIATION_WHITE</option>
+				<option	value="blue">TPL_WISADMIN_COLORVARIATION_BLUE</option>
+				<option	value="lightblue">TPL_WISADMIN_COLORVARIATION_LIGHTBLUE</option>
+				<option	value="navy">TPL_WISADMIN_COLORVARIATION_NAVY</option>
+				<option	value="red">TPL_WISADMIN_COLORVARIATION_RED</option>
+				<option	value="green">TPL_WISADMIN_COLORVARIATION_GREEN</option>
+				<option	value="black">TPL_WISADMIN_COLORVARIATION_BLACK</option>
+				</field>
+				<field name="basefontsize" label="TPL_WISADMIN_BASEFONTSIZE_LABEL" description="TPL_WISADMIN_BASEFONTSIZE_LABEL_DESC" type="text" default="15px" />
+				<field name="headerfontsize" label="TPL_WISADMIN_HEADERFONTSIZE_LABEL" description="TPL_WISADMIN_HEADERFONTSIZE_LABEL_DESC" type="text" default="15px" />
+				<field name="authorimage" label="TPL_WISADMIN_AUTHORIMAGE_LABEL" description="TPL_WISADMIN_AUTHORIMAGE_LABEL_DESC" type="media" directory="images" />
+				<field name="usernametype" type="list"
+				default="username"
+				label="TPL_WISADMIN_USERNAMETYPE_LABEL"
+				description="TPL_WISADMIN_USERNAMETYPE_DESC">
+				<option	value="username">TPL_WISADMIN_USERNAME</option>
+				<option	value="name">TPL_WISADMIN_NAME</option>
+				</field>
+				<field name="googlefonts" type="list"
+				default="Rajdhani"
+				label="TPL_WISADMIN_GOOGLEFONTS_LABEL"
+				description="TPL_WISADMIN_GOOGLEFONTS_DESC">
+				<option	value="Source+Sans+Pro:400,600">Source Sans Pro</option>
+				<option	value="Open+Sans:400,300">Open Sans</option>
+				<option	value="PT+Sans">PT Sans</option>
+				<option	value="Rajdhani">Rajdhani</option>
+				<option	value="Oswald:400,300,700">Oswald</option>
+				</field>
+				<field name="logoFile" class="" type="media" default=""
+				label="TPL_WISADMIN_LOGO_LABEL"
+				description="TPL_WISADMIN_LOGO_DESC" />
+				<field name="loginLogoFile" class="" type="media" default=""
+				label="TPL_WISADMIN_LOGIN_LOGO_LABEL"
+				description="TPL_WISADMIN_LOGIN_LOGO_DESC" />
+				<field name="admin_menus" type="radio"
+				class="btn-group btn-group-yesno"
+				default="1"
+				label="TPL_WISADMIN_FIELD_ADMIN_MENUS_LABEL"
+				description="TPL_WISADMIN_FIELD_ADMIN_MENUS_DESC"
+				filter="integer">
+				<option
+					value="1">JYES</option>
+				<option
+					value="0">JNO</option>
+				</field>
+				<field name="displayHeader" type="radio"
+				class="btn-group btn-group-yesno"
+				default="1"
+				label="TPL_WISADMIN_HEADER_LABEL"
+				description="TPL_WISADMIN_HEADER_DESC"
+				filter="integer">
+				<option
+					value="1">JYES</option>
+				<option
+					value="0">JNO</option>
+				</field>
+				<field name="statusFixed" type="list"
+				default="1"
+				label="TPL_WISADMIN_STATUS_LABEL"
+				description="TPL_WISADMIN_STATUS_DESC"
+				filter="integer">
+				<option
+					value="1">TPL_WISADMIN_STATUS_BOTTOM</option>
+				<option
+					value="0">TPL_WISADMIN_STATUS_HIDE</option>
+				</field>
+				<field name="stickyToolbar" type="radio"
+				class="btn-group btn-group-yesno"
+				default="1"
+				label="TPL_WISADMIN_STICKY_LABEL"
+				description="TPL_WISADMIN_STICKY_DESC"
+				filter="integer">
+				<option
+					value="1">JYES</option>
+				<option
+					value="0">JNO</option>
+				</field>
+				<field name="ShowWelcomeMessage" type="radio"
+				class="btn-group btn-group-yesno"
+				default="1"
+				label="TPL_WISADMIN_SHOWWELCOME_LABEL"
+				description="TPL_WISADMIN_SHOWWELCOME_LABEL_DESC"
+				filter="integer">
+				<option
+					value="1">JYES</option>
+				<option
+					value="0">JNO</option>
+				</field>
+				<field name="WelcomeMessage" label="TPL_WISADMIN_WELCOME_LABEL" description="TPL_WISADMIN_WELCOME_LABEL_DESC" type="text" default="Welcome" />
+				<field name="logintype" type="list"
+				default="modal_login"
+				label="TPL_WISADMIN_LOGINTYPE_LABEL"
+				description="TPL_WISADMIN_LOGINTYPE_DESC">
+				<option	value="light_login">TPL_WISADMIN_LOGINTYPE_LIGHT</option>
+				<option	value="dark_login">TPL_WISADMIN_LOGINTYPE_DARK</option>
+				<option	value="elegant_login">TPL_WISADMIN_LOGINTYPE_ELEGANT</option>
+				<option	value="clean_login">TPL_WISADMIN_LOGINTYPE_CLEAN</option>
+				<option	value="modern_login">TPL_WISADMIN_LOGINTYPE_MODERN</option>
+				<option	value="no_style">TPL_WISADMIN_LOGINTYPE_NOSTYLE</option>
+				</field>
+				<field name="BottomIconText" label="TPL_WISADMIN_BOTTOMICON_TEXT" description="TPL_WISADMIN_BOTTOMICON_TEXT_DESC" type="text" default="Wisadmin Joomla Administrator Template" />
+				<field name="BottomIconLink" label="TPL_WISADMIN_BOTTOMICON_LINK" description="TPL_WISADMIN_BOTTOMICON_LINK_DESC" type="text" default="/" />
+				
+			</fieldset>
+		</fields>
+	</config>
+</extension>

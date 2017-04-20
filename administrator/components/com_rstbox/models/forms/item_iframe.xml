@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fieldset name="iframe2">
+        <field name="iframeheader" type="editor"
+            filter="raw"
+            label="COM_RSTBOX_TEXT"
+            buttons="true"
+            description="COM_RSTBOX_TEXT_DESC"
+        />
+    </fieldset>
+    <fieldset name="iframe" addfieldpath="plugins/system/nrframework/fields">
+        <field name="iframeurl" type="url"
+            label="COM_RSTBOX_IFRAMEURL"
+            class="input-xlarge"
+            description="COM_RSTBOX_IFRAMEURL_DESC"
+            hint="http://"
+        />
+        <field name="iframeheight" type="combo" 
+            default="500px" 
+            class="input-mini" 
+            label="NR_HEIGHT"
+            description="NR_HEIGHT_DESC">
+            <option value="500px">500px</option>
+            <option value="700px">700px</option>
+        </field>
+        <field name="iframescrolling" type="radio" 
+            default="no" 
+            class="btn-group btn-group-yesno" 
+            label="COM_RSTBOX_IFRAME_SCROLLING"
+            description="COM_RSTBOX_IFRAME_SCROLLING_DESC">
+            <option value="yes">JYES</option>
+            <option value="no">JNO</option>
+            <option value="auto">Auto</option>
+        </field>
+        <field name="iframeparams" type="text"
+            label="COM_RSTBOX_IFRAMEPARAMS"
+            class="input-xlarge"
+            description="COM_RSTBOX_IFRAMEPARAMS_DESC"
+        />
+        <field type="spacer" name="iframe-1" hr="true" />
+        <field name="async" type="list" 
+            label="COM_RSTBOX_ASYNC"
+            default="afterOpen"
+            description="COM_RSTBOX_ASYNC_DESC">
+                <option value="dom">Disable</option>
+                <option value="beforeOpen">Before Box Open</option>
+                <option value="afterOpen">After Box Open</option>
+                <option value="pageLoad">on Page Load</option>
+        </field>
+        <field name="removeonclose" type="radio" 
+            default="0" 
+            class="btn-group btn-group-yesno" 
+            label="COM_RSTBOX_IFRAME_REMOVE_ON_CLOSE"
+            description="COM_RSTBOX_IFRAME_REMOVE_ON_CLOSE_DESC">
+            <option value="1">JYES</option>
+            <option value="0">JNO</option>
+        </field>
+    </fieldset>
+</form>

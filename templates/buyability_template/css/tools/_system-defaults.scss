@@ -1,0 +1,30 @@
+/* all the system defaults */
+
+#system-message-container
+{
+
+	.alert-warning
+	{
+			background-color:$primary-blue;
+			border:none;
+			color:$primary-white;
+
+			a.close
+			{
+				color:$primary-white;
+ 			    font-size: 18px;
+			  	border-radius:18px;
+			    border: 1px solid;
+			  	text-shadow:none;
+			    padding: 6px 10px;
+			    border-radius: 18px;
+			    opacity:1;
+			    padding:6px 10px; 
+
+				&:hover
+				{
+					color:$primary-yellow;
+				}
+			}
+	}
+}

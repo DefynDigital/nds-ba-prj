@@ -1,0 +1,110 @@
+/* get involved section */
+
+#sp-home-page-get-involved
+{
+	padding-top:15px;
+	padding-bottom:15px;
+	text-align:center;
+	
+	.get-involved
+	{
+		h2
+		{
+			font-size:40px;
+			font-weight:bold;
+			text-transform:uppercase;
+			leter-spacing:4px;
+			
+						@include breakpoint(mobile) {
+							 
+								font-size:24px;
+				}
+
+		} 
+
+		#rsform_error_3
+		{
+			.formRed
+			{
+				color:$primary_white;
+			}
+		}
+		.formContainer{
+
+			.rsform-block
+			{
+				display:table-cell;
+
+							@include breakpoint(mobile) {
+									display:block;
+				}
+
+				.formControls
+				{
+					margin-left:10px;
+					text-align:center;
+					
+					.formBody
+					{
+						input[type="text"],
+						input[type="email"],
+						select
+						{
+							border:1px solid $primary-blue;
+							height:35px;
+							border-radius:10px;
+							padding-left:15px;
+
+							@include breakpoint(tablet) {
+							    width:115px;
+								}
+							@include breakpoint(tablet_max) {
+							    width:160px;
+								}
+
+							@include breakpoint(mobile) {
+								width:250px !important;
+								}
+
+							@include breakpoint(mobile_landscape)
+								{
+								width:350px !important; 
+								}	
+
+						}
+
+						input[type="button"],
+						button[type="submit"]
+						{
+							height:45px;
+							border:none;
+							background-color:$primary-blue;
+							background-image:none;
+							border-radius:10px;
+							padding:4px 25px;
+							font-size:14px;
+
+							&:hover
+							{
+								background-color:$primary-yellow;
+							}
+						}
+
+						.formError
+						{
+									 
+							color:$primary_white;
+							font-weight:bold;
+				
+						}
+					}
+				}
+			}
+		}
+		
+
+
+	}
+	
+}  
+

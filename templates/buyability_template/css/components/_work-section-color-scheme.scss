@@ -1,0 +1,68 @@
+/* all the About section color scheme. */
+
+.page-header
+{
+ 
+
+	h1
+	{
+		
+	}
+} 
+
+#sp-component
+{
+				 
+
+				h2
+				{
+					color:$primary-red;
+					 
+				}
+
+				h3
+				{
+					color:$primary-red;
+					 
+				}
+
+}
+
+ 
+
+
+#sp-followon-pages-stat-box
+{
+ 
+
+	.followonstatbox
+	{
+ 
+		border-bottom:3px solid $primary-red;
+ 
+		.followon-text-stats
+		{
+			
+
+			p
+			{
+				 
+				color:$primary-red;
+			}
+
+		}
+	}
+}    
+
+#sp-left
+{
+	.quick_links
+	{
+		h2
+		{
+			background-color: $primary-red;
+    		padding: 15px 20px;
+    		color:$primary-white;
+		}
+	}
+}

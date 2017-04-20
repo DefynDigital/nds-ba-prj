@@ -1,0 +1,836 @@
+<!DOCTYPE HTML>
+<html lang="en-gb" dir="ltr">
+
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<base href="https://www.seblod.com/" />
+	<meta name="keywords" content="application builder, cck for joomla, content construction kit, joomla component, rapid application development, web app builder, web development" />
+	<meta name="description" content="SEBLOD is a Web Application Builder and Content Construction Kit (CCK) for Joomla!
+It empowers your Joomla sites, and makes web development faster." />
+	<meta name="generator" content="Joomla! - Open Source Content Management - Version 3.6.5" />
+	<title>Build high-end websites with SEBLOD®, a CCK for Joomla!</title>
+	<link href="https://plus.google.com/+SeblodCCK/" rel="publisher" />
+	<link href="/templates/seblod/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+	<link href="/media/cck/css/cck.css" rel="stylesheet" type="text/css" />
+	<link href="/media/cck/css/cck.responsive.css" rel="stylesheet" type="text/css" />
+	<link href="/media/cck/css/cck.content.css" rel="stylesheet" type="text/css" />
+	<link href="/plugins/cck_field/group_x/assets/css/style2.css" rel="stylesheet" type="text/css" />
+	<link href="/libraries/cck/rendering/variations/seb_app/css/style9.css" rel="stylesheet" type="text/css" />
+	<link href="/modules/mod_maximenuck/themes/seblod/css/moo_maximenuhck.css" rel="stylesheet" type="text/css" />
+	<link href="/modules/mod_maximenuck/themes/seblod/css/maximenuhck.php?monid=maximenuck" rel="stylesheet" type="text/css" />
+	<link href="/modules/mod_maximenuck/assets/maximenuresponsiveck.css" rel="stylesheet" type="text/css" />
+	<link href="/modules/mod_cookiesaccept/screen.css" rel="stylesheet" type="text/css" />
+	<style type="text/css">
+h5.pricing.membership.nop{text-decoration: line-through;}
+.box-warning{box-shadow:none!important;}
+#top-a div.module.mod-line.announcement-banner{height:42px!important; min-height:42px!important;max-height:42px!important;}
+
+#system div.documentation-seblod ul#cck_tabs1Tabs li::before {
+    content: none;
+}
+.manuals span.label{width: 20px; background-color: #444; font-size: 11px!important; font-weight: normal; line-height: 11px; text-align: center; margin-left:5px;}
+
+body.itemid-133.view-article div.cck-line-body div.cck-plr.cck-ptb{padding:0;}
+body.itemid-133.view-article #seb_user_settings{margin:10px;}
+
+#system-message .alert.alert-notice{background:none; background-color:#444444; color:#ffffff;}
+#system-message .alert-heading{display:none;}
+#system-message .alert.alert-notice .alert-message{background:none; color:#ffffff;}
+.fullwidth-article #system-message .alert.alert-notice{border-radius:0;}
+body.registered div#maximenuck .maximenuck.item162.parent.level1 > a > span.titreck{font-size:13px!important;}
+
+div.clubs ul.zebra:not(.alt) > li:nth-child(1),
+div.clubs ul.zebra:not(.alt) > li:nth-child(2),
+div.clubs ul.zebra:not(.alt) > li:nth-child(4),
+div.clubs ul.zebra:not(.alt) > li:nth-child(5) {height:60px;}
+
+ul.zebra.alt > li:first-child,
+ul.zebra.alt > li:nth-child(7),
+ul.zebra.alt > li:nth-child(11){font-weight:bold; font-size:150%;}
+ul.zebra.alt > li:first-child, ul.zebra.alt > li:nth-of-type(odd){background: #ffffff;}
+ul.zebra.alt > li:nth-of-type(even){background: #fafafa;}
+strong.s-apps{color:#c93c3c;}
+strong.s-apps > a:link, strong.s-apps > a:hover, strong.s-apps > a:visited{color:#c93c3c;}
+strong.s-apps > a:hover{text-decoration:underline;}
+.s-apps-sub{border-bottom:2px solid #c93c3c;}
+strong.s-labs, span.s-labs, small.s-labs{color:#7048ab;}
+strong.s-labs > a:link, strong.s-labs > a:hover, strong.s-labs > a:visited{color:#7048ab;}
+strong.s-labs > a:hover{text-decoration:underline;}
+.s-labs-sub{border-bottom:2px solid #7048ab;}
+div[data-class="s-labs"] .mod-box-color{background-color:#613c97; color:#fff; text-transform: uppercase;}
+div[data-class="s-application"] .mod-box-color{background-color:#c42323; color:#fff; text-transform: uppercase;}
+li.level1.item699,li.level1.item701,li.level1.item698{display:none;}
+body.itemid-107 h2.tab-h, body.itemid-130 h2.tab-h{padding-top:0;}
+body.itemid-107 div.text-center.boxes.clubs{margin:0 -10px;}
+body.itemid-107 div.boxes.clubs > div > div{padding:0 10px 0 10px;}
+ul.line.activites > li{border:none;}
+div.cck_forms.cck_search div.cck_form input.input-large-text{font-size:1.2em!important;}
+.cck_forms.cck_search.cck_search_generic.cck_seb_topic_search_generic_keywords{padding-bottom:0;}
+div.paid-extensions .table-seblod, div.paid-extensions .table-seblod > div{padding:0;}
+div.paid-extensions .more > a{padding:10px 2px 0 0; font-size: 11px; color: #000; text-transform: uppercase; display: block;}
+ul.zebra > li{line-height:24px!important;}
+
+li.item856 > a > span:before{ content: "\4d"; font-family: seblod; position:relative; top:1px; left:-5px;}
+.cck_form_captcha_math > span.variation_value{line-height:30px!important;}
+body.itemid-173 h3.title-header.to-r{margin-bottom: 0;}
+span.circle > span.icon-cart{position:relative; left:-1px;}
+div.cck_forms.cck_site div.cck_form.cck_form_captcha_visualcaptcha{width:100%;}
+body#page .mod-box-dark{background:#C42323; color:#ffffff; padding:10px 20px;}
+body#page .mod-box-dark a:link,
+body#page .mod-box-dark a:visited{color:#ffffff; text-decoration:underline;}
+body#page .mod-box-dark a:hover{color:#ffffff; text-decoration:none;}
+.table-seblod .progress{margin-bottom:0; margin-right:12px;}
+.visualCaptcha-refresh-button{display:none;}
+.product-img .icon-large{text-shadow:none!important;}
+.badge.badge-info{background-color:#428bca; margin-left:8px; font-weight:normal;}
+.itemid-893 div.cck_page_desc{margin:0; clear:left;}
+.itemid-893 div.cck_page_desc > div{margin-top:20px;}
+	</style>
+	<script src="/media/jui/js/jquery.min.js" type="text/javascript"></script>
+	<script src="/media/jui/js/jquery-noconflict.js" type="text/javascript"></script>
+	<script src="/media/jui/js/jquery-migrate.min.js" type="text/javascript"></script>
+	<script src="/media/jui/js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="/media/cck/js/cck.core-3.9.0.min.js" type="text/javascript"></script>
+	<script src="/libraries/cck/rendering/variations/seb_app/js/script.js" type="text/javascript"></script>
+	<script src="/libraries/cck/rendering/variations/seb_app/js/jquery.slidorion.min.js" type="text/javascript"></script>
+	<script src="/media/cck_ecommerce/js/cck.ecommerce-2.18.1.min.js" type="text/javascript"></script>
+	<script type="text/javascript">
+JCck.Core.baseURI = "";(function($){$(document).ready(function(){$("#slidorion").slidorion({autoPlay:false,interval:5000,effect:"slideLeft",controlNav:false,controlNavClass:"nav"});});})(jQuery);jQuery(function($){ $(".hasTooltip").tooltip({"html": true,"container": "body"}); });window.setInterval(function(){var r;try{r=window.XMLHttpRequest?new XMLHttpRequest():new ActiveXObject("Microsoft.XMLHTTP")}catch(e){}if(r){r.open("GET","/index.php?option=com_ajax&format=json",true);r.send(null)}},840000);jQuery(document).ready(function($){$("#loginsmall").on("change", "#ls-username",function() { var regex = /(\@ Octopoos)$/; if (regex.test($("#ls-username").val())){$(".secretkey-box").slideDown();}else{$(".secretkey-box").slideUp();} });$("#loginsmall").on("focus", "#ls-username,#ls-password", function() { var regex = /(\@ Octopoos)$/; if (regex.test($("#ls-username").val())){$(".secretkey-box").slideDown();}else{$(".secretkey-box").slideUp();}});});
+	</script>
+
+<link rel="apple-touch-icon-precomposed" href="/templates/seblod/seblod_touch.png" />
+<style>.wrapper { width: 980px; }
+#foot-c { width: 25%; }
+#maininner { width: 100%; }
+#footer-ab { width: 75%; }
+#menu .dropdown { width: 250px; }
+#menu .columns2 { width: 500px; }
+#menu .columns3 { width: 750px; }
+#menu .columns4 { width: 1000px; }</style>
+<link rel="stylesheet" href="/templates/seblod/styles/seblod/css/bootstrap2.css" />
+<link rel="stylesheet" href="/templates/seblod/styles/seblod/css/system.css" />
+<link rel="stylesheet" href="/templates/seblod/styles/seblod/css/style18_5.css" />
+<link rel="stylesheet" href="/templates/seblod/styles/seblod/css/font/seblod5.css" />
+<link rel="stylesheet" href="/templates/seblod/styles/seblod/css/responsive.css" />
+<script src="/templates/seblod/warp/js/warp.js"></script>
+<script src="/templates/seblod/warp/js/responsive.js"></script>
+<script src="/templates/seblod/styles/seblod/js/template5.js"></script>
+<link rel="icon" type="image/png" sizes="16x16" href="/templates/seblod/styles/seblod/layouts/fav/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/templates/seblod/styles/seblod/layouts/fav/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/templates/seblod/styles/seblod/layouts/fav/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="194x194" href="/templates/seblod/styles/seblod/layouts/fav/favicon-194x194.png">    <script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-2902106-39']);
+		_gaq.push(['_trackPageview']);
+		
+		(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+
+</head>
+
+<body id="page" class="page  isblog fullwidth itemid-148 com_content view-article guest"><div id="page-bg">
+
+		
+
+		
+		<div id="block-toolbar"><div class="wrapper">
+
+		<div id="toolbar" class="clearfix">
+
+							
+			
+				
+								<div class="float-right"><div class="module   deepest">
+
+			<div id="cck_ecommerce_cart" class="ecommerce_cart">
+            <div><a href="/member-account/go-checkout">
+        <span class="ecommerce_products_container">0.00 € (0)</span>
+            </a></div>
+	    <input type="hidden" id="attr_cart" name="attr_cart" value="{&quot;active&quot;:0,&quot;apply_promotions&quot;:0,&quot;apply_taxes&quot;:0,&quot;itemId&quot;:148,&quot;layout&quot;:&quot;html&quot;,&quot;layout_html&quot;:&quot;W3ByaWNlXSAoW2NvdW50XSk%3D&quot;,&quot;sef&quot;:&quot;23&quot;,&quot;show_trash&quot;:&quot;0&quot;,&quot;title&quot;:&quot;SEBLOD Cart - Cart&quot;}" />
+</div>		
+</div>
+<div class="module   deepest">
+
+			
+		<!--[if lte IE 7]>
+		<link href="/modules/mod_maximenuck/themes/seblod/css/ie7.css" rel="stylesheet" type="text/css" />
+		<![endif]--><div id="maximenuck" class="maximenuckh"><ul class="nav menu maximenuck"><li class="maximenuck level1 " style="z-index: 15000;"><a class="maximenuck btn btn-success btn-micro" href="/join-the-community"><span class="titreck">Sign Up</span></a></li><li class="maximenuck level1 " style="z-index: 15000;"><a class="maximenuck btn btn-success btn-micro" href="/member-login"><span class="titreck">Sign In</span></a></li></ul></div>		
+</div>
+<div class="module   deepest">
+
+			<!--googleoff: all-->
+<div id="ca_banner" 
+    style="bottom:0px;
+            ">
+    <h2 style="
+		">This site uses cookies and similar technologies.</h2> 
+    <p style="
+				">If you don't change browser settings, you agree to it.                </p>
+    <div class="accept" style="">I understand</div>
+</div>
+
+
+<script type="text/javascript">
+    jQuery(document).ready(function () { 
+	
+	function setCookie(c_name,value,exdays)
+	{
+		var exdate=new Date();
+		exdate.setDate(exdate.getDate() + exdays);
+		var c_value=escape(value) + ((exdays==null) ? "" : "; expires="+exdate.toUTCString()) + "; path=/";
+		document.cookie=c_name + "=" + c_value;
+	}
+	
+	function readCookie(name) {
+		var nameEQ = name + "=";
+		var ca = document.cookie.split(';');
+		for(var i=0;i < ca.length;i++) {
+			var c = ca[i];
+			while (c.charAt(0)==' ') c = c.substring(1,c.length);
+			if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+			}
+		return null;
+	}
+    
+	var $ca_banner = jQuery('#ca_banner');
+    var $ca_infoplus = jQuery('.infoplus.info_modal');
+    var $ca_info = jQuery('#ca_info');
+    var $ca_info_close = jQuery('.ca_info_close');
+    var $ca_infoaccept = jQuery('.accept');
+    
+	var cookieaccept = readCookie('cookieaccept');
+	if(!(cookieaccept == "yes")){
+	
+		$ca_banner.delay(1000).slideDown('fast'); 
+        $ca_infoplus.click(function(){
+            $ca_info.fadeIn("fast");
+        });
+        $ca_info_close.click(function(){
+            $ca_info.fadeOut("slow");
+        });
+        $ca_infoaccept.click(function(){
+			setCookie("cookieaccept","yes",365);
+            jQuery.post('https://www.seblod.com/', 'set_cookie=1', function(){});
+            $ca_banner.slideUp('slow');
+            $ca_info.fadeOut("slow");
+        });
+       } 
+    });
+</script>
+<!--googleon: all-->
+		
+</div></div>
+				
+						
+		</div>
+
+	</div></div>
+	
+	<div id="block-header"><div class="wrapper">
+
+		<header id="header" class="clearfix">						
+
+			            <div class="grid-block" id="menubar">
+                        	
+				<a id="logo" href="https://www.seblod.com"><img src="https://www.seblod.com/templates/seblod/styles/seblod/images/logo-seblod.svg" alt="logo-seblod"></a>
+			                
+            					<nav id="menu"><ul class="menu menu-dropdown"><li class="level1 item148 active current"><a href="/" class="level1 active current"><span>Home</span></a></li><li class="level1 item101"><a href="/community" class="level1"><span>Community</span></a></li><li class="level1 item105"><a href="/resources" class="level1"><span>Resources</span></a></li><li class="level1 item107"><a href="/store" class="level1"><span>Store</span></a></li></ul></nav>
+                                
+            </div>
+			            
+                            <div id="submenubar" class="grid-block">                    
+                	<div class="grid-box width100 grid-v">
+                        <p class="title-header">
+                        	                        		Your Site, Your Way!                        	                        </p>
+                                                <nav id="submenu">
+<ul class="menu menu-line"><li class="level1 item613"><a href="/about" class="level1"><span>About</span></a></li><li class="level1 item240"><a href="/changelogs" class="level1"><span>Changelogs</span></a></li><li class="level1 item856"><a href="/github" target="_blank" class="level1"><span>GitHub</span></a></li><li class="level1 item138"><a href="/faq" class="level1"><span>FAQs</span></a></li><li class="level1 item638"><a href="/features" class="level1"><span>Features</span></a></li><li class="level1 item615"><a href="/terminology" class="level1"><span>Terminology</span></a></li></ul></nav>
+                        <!--
+                                                -->
+					</div>
+                </div>
+				
+                					
+		
+		</header>
+
+	</div></div>
+
+        
+        
+        
+        
+        
+		        <div id="block-main">
+            <div id="main" class="grid-block">
+    
+                <div id="maininner" class="grid-box">
+                
+                                    <section id="content" class="grid-block">  	
+        <div class="wrapper">
+        	<div class="grid-block">  
+				<div id="system-message-container">
+	</div>
+
+		    </div>
+    	</div>
+
+
+<div id="system">
+
+	
+	<article class="item">
+
+		
+			
+		
+		<div class="content clearfix">
+
+		
+
+
+	
+    <div id="product-main">
+        
+                <div class="wrapper">
+        	<section id="product-top" class="grid-block">
+                                    <h1>Build high-end websites with Joomla!</h1>
+                                                    <p>SEBLOD is an Application Builder and a Content Construction Kit.<br />It helps to create/manage custom online applications & full-featured websites.</p>
+                             </section>
+		</div>
+         
+        
+        
+		                
+         <div class="wrapper">
+         	<section id="product-button" class="grid-block">
+                					
+                    <div class="buttons-down">
+                        <button class="button-click button btn btn-mega2 btn-success vertical" name="seb_item_download" id="5068" type="button">
+							<span>SEBL<span class="icon-seblod"></span>D 3.10.0</span><span>Free download</span>						</button>
+                    </div>
+                        	</section>
+        </div>
+        
+	</div>
+
+    <div id="product-down">
+        <div class="wrapper">
+            <section id="product-download" class="grid-block">
+            	<div class="grid-box cck-w50 grid-v">
+                	<div class="module padr">
+						<h3 class="module-title">SEBLOD 3.10.x</h3>
+						<p>SEBLOD is an Application Builder and Content Construction Kit.<br />It brings Custom Content Types to Joomla!, and definitely makes<br />web development faster and easier thanks to its unique flexibility.<br /><br /><strong>SEBLOD 3.10.0 is ready for Joomla! 3.6</strong><br />Core package: 1 component, 3 templates, 7 modules, 82 plug-ins.<br /><br />Make sure to backup your site before any install/update.</p>    
+					</div>
+                </div>
+                <div class="grid-box cck-w31 grid-v">
+                	<div class="module">
+                                                    <div class="field">
+                                <div class="label">
+                                    <label>Compatible up to:</label>
+                                </div>
+                                <div class="value">Joomla! 3.6.5</div>
+                            </div>
+                        
+                            						<div class="field">
+                            	<div class="label">
+                                	<label>Date:</label>
+                                </div>
+                                <div class="value">30 September 2016</div>
+                            </div>
+                            
+                            <div class="field">
+                            	<div class="label">
+                                	<label>Downloads:</label>
+                                </div>
+                                <div class="value">310212</div>
+                            </div>
+
+                            <div class="field">
+                                <div class="label">
+                                    <label>File size:</label>
+                                </div>
+                                <div class="value">2.05 MB</div>
+                            </div>
+                        
+                        <div class="field">
+                            <div class="label">
+                                <label>License:</label>
+                            </div>
+                            <div class="value">GNU GPLv2</div>
+                        </div>
+
+                        
+                        
+                                                    <div class="field">
+                            	<div class="label">
+                                	<label>Version:</label>
+                                </div>
+                                <div class="value">3.10.0</div>
+                            </div>
+                        					</div>
+                </div>
+                
+                <div class="grid-box cck-w19 grid-v">
+                	<div class="module padl">
+                        
+                                                <div class="buttons-final">
+                            <a href="/component/cck/?task=download&amp;file=seb_application_file&amp;id=1" class="button btn btn-mega btn-success vertical"><span class="icon-download"></span><span>Download</span></a>
+                                                            <a href="/changelogs" class="btn btn-primary">Changelogs</a>
+                                                                                        <a href="http://demo.seblod.com" class="btn btn-primary" target="_blank">Live Demo</a>
+                                                                                        <a href="/resources/faq" class="btn btn-primary">FAQs <small>(15)</small></a>
+                                                    </div>
+                                                
+					</div>
+                </div>
+                
+            </section>
+        </div>
+    </div>
+    
+    
+	
+       
+	<div id="product-nav"> 
+    	<div class="wrapper">
+    
+            <div id="menu-tab" class="grid-block">
+                <div class="menu-tab">
+                    <nav id="menu-tab-nav">
+                        <ul class="menu-pad">
+							<li class="level1 product-tab1"><a class="level1" href="#Overview"><span><span class="icon icon-eye anim"></span><span class="ititle">Overview</span></span></a></li><li class="level1 product-tab2"><a class="level1" href="#Showcase"><span><span class="icon icon-screen anim"></span><span class="ititle">Showcase</span></span></a></li><li class="level1 product-tab3"><a class="level1" href="#Details"><span><span class="icon icon-zoom-in anim"></span><span class="ititle">Details</span></span></a></li>							
+                        </ul>        
+                    </nav>
+                </div>
+            </div>
+            
+		</div>
+    </div>
+    
+	   
+    
+    <div id="product-features">   
+    	<div class="wrapper">
+    
+            <section id="top-a" class="grid-block">
+            
+            	                	                    <h2 id="Overview" class="tab-h">Introducing SEBLOD.</h2>
+                            	                    <p class="tab-pc">Highly flexible Joomla! component, for content construction and web development.</p>
+				                
+                
+                                	                    <div id="block_0" class="grid-block">
+						
+                                                <div class="grid-box width33 grid-h">
+                            <div class="module mod-box mod-box-effect deepest">
+        							                                <h3 class="module-title">Advanced Forms & Content Types</h3>
+								                                                                	                                	<p class="features">
+                                                                        	    	                                    <a class="desc" href="/features#form-types">
+                                                                                    <span class="desc-short">Build complex forms for your web apps in order to fit the business needs.</span>
+                                        	                                        </a>
+                                                                                <span class="icon-form icon-large" style="display: block;"></span>
+                                                                                    <span class="go-r more">
+                                                <a href="/features#form-types">Learn More</a>
+                                            </span>
+                                                                            </p>
+								                            </div>
+                        </div>                        	
+                                                
+                       	                        <div class="grid-box width33 grid-h">
+                            <div class="module mod-box mod-box-effect deepest">
+        						                                    <h3 class="module-title">Custom Fields & Flexible Plug-ins</h3>
+								                                                                	                                	<p class="features">
+                                                                        	    	                                    <a class="desc" href="/features#fields">
+                                                                                    <span class="desc-short">Bring unlimited possibilities to your websites with a bunch of great plugins.</span>
+                                        	                                        </a>
+                                                                                <span class="icon-plug-in icon-large" style="display: block;"></span>
+                                                                                    <span class="go-r more">
+                                                <a href="/features#fields">Learn More</a>
+                                            </span>
+                                                                            </p>
+								                                                                
+                            </div>
+                        </div>                        	
+                                                
+                                                <div class="grid-box width33 grid-h">
+                            <div class="module mod-box mod-box-effect deepest">
+        						                                    <h3 class="module-title">Multi-criteria Search & List Views</h3>
+								                                                                
+                               		                                	<p class="features">
+                                                                        	    	                                    <a class="desc" href="/features#search-types">
+                                                                                    <span class="desc-short">Build advanced search engines and lists in order to showcase all kind of data.</span>
+                                        	                                        </a>
+                                                                                <span class="icon-search-2 icon-large" style="display: block;"></span>
+                                                                                    <span class="go-r more">
+                                                <a href="/features#search-types">Learn More</a>
+                                            </span>
+                                                                            </p>
+								                                                                
+                            </div>
+                        </div>                        	
+                                                
+                         
+                    
+                    </div>
+                                	                    <div id="block_1" class="grid-block">
+						
+                                                <div class="grid-box width33 grid-h">
+                            <div class="module mod-box mod-box-effect deepest">
+        							                                <h3 class="module-title">Out of the Box Applications</h3>
+								                                                                	                                	<p class="features">
+                                                                        	    	                                    <a class="desc" href="/store/extensions/applications">
+                                                                                    <span class="desc-short">Install our ready-to-use apps in order to get started easily with SEBLOD.</span>
+                                        	                                        </a>
+                                                                                <span class="icon-application icon-large" style="display: block;"></span>
+                                                                                    <span class="go-r more">
+                                                <a href="/store/extensions/applications">Learn More</a>
+                                            </span>
+                                                                            </p>
+								                            </div>
+                        </div>                        	
+                                                
+                       	                        <div class="grid-box width33 grid-h">
+                            <div class="module mod-box mod-box-effect deepest">
+        						                                    <h3 class="module-title">Powerful Template Framework</h3>
+								                                                                	                                	<p class="features">
+                                                                        	    	                                    <a class="desc" href="/features#templates">
+                                                                                    <span class="desc-short">Control the display and layouts of your SEBLOD-based content, forms & lists.</span>
+                                        	                                        </a>
+                                                                                <span class="icon-template icon-large" style="display: block;"></span>
+                                                                                    <span class="go-r more">
+                                                <a href="/features#templates">Learn More</a>
+                                            </span>
+                                                                            </p>
+								                                                                
+                            </div>
+                        </div>                        	
+                                                
+                                                <div class="grid-box width33 grid-h">
+                            <div class="module mod-box mod-box-effect deepest">
+        						                                    <h3 class="module-title">Well Integrated Multi-sites System</h3>
+								                                                                
+                               		                                	<p class="features">
+                                                                        	    	                                    <a class="desc" href="/features#multi-sites">
+                                                                                    <span class="desc-short">Set up a Joomla! multi-sites platform, without any hack.. in a few clicks.</span>
+                                        	                                        </a>
+                                                                                <span class="icon-multi-site icon-large" style="display: block;"></span>
+                                                                                    <span class="go-r more">
+                                                <a href="/features#multi-sites">Learn More</a>
+                                            </span>
+                                                                            </p>
+								                                                                
+                            </div>
+                        </div>                        	
+                                                
+                         
+                    
+                    </div>
+                            </section>
+            
+     	</div>
+    </div>
+    
+
+			
+	<div id="product-overview" class="tab-bg">     
+		<div class="wrapper mw">
+			<section class="grid-block">
+				
+				
+			<h2 id="Showcase" class="tab-h">Sites made with Joomla! + SEBLOD.</h2>
+			<p class="tab-pc">SEBLOD is used by some high-end companies for its performance & flexibility.</p>
+						<div id="slidorion">
+				
+					<div id="accordion-slide">
+						 
+						<div id="accordion">                                        
+						    
+														<h3 class="link-header">General Electric</h3>
+							<div class="link-content">
+								<div class="grid-h">
+									<p>
+										- Digital Asset Management<br />- InContext Front-end Editing<br />- Multi-sites Platform																			</p>
+								</div>
+							</div>
+													    
+														<h3 class="link-header">Alain Milliat</h3>
+							<div class="link-content">
+								<div class="grid-h">
+									<p>
+										- Clean & Flat Design<br />- Online store (eCommerce)																			</p>
+								</div>
+							</div>
+													    
+														<h3 class="link-header">Peugeot Assurance</h3>
+							<div class="link-content">
+								<div class="grid-h">
+									<p>
+										- Multi-page Forms<br />- Web Services (SOAP)																			</p>
+								</div>
+							</div>
+																			</div>
+					</div>              
+					
+					<div id="allslide">
+						<img class="bgspe resp" src="/libraries/cck/rendering/variations/seb_app/images/mac-pro.png" alt="" />                		
+						<div id="slider">
+						    
+																					                                
+							<div id="slide1" class="slide">
+								<img class="resp" src="/images/page_app/showcase/1/distributed-power-website.jpg" width="1046" height="624" alt="General Electric" />
+							</div>
+													    
+																					                                
+							<div id="slide2" class="slide">
+								<img class="resp" src="/images/page_app/showcase/1/alain-milliat-website.jpg" width="1046" height="624" alt="Alain Milliat" />
+							</div>
+													    
+																					                                
+							<div id="slide3" class="slide">
+								<img class="resp" src="/images/page_app/showcase/1/peugeot-assurance-website.jpg" width="1046" height="624" alt="Peugeot Assurance" />
+							</div>
+																			</div>                            
+					</div>
+			
+				</div>
+										   
+			</section>
+		</div>
+	</div>
+
+
+    
+	        <div id="product-catch">
+            <div class="wrapper">
+                <section id="product-slogan" class="grid-block">
+                                    <blockquote class="text-center">Outclass Drupal with &lt; Joomla! + SEBLOD /&gt;</blockquote>
+                                </section>
+            </div>
+        </div>
+	
+
+      
+        		<div id="product-other0" class="product-other tab-bg">      
+    			<div class="wrapper">
+    				
+    				<section id="tab-3" class="grid-block">
+                    
+                    	                        	                    		<h2 id="Details" class="tab-h">Understanding SEBLOD.</h2>
+    		            	<p class="tab-pc">Take control of Joomla! with the most flexible extension ever made!</p>
+                            				
+    					<div class="grid-box cck-w50 grid-h">
+    						<div class="module text">
+    						
+    							<h3 class="tab-h">A Layer on top of Joomla!</h3>
+    							<p class="tab-pl">Extend core Joomla objects such as Article, Category, User, User Group, User Note or any other 3rd-party components.<br /><br />Choose precisely which fields to show/hide for all your back-end forms, front-end forms, search forms, and list views..<br /><br />Best of all SEBLOD integrates seamlessly into Joomla CMS, so no more hacky compromises!</p>
+    							
+    						</div>
+    					</div>
+    					
+    					<div class="grid-box cck-w50 grid-h">
+    						<div class="module fading-hover">
+    						
+    							    							<div class="upload up-r">
+                                	<div class="fading">
+    								<img class="resp" src="/images/page_app/1/form-joomla-article.png" alt="A Layer on top of Joomla!" />
+                                    </div>
+    								    							</div>
+    							    							
+    						</div>
+    					</div>
+    						   
+    				</section>
+    				
+    			</div>
+    		</div>
+        		<div id="product-other1" class="product-other">      
+    			<div class="wrapper">
+    				
+    				<section id="tab-4" class="grid-block">
+                    
+                    	    				
+    					<div class="grid-box cck-w50 grid-h grid-r">
+    						<div class="module text">
+    						
+    							<h3 class="tab-h">THE Content Construction Kit</h3>
+    							<p class="tab-pl">Rethink the way you build Joomla sites and online apps, by using a single component for all your web developments.<br /><br />Create content types and forms with your own set of custom fields... in order to manage any kind of content such as: Blog Post, Event, Media, Place, etc.<br /><br />Build great interfaces perfectly tailored for end-users.</p>
+    							
+    						</div>
+    					</div>
+    					
+    					<div class="grid-box cck-w50 grid-h">
+    						<div class="module fading-hover">
+    						
+    							    							<div class="upload">
+                                	<div class="fading">
+    								<img class="resp" src="/images/page_app/1/seblod-application-builder.png" alt="THE Content Construction Kit" />
+                                    </div>
+    								    							</div>
+    							    							
+    						</div>
+    					</div>
+    						   
+    				</section>
+    				
+    			</div>
+    		</div>
+        		<div id="product-other2" class="product-other tab-bg">      
+    			<div class="wrapper">
+    				
+    				<section id="tab-5" class="grid-block">
+                    
+                    	    				
+    					<div class="grid-box cck-w50 grid-h">
+    						<div class="module text">
+    						
+    							<h3 class="tab-h">Drag & Drop Templating</h3>
+    							<p class="tab-pl">Control the display of any SEBLOD-based content while your clients focus on filling custom-built and user-friendly forms.<br /><br />Drag and drop your fields in order to set up professional layouts and list views such as Blogs, Charts, Maps, Tables..<br /><br />Use our ready-to-use templates or develop your own ones.</p>
+    							
+    						</div>
+    					</div>
+    					
+    					<div class="grid-box cck-w50 grid-h">
+    						<div class="module fading-hover">
+    						
+    							    							<div class="upload up-r">
+                                	<div class="fading">
+    								<img class="resp" src="/images/page_app/1/search-list-template.png" alt="Drag & Drop Templating" />
+                                    </div>
+    								    							</div>
+    							    							
+    						</div>
+    					</div>
+    						   
+    				</section>
+    				
+    			</div>
+    		</div>
+        		<div id="product-other3" class="product-other">      
+    			<div class="wrapper">
+    				
+    				<section id="tab-6" class="grid-block">
+                    
+                    	    				
+    					<div class="grid-box cck-w50 grid-h grid-r">
+    						<div class="module text">
+    						
+    							<h3 class="tab-h">Application Builder for Joomla!</h3>
+    							<p class="tab-pl">Build online apps the way your business' needs require it.<br />Much more than just a CCK, SEBLOD is a Web App Builder.<br /><br />Create complex forms using live values, conditional states, computation rules, custom scripts, triggers, access levels, restrictions, web services and more..<br /><br />Package and reuse your SEBLOD apps on all your websites.</p>
+    							
+    						</div>
+    					</div>
+    					
+    					<div class="grid-box cck-w50 grid-h">
+    						<div class="module fading-hover">
+    						
+    							    							<div class="upload">
+                                	<div class="fading">
+    								<img class="resp" src="/images/page_app/1/application-builder-for-joomla.png" alt="Application Builder for Joomla!" />
+                                    </div>
+    								    							</div>
+    							    							
+    						</div>
+    					</div>
+    						   
+    				</section>
+    				
+    			</div>
+    		</div>
+    
+    
+
+    
+    
+    		</div>
+
+		
+		
+			
+	</article>
+
+</div></section>
+                                    
+                </div>
+                
+            </div>
+        </div>
+            
+        
+        
+    
+    
+	
+		<div id="block-footer">        
+		<footer id="footer">
+            <div id="block-footer-top"><div class="wrapper">
+                
+                                <div id="footer-abc" class="grid-block">
+                
+                                        <div id="footer-ab" class="grid-box">
+                        <div id="foot-a" class="grid-block"><div class="grid-box width25 grid-h"><div class="module mod-foot  deepest">
+
+		<h4 class="module-title">Common</h4>	<ul class="menu menu-foot"><li class="level1 item841"><a href="/about" class="level1"><span>About</span></a></li><li class="level1 item695"><a href="/changelogs" class="level1"><span>Changelogs</span></a></li><li class="level1 item188"><a href="/faq" class="level1"><span>FAQs</span></a></li><li class="level1 item693"><a href="/features" class="level1"><span>Features</span></a></li><li class="level1 item696"><a href="/newsletters" class="level1"><span>Newsletters</span></a></li><li class="level1 item694"><a href="/terminology" class="level1"><span>Terminology</span></a></li></ul>		
+</div></div><div class="grid-box width25 grid-h"><div class="module mod-foot  deepest">
+
+		<h4 class="module-title">Community</h4>	<ul class="menu menu-foot"><li class="level1 item192"><a href="/community/blog" class="level1"><span>Blog</span></a></li><li class="level1 item193"><a href="/community/events" class="level1"><span>Events</span></a></li><li class="level1 item194"><a href="/community/forums" class="level1"><span>Forums</span></a></li><li class="level1 item195"><a href="/community/showcase" class="level1"><span>Showcase</span></a></li><li class="level1 item365"><a href="/community/testimonials" class="level1"><span>Testimonials</span></a></li><li class="level1 item276"><a href="/community/users" class="level1"><span>Users</span></a></li></ul>		
+</div></div><div class="grid-box width25 grid-h"><div class="module mod-foot  deepest">
+
+		<h4 class="module-title">Store</h4>	<ul class="menu menu-foot"><li class="level1 item838"><a href="/store/clubs" class="level1"><span>Clubs</span></a></li><li class="level1 item839"><a href="/store/extensions" class="level1"><span>Extensions</span></a></li><li class="level1 item840"><a href="/store/services" class="level1"><span>Services</span></a></li></ul>		
+</div></div><div class="grid-box width25 grid-h"><div class="module mod-foot  deepest">
+
+		<h4 class="module-title">Resources</h4>	<ul class="menu menu-foot"><li class="level1 item692"><a href="/resources/books" class="level1"><span>Books</span></a></li><li class="level1 item857"><a href="/resources/extensions" class="level1"><span>Extensions</span></a></li><li class="level1 item306"><a href="/resources/manuals" class="level1"><span>Manuals</span></a></li><li class="level1 item189"><a href="/resources/marketing" class="level1"><span>Marketing</span></a></li><li class="level1 item190"><a href="/resources/tracker" class="level1"><span>Tracker</span></a></li><li class="level1 item191"><a href="/resources/tutorials" class="level1"><span>Tutorials</span></a></li><li class="level1 item366"><a href="/resources/videos" class="level1"><span>Videos</span></a></li></ul>		
+</div></div></div>
+                    </div>
+                                        
+                                        <aside id="foot-c" class="grid-box"><div class="grid-box width100 grid-v"><div class="module mod-foot about-us deepest">
+
+		<h4 class="module-title">About Us</h4>	
+<ul class="menu menu-foot">
+<li><a class="level1" href="/contact">Contact Us</a></li>
+<li><a class="level1" href="/google" target="_blank" rel="nofollow">Follow Us on Google</a></li>
+<li><a class="level1" href="/twitter" target="_blank" rel="nofollow">Follow Us on Twitter</a></li>
+<li><a class="level1" href="/facebook" target="_blank" rel="nofollow">Like Us on Facebook</a></li>
+<li><a class="level1" href="/github" target="_blank" rel="nofollow">Star Us on GitHub</a></li>
+<li><a class="level1" href="/community/users/octopoos-team">Meet our Team</a></li>
+</ul>		
+</div></div></aside>
+                                    
+                </div>
+                                
+                
+                                <div id="foot-d" class="grid-block"><div class="grid-box width100 grid-h"><div class="module mod-twitter  deepest">
+	<div class="twitter-speaker"></div>
+	<h4 class="module-title">Our customers says:</h4>	
+<p> </p>
+		<div class="moduletable">
+						<div class="cck_module_list">
+<div><ul>
+<li><blockquote class="text-center">I teach, and develop, many Joomla! web sites. Over the years I have matched the appropriate CCK with the clients needs. SEBLOD is quickly becoming my number one choice. The ability to grow the site with the client, integrate seamlessly with the Joomla core, and build applications makes SEBLOD a must have for all my new clients. It is not as easy to learn, so know it will take a little bit of time. For it's many capabilities however, it is not difficult either. If you can think it, SEBLOD can do it.</blockquote></li></ul>
+</div></div>
+		</div>
+	
+<p> </p>
+<p style="text-align: right;"><a href="/community/testimonials">Testimonials</a></p>		
+</div></div></div>
+                                        
+				                
+                                <a id="totop-scroller" href="https://www.seblod.com/#page"><span class="icon-arrow-up icon-small"></span></a>
+                                
+    		</div></div>
+            
+        	<div id="block-footer-bottom"><div class="wrapper">
+                <div class="module text-center text-center deepest">
+
+			<ul class="menu menu-line"><li class="level1 item290"><a href="/acceptable-use-policy" class="level1"><span>Acceptable Use Policy</span></a></li><li class="level1 item689"><a href="/legal-information" class="level1"><span>Legal Information</span></a></li><li class="level1 item311"><a href="/seblod-licenses" class="level1"><span>Licenses</span></a></li><li class="level1 item291"><a href="/privacy-policy" class="level1"><span>Privacy Policy</span></a></li><li class="level1 item203"><a href="/sitemap" class="level1"><span>Site Map</span></a></li></ul>		
+</div><p class="copyright joomla">SEBLOD by Octopoos is not affiliated with or endorsed by the Joomla Project or Open Source Matters.<br /> The Joomla logo is used under a limited license granted by Open Source Matters the trademark holder in the United States and other countries.</p><p class="copyright">Copyright © 2008-2017&nbsp;<a href="http://www.octopoos.com" title="Octopoos Company Website." target="_blank">Octopoos</a>. All rights reserved.</p>            </div></div>
+            
+		</footer>		
+	</div>
+		
+</div>
+</body>
+</html>

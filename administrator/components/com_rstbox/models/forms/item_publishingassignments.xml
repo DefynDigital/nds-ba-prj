@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fieldset name="publishingAssignments" addfieldpath="plugins/system/nrframework/fields">
+        <field name="assignmentMatchingMethod" type="radio" 
+            label="NR_ASSIGN_MATCHING_METHOD" 
+            description="NR_ASSIGN_MATCHING_METHOD_DESC" 
+            class="btn-group" 
+            default="and">
+                <option value="and">JALL</option>
+                <option value="or">NR_ANY</option>
+        </field>
+        <field name="assign_menu" type="assignmentselection" label="NR_MENU_ITEMS"/>
+        <field name="assign_menu_list" type="nrmenuitems"
+            multiple="true" 
+            label="NR_SELECTION" 
+            description="NR_MENU_ITEMS_DESC" 
+        />
+        <field name="assign_menu_param_noitem" type="radio" 
+            label="NR_ASSIGN_MENU_NOITEM" 
+            description="NR_ASSIGN_MENU_NOITEM_DESC" 
+            class="btn-group" 
+            filter="intval" 
+            size="1" 
+            default="0">
+                <option value="0">JNO</option>
+                <option value="1">JYES</option>
+        </field>
+        <field name="assign_contentcats" type="assignmentselection" label="NR_CATEGORIES" />
+        <field name="assign_contentcats_list" type="nr_content" 
+            group="categories" 
+            multiple="true" 
+            default=""
+            label="NR_SELECTION" 
+            description="NR_CATEGORIES_DESC" />
+        <field name="assign_contentcats_param_inc_children"
+            type="radio"
+            class="btn-group btn-group-yesno"
+            default="0"
+            label="NR_ALSO_ON_CHILD_ITEMS"
+            description="NR_ALSO_ON_CHILD_ITEMS_DESC">
+            <option value="0">JNO</option>
+            <option value="1">JYES</option>
+            <option value="2">NR_ONLY</option>
+        </field>
+        <field name="assign_contentcats_param_inc" 
+            type="list" 
+            multiple="true"
+            default="inc_articles" 
+            label="NR_PAGE_TYPES" 
+            description="NR_PAGE_TYPES_DESC">
+            <option value="inc_categories">NR_CATEGORIES</option>
+            <option value="inc_articles">NR_ARTICLES</option>
+        </field>
+        <field name="assign_contentarticles" type="assignmentselection" label="NR_ARTICLES" />
+        <field name="assign_contentarticles_list" type="nr_content" 
+            group="items"
+            multiple="true" 
+            default=""
+            label="NR_SELECTION" 
+            description="NR_ARTICLES_DESC" />
+        <field name="assign_datetime" type="assignmentselection" label="NR_DATETIME"/>
+        <field name="assign_datetime_param_publish_up" type="calendar" filter="user_utc" format="%Y-%m-%d %H:%M" default="0000-00-00 00:00" label="NR_START_PUBLISHING" description="NR_START_PUBLISHING_DESC" />
+        <field name="assign_datetime_param_publish_down" type="calendar" filter="user_utc" format="%Y-%m-%d %H:%M" default="0000-00-00 00:00" label="NR_FINISH_PUBLISHING" description="NR_FINISH_PUBLISHING_DESC" />
+        <field name="assign_datetime_note" type="note" class="well-note" description="NR_DATETIME_NOTE" />
+        <field name="assign_usergroups" type="assignmentselection" label="NR_ACCESSLEVEL"/>
+        <field 
+            name="assign_usergroups_list" type="nrgrouplevel" 
+            multiple="true"
+            label="NR_SELECTION" 
+            description="NR_ACCESSLEVEL_DESC"
+        />
+        <field name="assign_devices" type="assignmentselection" label="NR_ASSIGN_DEVICES"/>
+        <field name="assign_devices_list" type="list" 
+            label="NR_SELECTION" 
+            description="NR_ASSIGN_DEVICES_DESC" 
+            multiple="multiple">
+            <option value="desktop">NR_DESKTOPS</option>
+            <option value="mobile">NR_MOBILES</option>
+            <option value="tablet">NR_TABLETS</option>
+        </field>
+        <field name="assign_devices_note" type="note" class="well-note" description="NR_ASSIGN_DEVICES_NOTE" />
+
+        <field name="assign_urls" type="assignmentselection" label="NR_ASSIGN_URLS"/>
+        <field name="assign_urls_list" type="textarea" 
+            label="NR_ASSIGN_URLS_LIST" 
+            description="NR_ASSIGN_URLS_DESC"
+            class="span-12"
+            rows="5"
+        />
+        <field name="assign_urls_param_regex" type="radio" 
+            label="NR_ASSIGN_URLS_REGEX" 
+            description="NR_ASSIGN_URLS_REGEX_DESC" 
+            class="btn-group" 
+            filter="intval" 
+            size="1" 
+            default="0">
+                <option value="1">JYES</option>
+                <option value="0">JNO</option>
+        </field>
+
+        <field name="assign_referrer" type="assignmentselection" label="NR_ASSIGN_REFERRER"/>
+        <field name="assign_referrer_list" type="textarea" 
+            label="NR_ASSIGN_REFERRER_LIST" 
+            description="NR_ASSIGN_REFERRER_DESC"
+            class="span-12"
+            rows="5"
+        />
+        <field name="assign_referrer_note" type="note" class="well-note" description="NR_ASSIGN_REFERRER_NOTE" />
+
+        <field name="assign_lang" type="assignmentselection" label="NR_ASSIGN_LANGS"/>
+        <field name="assign_lang_list" type="contentlanguage" 
+            label="NR_SELECTION" 
+            description="NR_ASSIGN_LANGS_LIST_DESC" 
+            multiple="multiple"
+        />
+
+        <field name="assign_timeonsite" type="assignmentselection" label="NR_ASSIGN_TIMEONSITE"/>
+        <field name="assign_timeonsite_list" type="text" 
+            label="NR_SECONDS" 
+            description="NR_ASSIGN_TIMEONSITE_DESC"
+            filter="intval"
+        /> 
+
+        <field name="assign_akeebasubs" type="assignmentselection" label="NR_AKEEBASUBS"/>
+        <field name="assign_akeebasubs_list" type="akeebasubs" 
+            label="NR_AKEEBASUBS_LEVELS" 
+            description="NR_AKEEBASUBS_LEVELS_DESC"
+            multiple="multiple"
+        />
+
+        <field name="assign_acymailing" type="assignmentselection" label="NR_ACYMAILING"/>
+        <field name="assign_acymailing_list" type="acymailing" 
+            label="NR_ACYMAILING_LIST" 
+            description="NR_ACYMAILING_LIST_DESC"
+            multiple="multiple"
+        />
+
+        <field name="assign_convertforms" type="assignmentselection" label="NR_CONVERTFORMS"/>
+        <field name="assign_convertforms_list" type="convertforms" 
+            label="NR_CONVERTFORMS_LIST" 
+            description="NR_CONVERTFORMS_LIST_DESC"
+            multiple="multiple"
+        />
+
+        <field name="assign_php" type="assignmentselection" label="NR_ASSIGN_PHP"/>
+        <field name="assign_php_list" type="textarea" 
+            label="NR_ASSIGN_PHP" 
+            description="NR_ASSIGN_PHP_DESC"
+            filter="raw"
+            class="span-12"
+            rows="5"
+        />
+        <field name="assign_php_note" type="note" class="well-note" description="COM_RSTBOX_ASSIGN_PHP_NOTE" />
+    </fieldset>
+</form>

@@ -1,0 +1,357 @@
+/* ==========================================================================
+   #FORM-ELEMENTS
+   ========================================================================== */
+
+/**
+ * Placeholder
+ */
+::-webkit-input-placeholder {
+   color: inherit;
+   opacity: 0.6;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: inherit;
+   opacity: 0.6;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: inherit;
+   opacity: 0.6;
+}
+
+:-ms-input-placeholder {
+   color: inherit;
+   // opacity: 0.6;
+} 
+
+ input, textarea, .uneditable-input
+ {
+ 	width:100%;
+ }
+
+/*
+ * Text input
+ */
+
+ 
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="tel"],
+input[type="url"],
+input[type="text"],
+input[type="search"],
+textarea, 
+select {
+	display: inline-block;
+	box-sizing: border-box;
+	color: $primary-blue;
+    border-color: $primary-blue;
+     
+    border-width: 1px; 
+    border-style: solid;
+	-webkkit-border-radius: 2px;
+	         border-radius: 2px;
+	padding: 5px 15px;
+	height: 40px;
+	max-width: 100%;
+	background-color: #ffffff;
+	-webkit-transition: background-color 0.2s, color 0.2s;
+	        transition: background-color 0.2s, color 0.2s;
+	-webkit-appearance: none; /* Remove ios text input inner shadow */
+
+	&:focus,
+	.no-touch &:hover {
+		background-color: #F2F5F6;
+	}
+
+	&:focus {
+		outline: 0;
+		box-shadow: 0 0 0 2px #66afe9;
+	}
+
+	@include breakpoint(mobile) {
+		height: 30px;
+		padding: 5px 10px;
+	}
+}
+
+.buyability-form
+{
+	input[type="email"],
+	input[type="number"],
+	input[type="password"],
+	input[type="tel"],
+	input[type="url"],
+	input[type="text"],
+	input[type="search"],
+	textarea, 
+	select
+	{
+		border:1px solid;
+	}
+
+		
+}
+
+textarea {
+	padding: 10px 15px;
+	height: auto;
+	resize: vertical;
+
+	@include breakpoint(mobile) {
+		padding: 7px 10px;
+	}
+}
+
+/**
+ * Select
+ */
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding-right: 35px + 15px;
+    background: url(../images/select-line.png) repeat-y right 35px top,
+				url(../images/select-arrow.png) no-repeat right 11px center;
+	background-color: #fff;
+
+	// Fallback for IE9 and belows
+	.lt-ie10 & {
+		background: #fff;
+		padding-right: 15px;
+    }
+
+    @include breakpoint(mobile) {
+    	padding-right: 30px + 10px;
+    	background: url(../images/select-line.png) repeat-y right 30px top,
+				url(../images/select-arrow.png) no-repeat right 9px center;
+		background-color: #fff;
+		background-size: 1px 1px, 11px auto;
+    }
+}
+
+// Hide default select arrow in IE
+select::-ms-expand {
+    display: none;
+}
+
+select[multiple] {
+    background-image: none;
+    height: auto;
+    padding-right: 15px;
+
+    @include breakpoint(mobile) {
+        padding-right: 10px;
+    }
+}
+
+/**
+ * Checkbox & Radio
+ */
+
+input[type=checkbox],
+input[type=radio] {
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+
+	.lt-ie9 & {
+		position: static;
+		opacity: 1;
+        display: inline;
+	}
+}
+
+input[type=checkbox] + label:before  {
+	width: 33px;
+	height: 33px;
+	border: 1px solid currentColor;
+	border-radius: 2px;
+	background-image: url(../images/checkbox-tick.png);
+
+	@include breakpoint(mobile) {
+		width: 30px;
+		height: 30px;
+		background-size: 16px auto;
+	}
+}
+
+#form-login-remember
+{
+		.checkbox
+		{
+
+			label
+			{
+				padding-left:0px;
+				
+			}
+			input[type=checkbox]
+			{
+			width: 30px;
+			height: 30px;
+			border: 1px solid currentColor;
+			border-radius: 2px;
+			background-image: url(../images/checkbox-tick.png);
+			opacity: 1;
+			vertical-align:middle;
+			    margin-right: 10px;
+
+			@include breakpoint(mobile) {
+				width: 30px;
+				height: 30px;
+				background-size: 16px auto;
+				}
+			}
+
+			 
+		}
+}
+
+
+
+
+input[type=radio] + label:before {
+	width: 28px;
+	height: 28px;
+	border-radius: 14px;
+	background-image: url(../images/radio-circle.gif);
+}
+
+input[type=checkbox] + label:before,
+input[type=radio] + label:before {
+	box-sizing: border-box;
+	display: inline-block;
+	vertical-align: middle;
+	content: '';
+	margin-right: 0.9em;
+	color: $primary-blue;
+	border: 1px solid currentColor;
+	background-color: #fff;
+	background-repeat: no-repeat;
+	background-position: 50% -200%;
+	-webkit-transition: background-color 0.2s;
+	        transition: background-color 0.2s;
+
+ 
+}
+
+input[type=checkbox]:checked + label:before,
+input[type=radio]:checked + label:before {
+	background-position: 50% 50%;
+}
+
+input[type=checkbox]:focus + label:before,
+input[type=radio]:focus + label:before,
+.no-touch input[type=checkbox] + label:hover:before,
+.no-touch input[type=radio] + label:hover:before {
+	background-color: #F2F5F6;
+}
+
+input[type=checkbox]:focus + label:before,
+input[type=radio]:focus + label:before {
+	outline: 0;
+	box-shadow: 0 0 0 2px #66afe9;
+}
+
+ 
+
+
+
+/* contact us submit button */
+
+button.rsform-submit-button
+{
+		background-color: $primary-blue;
+    border: none;
+    min-height: 40px;
+    width: 230px;
+    text-transform: uppercase;
+    font-size: 18px;
+    color:$primary-white;
+
+    &:hover
+    {
+    	color:$primary-yellow;
+    }
+}
+
+
+.buyability-forms
+{
+	input
+	{
+		margin:10px 0px;
+	}
+}
+
+
+.slide-login-module
+{
+
+		
+		a.rstbox-close
+			{
+				color:$primary-white !important;
+				font-family:$header-font !important;
+				padding:18px 0px !important;
+				font-size: 45px !important;
+				text-align:center;
+				height: 45px !important;
+    			width: 45px !important;
+				border:2px solid $primary-white;
+				border-radius:50%;
+				margin:0px !important;
+				background-color: transparent !important;
+
+
+
+					@include breakpoint(tablet_max)
+					 {
+					 	margin:15px 60px !important;
+					 }
+				
+
+			}
+
+
+	.rstbox-container
+	{
+			
+
+
+			.rstbox-heading
+			{
+				text-transform:uppercase;
+			}
+			.rstbox-content
+			{
+
+				#form-login-submit
+				{
+						.btn-primary
+						{
+							 		background-color:$primary-red;
+									border:none;
+									padding :10px 40px;
+									color:$primary-white;
+						}
+				}
+
+
+
+
+			}
+	}
+
+	
+}
+
+
+.moduletableshare-your-stories
+{
+	
+}

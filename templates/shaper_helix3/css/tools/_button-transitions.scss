@@ -1,0 +1,203 @@
+/* all the button transition style goes here */
+
+/* styling for all the buttons goes here */
+.initial-ba-btn-container {
+    display: inline-block;
+    perspective: 1060px; 
+    width: 100%;
+    text-align:center;
+}
+
+.initial-ba-btn {
+    cursor: pointer;
+    font-family: $primary-font;
+     
+    font-style: normal;
+    font-weight: normal;
+    height: 64px;
+    line-height: 1.364;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    text-align: center;
+    transform-style: preserve-3d;
+    transition-delay: 0s;
+    transition-duration: 0.255s;
+    transition-property: all;
+    transition-timing-function: ease;
+    width: 230px;
+}
+
+.ba-btn--white .ba-default-state {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: #ffffff;
+    background-image: none;
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: auto auto;
+    border-bottom-color: #cc0033;
+    border-left-color: #cc0033;
+    border-right-color: #cc0033;
+    border-top-color: #cc0033;
+    color: #cc0033;
+}
+.ba-default-state {
+    transform: translateZ(32px);
+}
+.ba-default-state, .ba-active-state {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-bottom-style: solid;
+    border-bottom-width: 4px;
+    border-image-outset: 0 0 0 0;
+    border-image-repeat: stretch stretch;
+    border-image-slice: 100% 100% 100% 100%;
+    border-image-source: none;
+    border-image-width: 1 1 1 1;
+    border-left-style: solid;
+    border-left-width: 4px;
+    border-right-style: solid;
+    border-right-width: 4px;
+    border-top-style: solid;
+    border-top-width: 4px;
+    box-sizing: border-box;
+    height: 64px;
+    line-height: 56px;
+    transition-delay: 0s;
+    transition-duration: 0.255s;
+    transition-property: background;
+    transition-timing-function: ease;
+}
+
+.ba-btn--white .ba-active-state {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: #cc0033;
+    background-image: none;
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: auto auto;
+    border-bottom-color: #cc0033;
+    border-left-color: #cc0033;
+    border-right-color: #cc0033;
+    border-top-color: #cc0033;
+    color: $primary-white;
+}
+.ba-active-state {
+    transform: rotateX(-90deg) translateZ(-32px);
+}
+.ba-default-state, .ba-active-state {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-bottom-style: solid;
+    border-bottom-width: 4px;
+    border-image-outset: 0 0 0 0;
+    border-image-repeat: stretch stretch;
+    border-image-slice: 100% 100% 100% 100%;
+    border-image-source: none;
+    border-image-width: 1 1 1 1;
+    border-left-style: solid;
+    border-left-width: 4px;
+    border-right-style: solid;
+    border-right-width: 4px;
+    border-top-style: solid;
+    border-top-width: 4px;
+    box-sizing: border-box;
+    height: 64px;
+    line-height: 56px;
+    transition-delay: 0s;
+    transition-duration: 0.255s;
+    transition-property: background;
+    transition-timing-function: ease;
+    text-decoration:none;
+}
+
+
+.ba-btn a {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+a {
+    color: inherit;
+    text-decoration-color: -moz-use-text-color;
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    transition-delay: 0s;
+    transition-duration: 0.2s;
+    transition-property: color;
+    transition-timing-function: ease;
+    text-decoration:none;
+}
+a {
+    background-color: transparent;
+}
+
+.ba-btn:hover, .ba-btn.ba-active-btn {
+    transform: rotateX(89deg);
+ 
+}
+
+
+
+.ba-default-state-blue
+{
+    @extend .ba-default-state;
+    border:4px solid $primary-blue;
+    color:$primary-blue;
+    font-size:16px;
+}
+
+.ba-active-state-blue
+{
+    @extend .ba-active-state;
+    background-color:$primary-blue;
+    border:4px solid $primary-blue; 
+}
+                            
+
+.ba-default-state-purple
+{
+    @extend .ba-default-state;
+    border:4px solid $primary-purple;
+    color:$primary-purple;
+    font-size:16px;
+}
+
+.ba-active-state-purple
+{
+    @extend .ba-active-state;
+    background-color:$primary-purple;
+    border:4px solid $primary-purple; 
+}
+
+
+.ba-default-state-red
+{
+    @extend .ba-default-state;
+    border:4px solid $primary-red;
+    color:$primary-red;
+    font-size:16px;
+}
+
+.ba-active-state-red
+{
+    @extend .ba-active-state;
+    background-color:$primary-red;
+    border:4px solid $primary-red; 
+}
+
+.ba-active-state-a
+{
+    color:$primary-white;
+    text-decoration:none;
+    font-size:16px;
+}

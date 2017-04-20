@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fieldset name="social2">
+        <field name="socialtext" type="editor" 
+            filter="raw" 
+            label="COM_RSTBOX_TEXT" 
+            description="COM_RSTBOX_TEXT_DESC"
+            buttons="true"
+        />
+    </fieldset>
+    <fieldset name="social">
+        <field name="socialplugin" type="groupedlist"
+            default="facebook" 
+            label="COM_RSTBOX_SOCIAL_PLUGIN" 
+            description="COM_RSTBOX_SOCIAL_PLUGIN_DESC">
+                <group label="Facebook">
+                    <option value="fbpagelike">Facebook Page Like</option>
+                    <option value="fbpost">Facebook Post</option>
+                </group>
+                <group label="Twitter">
+                    <option value="twfollow">Twitter Follow Button</option>
+                </group>
+        </field>
+        <field name="social_tw_hanbdle" type="text"
+            label="COM_RSTBOX_SOCIAL_TW_HANDLE"
+            showon="socialplugin:twfollow"
+            description="COM_RSTBOX_SOCIAL_TW_HANDLE_DESC"
+            hint="@twitterhandle"
+        />
+        <field name="social_tw_largebutton" type="radio"
+            default="1" 
+            showon="socialplugin:twfollow"
+            class="btn-group btn-group-yesno" 
+            label="COM_RSTBOX_SOCIAL_TW_LARGE_BUTTON"
+            description="COM_RSTBOX_SOCIAL_TW_LARGE_BUTTON_DESC">
+            <option value="1">JYES</option>
+            <option value="0">JNO</option>
+        </field>
+        <field name="social_tw_showusername" type="radio"
+            default="1" 
+            showon="socialplugin:twfollow"
+            class="btn-group btn-group-yesno" 
+            label="COM_RSTBOX_SOCIAL_TW_SHOW_USERNAME"
+            description="COM_RSTBOX_SOCIAL_TW_SHOW_USERNAME_DESC">
+            <option value="1">JYES</option>
+            <option value="0">JNO</option>
+        </field>
+        <field name="social_tw_count" type="radio"
+            default="1" 
+            showon="socialplugin:twfollow"
+            class="btn-group btn-group-yesno" 
+            label="COM_RSTBOX_SOCIAL_TW_COUNT"
+            description="COM_RSTBOX_SOCIAL_TW_COUNT_DESC">
+            <option value="1">JYES</option>
+            <option value="0">JNO</option>
+        </field>
+        <field name="socialurl" type="URL"
+            label="COM_RSTBOX_SOCIAL_FB_URL"
+            showon="socialplugin:fbpagelike"
+            description="COM_RSTBOX_SOCIAL_FB_URL_DESC"
+            hint="https://www.facebook.com/"
+            class="input-xlarge"
+        />
+        <field name="social_fb_post_url" type="URL"
+            label="COM_RSTBOX_SOCIAL_FB_POST_URL"
+            showon="socialplugin:fbpost"
+            description="COM_RSTBOX_SOCIAL_FB_POST_URL_DESC"
+            class="input-xlarge"
+            hint="https://www.facebook.com/"
+        />
+        <field name="fbtabs" type="list"
+            label="COM_RSTBOX_SOCIAL_FB_TABS"
+            description="COM_RSTBOX_SOCIAL_FB_TABS_DESC"
+            showon="socialplugin:fbpagelike"
+            multiple="multiple">
+            <option value="timeline">Timeline</option>
+            <option value="messages">Messages</option>
+            <option value="events">Events</option>
+        </field>
+        <field name="fbhidecover" type="radio"
+            default="0" 
+            showon="socialplugin:fbpagelike"
+            class="btn-group btn-group-yesno" 
+            label="COM_RSTBOX_SOCIAL_FB_HIDE_COVER"
+            description="COM_RSTBOX_SOCIAL_FB_HIDE_COVER_DESC">
+            <option value="1">JYES</option>
+            <option value="0">JNO</option>
+        </field>
+        <field name="fbsmallheader" type="radio" 
+            default="0" 
+            showon="socialplugin:fbpagelike"
+            class="btn-group btn-group-yesno" 
+            label="COM_RSTBOX_SOCIAL_FB_SMALL_HEADER"
+            description="COM_RSTBOX_SOCIAL_FB_SMALL_HEADER_DESC">
+            <option value="1">JYES</option>
+            <option value="0">JNO</option>
+        </field>
+        <field name="fbfacepile" type="radio"
+            default="1" 
+            showon="socialplugin:fbpagelike"
+            class="btn-group btn-group-yesno" 
+            label="COM_RSTBOX_SOCIAL_FB_FACEPILE"
+            description="COM_RSTBOX_SOCIAL_FB_FACEPILE_DESC">
+            <option value="1">JYES</option>
+            <option value="0">JNO</option>
+        </field>
+        <field name="socialwidth" type="combo" 
+            class="input-mini"
+            showon="socialplugin:fbpagelike,fbpost"
+            description="NR_WIDTH_DESC"
+            label="NR_WIDTH">
+            <option value="200px">200px</option>
+            <option value="500px">500px</option>
+        </field>
+        <field name="socialheight" type="combo" 
+            class="input-mini"
+            showon="socialplugin:fbpagelike" 
+            label="NR_HEIGHT"
+            description="NR_HEIGHT_DESC">
+            <option value="200px">200px</option>
+            <option value="500px">500px</option>
+        </field>
+        <field type="spacer" name="social-1" hr="true" />
+        <field name="sociallang" type="list"
+            default="auto" 
+            showon="socialplugin:fbpagelike,fbpost"
+            class="btn-group btn-group-yesno" 
+            label="COM_RSTBOX_SOCIAL_LANG"
+            description="COM_RSTBOX_SOCIAL_LANG_DESC">
+            <option value="auto">Auto</option>
+            <option value="en_US">English</option>
+        </field>
+        <field name="async" type="list" 
+            label="COM_RSTBOX_ASYNC"
+            default="afterOpen"
+            description="COM_RSTBOX_ASYNC_DESC">
+                <option value="dom">Disable</option>
+                <option value="beforeOpen">Before Box Open</option>
+                <option value="afterOpen">After Box Open</option>
+                <option value="pageLoad">on Page Load</option>
+        </field>
+    </fieldset>
+</form>

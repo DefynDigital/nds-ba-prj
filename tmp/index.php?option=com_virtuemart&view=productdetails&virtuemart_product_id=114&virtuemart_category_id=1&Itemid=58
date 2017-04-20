@@ -1,0 +1,1130 @@
+<!DOCTYPE HTML>
+<html lang="en-gb" dir="ltr"  data-config='{"twitter":0,"plusone":0,"facebook":0,"style":"nordmo"}'>
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="layout,design" />
+	<meta name="rights" content="Copyright Adrien ROUSSEL - Nordmograph.com" />
+	<meta name="title" content="Flexible Odometer Counter module for Joomla" />
+	<meta name="description" content="Flexible Odometer Counter module for Joomla Other Joomla Extensions Create a nice animated (Javascript) counter for any Joomla data. " />
+	<meta name="generator" content="Joomla! - Open Source Content Management" />
+	<title>Other Joomla Extensions : Flexible Odometer Counter module for Joomla</title>
+	<link href="https://www.nordmograph.com/extensions/index.php?option=com_virtuemart&amp;view=productdetails&amp;virtuemart_product_id=114&amp;virtuemart_category_id=1&amp;Itemid=58" rel="canonical" />
+	<link href="https://www.nordmograph.com/extensions/index.php?option=com_search&amp;view=productdetails&amp;virtuemart_product_id=114&amp;virtuemart_category_id=1&amp;Itemid=58&amp;format=opensearch" rel="search" title="Search Nordmograph - Joomla extensions" type="application/opensearchdescription+xml" />
+	<link href="/extensions/templates/yoo_avion/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+	<link rel="stylesheet" href="https://www.nordmograph.com/extensions/plugins/system/miniloadingbar/themes/minimal.css" type="text/css" />
+	<link rel="stylesheet" href="/extensions/components/com_virtuemart/assets/css/vm-ltr-common.css?vmver=9293" type="text/css" />
+	<link rel="stylesheet" href="/extensions/components/com_virtuemart/assets/css/vm-ltr-site.css?vmver=9293" type="text/css" />
+	<link rel="stylesheet" href="/extensions/components/com_virtuemart/assets/css/vm-ltr-reviews.css?vmver=9293" type="text/css" />
+	<link rel="stylesheet" href="https://www.nordmograph.com/extensions/plugins/vmcustom/jextension/css/style.css" type="text/css" />
+	<link rel="stylesheet" href="https://www.nordmograph.com/extensions/plugins/content/vm2hits/css/style.css" type="text/css" />
+	<link rel="stylesheet" href="https://www.nordmograph.com/extensions/plugins/content/vm2sellscount/css/odometer-theme-minimal.css" type="text/css" />
+	<link rel="stylesheet" href="https://www.nordmograph.com/extensions/components/com_vm2tags/assets/css/fontello.css" type="text/css" />
+	<link rel="stylesheet" href="https://www.nordmograph.com/extensions/plugins/content/vm2tags/css/style.css" type="text/css" />
+	<link rel="stylesheet" href="https://www.nordmograph.com/extensions/plugins/content/vm2wishlists/css/style.css" type="text/css" />
+	<link rel="stylesheet" href="https://www.nordmograph.com/extensions/components/com_vm2wishlists/assets/css/fontello.css" type="text/css" />
+	<link rel="stylesheet" href="/extensions/media/template/gzip.php?modal-4152b574.css" type="text/css" />
+	<link rel="stylesheet" href="https://www.nordmograph.com/extensions/plugins/content/vm2share/css/style.css" type="text/css" />
+	<link rel="stylesheet" href="/extensions/components/com_virtuemart/assets/css/jquery.fancybox-1.3.4.css?vmver=9293" type="text/css" />
+	<link rel="stylesheet" href="https://www.nordmograph.com/extensions/modules/mod_supportisonline/css/fontello.css" type="text/css" />
+	<link rel="stylesheet" href="https://www.nordmograph.com/extensions/modules/mod_supportisonline/css/style.css" type="text/css" />
+	<link rel="stylesheet" href="https://www.nordmograph.com/extensions/components/com_comprofiler/plugin/templates/default/bootstrap.css?v=fb8d323743ff492a" type="text/css" />
+	<link rel="stylesheet" href="https://www.nordmograph.com/extensions/components/com_comprofiler/plugin/templates/default/fontawesome.css?v=fb8d323743ff492a" type="text/css" />
+	<link rel="stylesheet" href="https://www.nordmograph.com/extensions/components/com_comprofiler/plugin/templates/default/template.css?v=fb8d323743ff492a" type="text/css" />
+	<link rel="stylesheet" href="https://www.nordmograph.com/extensions/modules/mod_vm2wishlists_mylists/css/style.css" type="text/css" />
+	<link rel="stylesheet" href="/extensions/modules/mod_jbcookies/assets/css/jbcookies.css" type="text/css" />
+	<link rel="stylesheet" href="/extensions/media/mod_pwebcontact/css/bootstrap.css" type="text/css" />
+	<link rel="stylesheet" href="/extensions/media/mod_pwebcontact/css/layout.css" type="text/css" />
+	<link rel="stylesheet" href="/extensions/media/mod_pwebcontact/css/animations.css" type="text/css" />
+	<link rel="stylesheet" href="/extensions/media/mod_pwebcontact/css/background/white.css" type="text/css" />
+	<link rel="stylesheet" href="/extensions/media/mod_pwebcontact/css/form/blue.css" type="text/css" />
+	<link rel="stylesheet" href="/extensions/media/mod_pwebcontact/css/toggler/gray.css" type="text/css" />
+	<link rel="stylesheet" href="/extensions/cache/mod_pwebcontact/7af30ed452ac191c1e29f1dc800caa33.css" type="text/css" />
+	<script src="https://www.nordmograph.com/extensions/plugins/system/miniloadingbar/js/pace.min.js" type="text/javascript"></script>
+	<script src="/extensions/media/template/gzip.php?jquery.min-6ff96aaa.js" type="text/javascript"></script>
+	<script src="/extensions/media/template/gzip.php?jquery-noconflict-35b455b5.js" type="text/javascript"></script>
+	<script src="/extensions/media/template/gzip.php?jquery-migrate.min-edc39364.js" type="text/javascript"></script>
+	<script src="/extensions/media/template/gzip.php?bootstrap.min-509e9c39.js" type="text/javascript"></script>
+	<script src="https://www.nordmograph.com/extensions/components/com_vm2wishlists/assets/js/jquery.vm2w.js" type="text/javascript"></script>
+	<script src="/extensions/media/template/gzip.php?mootools-core-e9f5fe09.js" type="text/javascript"></script>
+	<script src="/extensions/media/template/gzip.php?core-633d765e.js" type="text/javascript"></script>
+	<script src="/extensions/media/template/gzip.php?mootools-more-c2fa8338.js" type="text/javascript"></script>
+	<script src="/extensions/media/template/gzip.php?modal-3689629a.js" type="text/javascript"></script>
+	<script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
+	<script src="https://apis.google.com/js/plusone.js" type="text/javascript"></script>
+	<script src="//platform.twitter.com/widgets.js" type="text/javascript"></script>
+	<script src="https://www.nordmograph.com/extensions/media/jquery.masonry.min.js" type="text/javascript"></script>
+	<script src="/extensions/components/com_virtuemart/assets/js/jquery-ui.min.js?vmver=1.9.2" type="text/javascript"></script>
+	<script src="/extensions/media/template/gzip.php?jquery.ui.autocomplete.html-c0c5d377.js" type="text/javascript"></script>
+	<script src="/extensions/media/template/gzip.php?jquery.noconflict-490223c6.js" type="text/javascript" async="async"></script>
+	<script src="/extensions/components/com_virtuemart/assets/js/vmsite.js?vmver=9293" type="text/javascript"></script>
+	<script src="/extensions/components/com_virtuemart/assets/js/dynupdate.js?vmver=9293" type="text/javascript"></script>
+	<script src="/extensions/components/com_virtuemart/assets/js/fancybox/jquery.fancybox-1.3.4.pack.js?vmver=9293" type="text/javascript" defer="defer"></script>
+	<script src="/extensions/components/com_virtuemart/assets/js/vmprices.js?vmver=9293" type="text/javascript"></script>
+	<script src="/extensions/modules/mod_virtuemart_cart/assets/js/update_cart.js?vmver=9293" type="text/javascript"></script>
+	<script src="/extensions/media/mod_pwebcontact/js/jquery.validate.min.js?v=1.13.0" type="text/javascript"></script>
+	<script src="/extensions/media/mod_pwebcontact/js/jquery.pwebcontact.min.js?v=3.2.14" type="text/javascript"></script>
+	<script src="/extensions/media/plg_captcha_recaptcha/js/recaptcha.min.js" type="text/javascript"></script>
+	<script src="https://www.google.com/recaptcha/api.js?onload=JoomlaInitReCaptcha2&render=explicit&hl=en-GB" type="text/javascript"></script>
+	<script type="text/javascript">
+jQuery(function($){ $(".hasTooltip").tooltip({"html": true,"container": "body"}); });var VM2W_AJAX_URL = 'https://www.nordmograph.com/extensions/';
+		jQuery(function($) {
+			SqueezeBox.initialize({});
+			SqueezeBox.assign($('a.modal').get(), {
+				parse: 'rel'
+			});
+		});
+
+		window.jModalClose = function () {
+			SqueezeBox.close();
+		};
+		
+		// Add extra modal close functionality for tinyMCE-based editors
+		document.onreadystatechange = function () {
+			if (document.readyState == 'interactive' && typeof tinyMCE != 'undefined' && tinyMCE)
+			{
+				if (typeof window.jModalClose_no_tinyMCE === 'undefined')
+				{	
+					window.jModalClose_no_tinyMCE = typeof(jModalClose) == 'function'  ?  jModalClose  :  false;
+					
+					jModalClose = function () {
+						if (window.jModalClose_no_tinyMCE) window.jModalClose_no_tinyMCE.apply(this, arguments);
+						tinyMCE.activeEditor.windowManager.close();
+					};
+				}
+		
+				if (typeof window.SqueezeBoxClose_no_tinyMCE === 'undefined')
+				{
+					if (typeof(SqueezeBox) == 'undefined')  SqueezeBox = {};
+					window.SqueezeBoxClose_no_tinyMCE = typeof(SqueezeBox.close) == 'function'  ?  SqueezeBox.close  :  false;
+		
+					SqueezeBox.close = function () {
+						if (window.SqueezeBoxClose_no_tinyMCE)  window.SqueezeBoxClose_no_tinyMCE.apply(this, arguments);
+						tinyMCE.activeEditor.windowManager.close();
+					};
+				}
+			}
+		};
+		jQuery(function() { jQuery(jQuery('#vm2wishlists').contents()).appendTo('.spacer-buy-area');});jQuery(function(){
+    jQuery('#masonry_container').imagesLoaded( function(){
+     jQuery('#masonry_container').masonry({
+        itemSelector : '.brick'
+      });
+    });  
+  });if (typeof Virtuemart === "undefined")
+	Virtuemart = {};Virtuemart.vmSiteurl = vmSiteurl = 'https://www.nordmograph.com/extensions/' ;
+Virtuemart.vmLang = vmLang = "&lang=en";
+Virtuemart.vmLangTag = vmLangTag = "en";
+Itemid = '&Itemid=58';
+Virtuemart.addtocart_popup = "1" ; 
+usefancy = true;window.setInterval(function(){var r;try{r=window.XMLHttpRequest?new XMLHttpRequest():new ActiveXObject("Microsoft.XMLHTTP")}catch(e){}if(r){r.open("GET","/extensions/index.php?option=com_ajax&format=json",true);r.send(null)}},3600000);
+		jQuery(function($) {
+			SqueezeBox.initialize({});
+			SqueezeBox.assign($('a.jbcookies').get(), {
+				parse: 'rel'
+			});
+		});
+
+		window.jModalClose = function () {
+			SqueezeBox.close();
+		};
+		
+		// Add extra modal close functionality for tinyMCE-based editors
+		document.onreadystatechange = function () {
+			if (document.readyState == 'interactive' && typeof tinyMCE != 'undefined' && tinyMCE)
+			{
+				if (typeof window.jModalClose_no_tinyMCE === 'undefined')
+				{	
+					window.jModalClose_no_tinyMCE = typeof(jModalClose) == 'function'  ?  jModalClose  :  false;
+					
+					jModalClose = function () {
+						if (window.jModalClose_no_tinyMCE) window.jModalClose_no_tinyMCE.apply(this, arguments);
+						tinyMCE.activeEditor.windowManager.close();
+					};
+				}
+		
+				if (typeof window.SqueezeBoxClose_no_tinyMCE === 'undefined')
+				{
+					if (typeof(SqueezeBox) == 'undefined')  SqueezeBox = {};
+					window.SqueezeBoxClose_no_tinyMCE = typeof(SqueezeBox.close) == 'function'  ?  SqueezeBox.close  :  false;
+		
+					SqueezeBox.close = function () {
+						if (window.SqueezeBoxClose_no_tinyMCE)  window.SqueezeBoxClose_no_tinyMCE.apply(this, arguments);
+						tinyMCE.activeEditor.windowManager.close();
+					};
+				}
+			}
+		};
+		
+	</script>
+	<script type="text/javascript">
+		(function() {
+			Joomla.JText.load({"MOD_PWEBCONTACT_INIT":"Initializing form...","MOD_PWEBCONTACT_SENDING":"Sending...","MOD_PWEBCONTACT_SEND_ERR":"Wait a few seconds before sending next message","MOD_PWEBCONTACT_REQUEST_ERR":"Request error: ","MOD_PWEBCONTACT_COOKIES_ERR":"Enable cookies and refresh page to use this form"});
+		})();
+	</script>
+	<meta property="fb:app_id" content="739550822721946"/>
+	<meta property="og:type" content="product"/>
+	<meta property="og:image" content="https://www.nordmograph.com/extensions/images/stories/virtuemart/product/box_flexible_odometer_400.jpg"/>
+	<meta property="og:site_name" content="Flexible Odometer Counter module for Joomla"/>
+	<meta property="og:description" content="Create a nice animated (Javascript) counter for any Joomla data. "/>
+	<meta property="og:title" content="Flexible Odometer Counter module for Joomla"/>
+	<meta property="og:url" content="https://www.nordmograph.com/extensions/index.php?option=com_virtuemart&view=productdetails&virtuemart_product_id=114&virtuemart_category_id=1&Itemid=58"/>
+	<meta property="og:price:amount" content="9.00"/>
+	<meta property="og:price:currency" content="EUR"/>
+	<meta property="og:availability" content="instock"/>
+
+<link rel="apple-touch-icon-precomposed" href="/extensions/templates/yoo_avion/apple_touch_icon.png">
+<link rel="stylesheet" href="/extensions/media/template/gzip.php?bootstrap-22339203.css">
+<link rel="stylesheet" href="/extensions/media/template/gzip.php?theme-863628c3.css">
+<script src="/extensions/media/template/gzip.php?theme-19425a65.js"></script>
+</head>
+
+<body class="tm-sidebar-a-right tm-sidebars-1 tm-noblog">
+
+    
+                
+<div class="uk-container uk-container-center">
+
+    <div class="tm-header">
+
+                <a class="tm-logo uk-visible-large" href="https://www.nordmograph.com/extensions">
+	<img src="images/logo.png" alt="Nordmograph Extensions" />
+
+	<img style="line-height: 15.8079996109009px;" src="images/joomla_soldev_sm.png" alt="" width="150" height="34" /></a>
+        
+                <nav class="tm-navbar uk-navbar">
+
+                        <ul class="uk-navbar-nav uk-visible-large"><li class="uk-parent" data-uk-dropdown="{'preventflip':'y'}" aria-haspopup="true" aria-expanded="false"><a href="#"><i class="uk-icon-joomla"></i> Joomla Extensions</a>
+<div class="uk-dropdown uk-dropdown-navbar uk-dropdown-width-2" style="min-width: 600px; max-width: 600px; width:300px;"><div class="uk-grid uk-dropdown-grid"><div class="uk-width-1-2"><ul class="uk-nav uk-nav-navbar"><li><a href="/extensions/index.php?option=com_virtuemart&amp;view=category&amp;virtuemart_category_id=4&amp;Itemid=58"><i class="uk-icon-cart-arrow-down"></i> Virtuemart Extensions</a></li><li><a href="/extensions/index.php?option=com_virtuemart&amp;view=category&amp;virtuemart_category_id=18&amp;Itemid=58"><i class="uk-icon-users"></i> Community Builder Extensions</a></li><li><a href="/extensions/index.php?option=com_virtuemart&amp;view=category&amp;virtuemart_category_id=17&amp;Itemid=58"><i class="uk-icon-users"></i> Jomsocial Extensions</a></li><li><a href="/extensions/index.php?option=com_virtuemart&amp;view=category&amp;virtuemart_category_id=15&amp;Itemid=58"><i class="uk-icon-users"></i> EasySocial Extensions</a></li><li><a href="/extensions/index.php?option=com_virtuemart&amp;view=category&amp;virtuemart_category_id=10&amp;Itemid=58"><i class="uk-icon-archive"></i> SobiPro Extensions</a></li></ul></div><div class="uk-width-1-2"><ul class="uk-nav uk-nav-navbar"><li><a href="/extensions/index.php?option=com_virtuemart&amp;view=category&amp;virtuemart_category_id=3&amp;Itemid=58"><i class="uk-icon-cart-arrow-down"></i> VMVendor Marketplace Suite</a></li><li class="uk-parent"><a href="/extensions/index.php?option=com_virtuemart&amp;view=category&amp;virtuemart_category_id=7&amp;Itemid=58"><i class="uk-icon-map-marker"></i> Geommunity AJAX Maps</a><ul class="uk-nav-sub"><li><a href="/extensions/index.php?option=com_virtuemart&amp;view=category&amp;virtuemart_category_id=20&amp;Itemid=58"><i class="uk-icon-puzzle-piece"></i> Geommunity plugins directory</a></li></ul></li><li><a href="/extensions/index.php?option=com_virtuemart&amp;view=category&amp;virtuemart_category_id=8&amp;Itemid=58"><i class="uk-icon-star"></i> AltaUserPoints Extensions</a></li><li><a href="/extensions/index.php?option=com_virtuemart&amp;view=category&amp;virtuemart_category_id=11&amp;Itemid=58"><i class="uk-icon-soundcloud"></i> Soundcloud Extensions</a></li><li><a href="/extensions/index.php?option=com_virtuemart&amp;view=category&amp;virtuemart_category_id=1&amp;Itemid=58">Other Joomla extensions</a></li></ul></div></div></div></li><li class="uk-parent" data-uk-dropdown="{'preventflip':'y'}" aria-haspopup="true" aria-expanded="false"><a href="#"><i class="uk-icon-map-marker"></i> Geommunity3 Maps</a>
+<div class="uk-dropdown uk-dropdown-navbar uk-dropdown-width-2" style="min-width: 600px; max-width: 600px; width:300px;"><div class="uk-grid uk-dropdown-grid"><div class="uk-width-1-2"><ul class="uk-nav uk-nav-navbar"><li><a href="https://www.nordmograph.com/workshop/index.php?option=com_content&amp;view=article&amp;id=1&amp;Itemid=128" target="_blank"><i class="uk-icon-map"></i> Demo</a></li><li class="uk-parent"><a href="/extensions/index.php?option=com_vm2tags&amp;view=productslist&amp;tag=geommunity3&amp;Itemid=58"><i class="uk-icon-cart-plus"></i> Buy and download</a><ul class="uk-nav-sub"><li><a href="/extensions/index.php?option=com_virtuemart&amp;view=productdetails&amp;virtuemart_product_id=86&amp;virtuemart_category_id=7&amp;Itemid=58">Geommunity3 for EasySocial</a></li><li><a href="/extensions/index.php?option=com_virtuemart&amp;view=productdetails&amp;virtuemart_product_id=87&amp;virtuemart_category_id=7&amp;Itemid=58">Geommunity3 for Jomsocial</a></li><li><a href="/extensions/index.php?option=com_virtuemart&amp;view=productdetails&amp;virtuemart_product_id=88&amp;virtuemart_category_id=7&amp;Itemid=58">Geommunity3 for CB</a></li><li><a href="/extensions/index.php?option=com_virtuemart&amp;view=productdetails&amp;virtuemart_product_id=142&amp;virtuemart_category_id=7&amp;Itemid=58">Geommunity3 Lite</a></li></ul></li></ul></div><div class="uk-width-1-2"><ul class="uk-nav uk-nav-navbar"><li><a href="https://www.nordmograph.com/extensions/index.php?option=com_virtuemart&amp;view=category&amp;virtuemart_category_id=20&amp;Itemid=58"><i class="uk-icon-puzzle-piece"></i> Third party Plugins</a></li><li><a href="http://googlemaps.github.io/js-samples/styledmaps/wizard/index.html" onclick="window.open(this.href, 'targetWindow', 'toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=yes,'); return false;"><i class="uk-icon-wrench"></i> Google Maps Styler</a></li></ul></div></div></div></li><li><a href="/extensions/index.php?option=com_contact&amp;view=contact&amp;id=1&amp;Itemid=1174"><i class="uk-icon-cogs"></i> Custom Dev</a></li><li class="uk-parent" data-uk-dropdown="{'preventflip':'y'}" aria-haspopup="true" aria-expanded="false"><a href="#"><i class="uk-icon-support"></i> Support</a>
+<div class="uk-dropdown uk-dropdown-navbar uk-dropdown-width-1"><div class="uk-grid uk-dropdown-grid"><div class="uk-width-1-1"><ul class="uk-nav uk-nav-navbar"><li><a href="/extensions/index.php?option=com_content&amp;view=categories&amp;id=50&amp;Itemid=288"><i class="uk-icon-book"></i> Documentation</a></li><li><a href="/extensions/index.php?option=com_kunena&amp;view=home&amp;defaultmenu=645&amp;Itemid=40"><i class="uk-icon-comments-o"></i> Support Forum</a></li></ul></div></div></div></li><li class="uk-parent" data-uk-dropdown="{'preventflip':'y'}" aria-haspopup="true" aria-expanded="false"><a href="/extensions/index.php?option=com_comprofiler&amp;view=registers&amp;Itemid=63"><i class="uk-icon-user"></i> Account</a><div class="uk-dropdown uk-dropdown-navbar uk-dropdown-width-1"><div class="uk-grid uk-dropdown-grid"><div class="uk-width-1-1"><ul class="uk-nav uk-nav-navbar"><li><a href="/extensions/index.php?option=com_comprofiler&amp;view=userprofile&amp;Itemid=268"><i class="uk-icon-user"></i> Community Profile</a></li><li><a href="/extensions/index.php?option=com_vm2wishlists&amp;view=list&amp;Itemid=722"><i class="uk-icon-binoculars"></i> My Wishlist</a></li><li><a href="/extensions/index.php?option=com_vm2wishlists&amp;view=list&amp;Itemid=723"><i class="uk-icon-heart"></i> My Favourites list</a></li></ul></div></div></div></li><li><a href="/extensions/index.php?option=com_virtuemart&amp;view=cart&amp;Itemid=244"><i class="uk-icon-cart-arrow-down"></i> Shopping Cart</a></li></ul>
+
+        <ul class="uk-navbar-nav uk-hidden-small">
+            <li class="uk-parent" data-uk-dropdown>
+                <a href="#">Login</a>
+                <div class="uk-dropdown uk-dropdown-navbar"><form action="https://www.nordmograph.com/extensions/index.php?option=com_comprofiler&amp;view=login&amp;Itemid=517" method="post" id="login-form" class="form-inline cbLoginForm">
+	<input type="hidden" name="option" value="com_comprofiler" />
+	<input type="hidden" name="view" value="login" />
+	<input type="hidden" name="op2" value="login" />
+	<input type="hidden" name="return" value="B:aHR0cHM6Ly93d3cubm9yZG1vZ3JhcGguY29tL2V4dGVuc2lvbnMvaW5kZXgucGhwP29wdGlvbj1jb21fdmlydHVlbWFydCZhbXA7dmlldz1wcm9kdWN0ZGV0YWlscyZhbXA7dmlydHVlbWFydF9wcm9kdWN0X2lkPTExNCZhbXA7dmlydHVlbWFydF9jYXRlZ29yeV9pZD0xJmFtcDtJdGVtaWQ9NTg=" />
+	<input type="hidden" name="message" value="1" />
+	<input type="hidden" name="loginfrom" value="loginmodule" />
+	<input type="hidden" name="cbsecuritym3" value="cbm_035aef2c_3b176d1d_59e3fb39e805a1d26eea41422568b726" />
+						<div class="userdata">
+			<div id="form-login-username" class="control-group">
+				<div class="controls">
+																									<div class="input-prepend input-append">
+								<span class="add-on">
+									<span class="cb_template cb_template_default">
+										<span class="cbModuleUsernameIcon fa fa-user" title="Username or email"></span>
+									</span>
+								</span>
+								<input id="modlgn-username" type="text" name="username" class="input-small" size="14" placeholder="Username or email" />
+							</div>
+															</div>
+			</div>
+			<div id="form-login-password" class="control-group">
+				<div class="controls">
+																									<div class="input-prepend input-append">
+								<span class="add-on">
+									<span class="cb_template cb_template_default">
+										<span class="cbModulePasswordIcon fa fa-lock" title="Password"></span>
+									</span>
+								</span>
+								<input id="modlgn-passwd" type="password" name="passwd" class="input-small" size="14" placeholder="Password"  />
+							</div>
+															</div>
+			</div>
+										<div id="form-login-remember" class="control-group checkbox">
+					<label for="modlgn-remember" class="control-label">Remember Me</label>
+					<input id="modlgn-remember" type="checkbox" name="remember" class="inputbox" value="yes" />
+				</div>
+									<div id="form-login-submit" class="control-group">
+				<div class="controls">
+					<button type="submit" name="Submit" class="btn btn-primary">
+																			Log in											</button>
+				</div>
+			</div>
+					</div>
+				<ul id="form-login-links" class="unstyled">
+							<li id="form-login-forgot">
+					<a href="https://www.nordmograph.com/extensions/index.php?option=com_comprofiler&amp;view=lostpassword&amp;Itemid=519">
+																			Forgot Login?											</a>
+				</li>
+										<li id="form-login-register">
+					<a href="https://www.nordmograph.com/extensions/index.php?option=com_comprofiler&amp;view=registers&amp;Itemid=63">
+																			Sign up											</a>
+				</li>
+					</ul>
+				</form>
+</div>
+            </li>
+        </ul>            
+                        <div class="uk-navbar-flip">
+                            <div class="uk-navbar-content uk-visible-large">
+<form id="search-114-580d330f1898f" class="uk-search" action="/extensions/index.php?option=com_virtuemart&amp;view=virtuemart&amp;productsublayout=0&amp;Itemid=58" method="post" data-uk-search="{'source': '/extensions/index.php?option=com_search&amp;tmpl=raw&amp;type=json&amp;ordering=&amp;searchphrase=all', 'param': 'searchword', 'msgResultsHeader': 'Search Results', 'msgMoreResults': 'More Results', 'msgNoResults': 'No results found', flipDropdown: 1}">
+	<input class="uk-search-field" type="text" name="searchword" placeholder="search...">
+	<input type="hidden" name="task"   value="search">
+	<input type="hidden" name="option" value="com_search">
+	<input type="hidden" name="Itemid" value="58">
+</form>
+</div>
+                                    </div>
+            
+                        <a href="#offcanvas" class="uk-navbar-toggle uk-navbar-flip uk-padding-remove uk-hidden-large" data-uk-offcanvas></a>
+            
+                        <a class="tm-logo-small uk-float-left uk-hidden-large" href="https://www.nordmograph.com/extensions">
+	<img src="images/logo_small.png" alt="Nordmograph Extensions" width="234" height="62" /></a>
+            
+        </nav>
+        
+    </div>
+
+</div>        
+    
+    <div class="uk-container uk-container-center">
+
+        
+            
+        
+        
+        
+        
+        
+                <div id="tm-middle" class="tm-middle uk-grid" data-uk-grid-match data-uk-grid-margin>
+
+                        <div class="tm-main uk-width-medium-7-10">
+
+                                <section id="tm-main-top" class="tm-main-top uk-grid uk-grid-match uk-grid-collapse uk-hidden-small" data-uk-grid-match="{target:'> div > .uk-panel'}" data-uk-grid-margin>
+<div class="uk-hidden-small uk-width-medium-1-1"><div class="uk-panel uk-hidden-small" ><div id="sio-bg"><div id="sio-bulb"  ><i class="sio-icon-moon"></i><br /><div><a href="#pwebcontact177_toggler" class="btn hasTooltip" title="Presale Question"><i class="sio-icon-help-circled"></i></a><a href="index.php?option=com_kunena&view=home&defaultmenu=645&Itemid=40" class="btn hasTooltip" title="Support Forum"><i class="sio-icon-lifebuoy"></i></a></div></div><div><h3>Support is officialy closed, but staff is connected !</h3><div id="sio-officialhours"><i class="sio-icon-clock">
+	</i> Official support hours are from <b><u>9:00 - 19:00</u></b> from monday to friday (GMT +1)</div><div><span class="badge badge-success"><i class="sio-icon-lightbulb">
+		</i> Connected</span> Support and Presale staff are currently connected, expect a fast reply.</div><div id="sio-supportsignature"><i class="sio-icon-quote-right"></i> <div style="float:left;width:60px;">
+<img class="img-circle" src="images/comprofiler/tn63_549975e5b59dd.jpg" alt="nordmograph's Avatar" style="max-width: 50px; max-height: 50px">
+</div>
+
+<div style="float:left;max-width:600px;">
+Hello, I am Adrien and I am currently connected to reply your <a href="#pwebcontact177_toggler">presale questions</a> and <a href="index.php?option=com_kunena&view=home&defaultmenu=645&Itemid=40">support forum posts</a>.</div>
+
+<div style="clear:both"></div></div></div>
+</div></div>
+</section>
+                
+                                <main id="tm-content" class="tm-content">
+
+                                        <ul class="uk-breadcrumb"><li><a href="/extensions/index.php?option=com_content&amp;view=featured&amp;Itemid=51">Home</a></li><li><a href="/extensions/index.php?option=com_virtuemart&amp;view=virtuemart&amp;productsublayout=0&amp;Itemid=58">Joomla Extensions</a></li><li><a href="/extensions/index.php?option=com_virtuemart&view=category&virtuemart_category_id=1&Itemid=58">Other Joomla Extensions</a></li><li class="uk-active"><span>Flexible Odometer Counter module for Joomla</span></li></ul>                    
+                    <div id="system-message-container">
+</div>
+<div class="productdetails-view productdetails">
+            <div class="product-neighbours">
+	    <a href="/extensions/index.php?option=com_virtuemart&view=productdetails&virtuemart_product_id=117&virtuemart_category_id=1&Itemid=58" rel="prev" class="previous-page" data-dynamic-update="1">Flexible Timelines for any Joomla data</a><a href="/extensions/index.php?option=com_virtuemart&view=productdetails&virtuemart_product_id=108&virtuemart_category_id=1&Itemid=58" rel="next" class="next-page" data-dynamic-update="1">Background Youtube Video for Joomla</a>    	<div class="clear"></div>
+        </div>
+    		<div class="back-to-category">
+    	<a href="/extensions/index.php?option=com_virtuemart&view=category&virtuemart_category_id=1&Itemid=58" class="product-details" title="Other Joomla Extensions">Back to: Other Joomla Extensions</a>
+	</div>
+        <h1>Flexible Odometer Counter module for Joomla</h1>
+                        <div class="vm-product-container">
+	<div class="vm-product-media-container">
+	<div class="main-image">
+		<a  rel='vm-additional-images' href="https://www.nordmograph.com/extensions/images/stories/virtuemart/product/box_flexible_odometer_400.jpg"><img src="/extensions/images/stories/virtuemart/product/box_flexible_odometer_400.jpg" alt=""  /></a>		<div class="clear"></div>
+	</div>
+		</div>
+	<div class="vm-product-details-container">
+	    <div class="spacer-buy-area">
+				<br /><div class="product-price" id="productPrice114">
+	<span class="price-crossed" ></span><div class="PricesalesPrice vm-display vm-price-value"><span class="vm-price-desc"></span><span class="PricesalesPrice">9.00 €</span></div></div>
+
+
+	<div class="addtocart-area">
+		<form method="post" class="product js-recalculate" action="/extensions/index.php?option=com_virtuemart&view=virtuemart&productsublayout=0&Itemid=58">
+			<div class="product-fields"><div class="product-field product-field-type-S "><span class="product-fields-title-wrapper">
+					<span class="product-fields-title"><strong>Optional Installation Service:</strong></span> </span><div class="product-field-display"><select id="customProductData_114_886" name="customProductData[114][18]" class="vm-chzn-select">
+	<option value="885">ZIP archive:  No additional charge</option>
+	<option value="886">ZIP &amp; Installation:  +29.00 &euro;</option>
+</select>
+</div></div><div class="product-field product-field-type-E "><span class="product-fields-title-wrapper">
+					<span class="product-fields-title"><strong>Downloadable file:</strong></span> </span><div class="product-field-display"><div class="vmshipment_downloadable_delivery_div"><div style="border:1px solid #eaeaea; padding: 15px 20px 0 20px;">
+			<div style="float:left;width:50px;">
+			<span style="font-size:30px"><i class="icon-upload"></i></span>
+			</div>
+			<div style="float:left;width:250px;"> After your purchase, login to get your download link here</div>
+					<div style="clear:both"></div>
+					</div></div></div></div><div class="product-field product-field-type-E "><span class="product-fields-title-wrapper">
+					<span class="product-fields-title"><strong>Extension Info:</strong></span> </span><div class="product-field-display"><div id="extension-info"> <span class="badge version-j25x hasTooltip" 
+				title="Compatible with Joomla 2.5.x">
+				<i class="uk-icon-joomla"></i> J!2.5.X</span>  <span class="badge version-j3x hasTooltip" 
+				title="Compatible with Joomla 3.x">
+				<i class="uk-icon-joomla"></i> J!3.X</span>  | <span class="badge  type-m hasTooltip" 
+				title="Joomla Module(s)"  >
+				M</span>  | <span class="badge hasTooltip" title="Current version" >v1.1.3</span><br /><a href="https://www.nordmograph.com/extensions" target="_blank" 
+			title="Demo" class="hasTooltip"><i class="uk-icon-cogs"></i> Demo</a> | <a href="https://www.nordmograph.com/extensions/index.php?option=com_kunena&view=category&catid=146&Itemid=645" target="_blank" 
+			title="Support" class="hasTooltip"><i class="uk-icon-comments-o"></i> Support</a> | <a href="http://extensions.joomla.org/extensions/extension/site-management/analytics/flexible-odometer-counter" target="_blank" rel="nofollow" 
+			title="Joomla Extension Directory: If you want to encourage further development for this extension, consider leaving a review for it at the Joomla Extensions Directory, following this link" class="hasTooltip"><i class="uk-icon-joomla"></i> Review</a></div></div></div><div class="clear"></div></div>
+				<div class="addtocart-bar">
+																	<!-- <label for="quantity114" class="quantity_box">Quantity: </label> -->
+							<span class="quantity-box">
+							<input type="hidden" class="quantity-input js-recalculate" name="quantity[]"
+								   onblur="Virtuemart.checkQuantity(this,1,'You can buy this product only in multiples of %s pieces!');"
+								   onclick="Virtuemart.checkQuantity(this,1,'You can buy this product only in multiples of %s pieces!');"
+								   onchange="Virtuemart.checkQuantity(this,1,'You can buy this product only in multiples of %s pieces!');"
+								   onsubmit="Virtuemart.checkQuantity(this,1,'You can buy this product only in multiples of %s pieces!');"
+								   value="1"/>
+						<!-- <span class="quantity-controls js-recalculate">
+					<input type="button" class="quantity-controls quantity-plus"  />
+					<input type="button" class="quantity-controls quantity-minus" />
+					</span> -->
+						
+						<span class="addtocart-button">
+							<input type="submit" name="addtocart" class="addtocart-button" value="Add to Cart" title="Add to Cart" />						</span>
+						<noscript><input type="hidden" name="task" value="add"/></noscript> 
+				</div>			<input type="hidden" name="option" value="com_virtuemart"/>
+			<input type="hidden" name="view" value="cart"/>
+			<input type="hidden" name="virtuemart_product_id[]" value="114"/>
+			<input type="hidden" class="pname" value="Flexible Odometer Counter module for Joomla"/>
+			<input type="hidden" name="Itemid" value="58"/>		</form>
+
+	</div>
+
+			    </div>
+	</div>
+	<div class="clear"></div>
+    </div>
+<div class="additional-images">
+			<div class="floatleft">
+			<a title="front1" rel='vm-additional-images' href="https://www.nordmograph.com/extensions/images/stories/virtuemart/product/front1.jpg"><img src="/extensions/images/stories/virtuemart/product/resized/front1_200x200.jpg" alt="front1"  /></a>		</div>
+			<div class="floatleft">
+			<a title="front2" rel='vm-additional-images' href="https://www.nordmograph.com/extensions/images/stories/virtuemart/product/front2.jpg"><img src="/extensions/images/stories/virtuemart/product/resized/front2_200x200.jpg" alt="front2"  /></a>		</div>
+			<div class="floatleft">
+			<a title="front3" rel='vm-additional-images' href="https://www.nordmograph.com/extensions/images/stories/virtuemart/product/front3.jpg"><img src="/extensions/images/stories/virtuemart/product/resized/front3_200x200.jpg" alt="front3"  /></a>		</div>
+			<div class="floatleft">
+			<a title="be" rel='vm-additional-images' href="https://www.nordmograph.com/extensions/images/stories/virtuemart/product/be.jpg"><img src="/extensions/images/stories/virtuemart/product/resized/be_200x200.jpg" alt="be"  /></a>		</div>
+		<div class="clear"></div>
+</div>
+
+	        <div class="product-description">
+	    	<span class="title">Description</span>
+	<div class="vm2share" ><div id="vm_linkedin" class="vm2s_service" ><script type="IN/Share" data-url="https://www.nordmograph.com/extensions/index.php?option=com_virtuemart&view=productdetails&virtuemart_product_id=114&virtuemart_category_id=1&Itemid=58"  data-counter="right" ></script>
+				</div><div id="vm_plusone" class="vm2s_service">
+				<g:plusone size="medium" count="1" callback="" >
+				</g:plusone>
+				</div><div id="vm_tweet" class="vm2s_service" >
+				<a href="//twitter.com/share" class="twitter-share-button" 
+				data-count="horizontal" data-counturl="https://www.nordmograph.com/extensions/index.php?option=com_virtuemart&view=productdetails&virtuemart_product_id=114&virtuemart_category_id=1&Itemid=58" 
+				data-url="https://www.nordmograph.com/extensions/index.php?option=com_virtuemart&view=productdetails&virtuemart_product_id=114&virtuemart_category_id=1&Itemid=58" 
+				data-related="" 
+				data-lang="en"
+				></a></div><script type="text/javascript" async defer src="//assets.pinterest.com/js/pinit.js"></script><div id="vm_pinterest" class="vm2s_service" >
+					<a href="https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fwww.nordmograph.com%2Fextensions%2Findex.php%3Foption%3Dcom_virtuemart%26view%3Dproductdetails%26virtuemart_product_id%3D114%26virtuemart_category_id%3D1%26Itemid%3D58&media=https%3A%2F%2Fwww.nordmograph.com%2Fextensions%2Fimages%2Fstories%2Fvirtuemart%2Fproduct%2Fbox_flexible_odometer_400.jpg&description=Create a nice animated (Javascript) counter for any Joomla data. " class="pin-it-button" count-layout="horizontal"><img border="0" src="//assets.pinterest.com/images/PinExt.png" title="Pin It" />
+					</a></div><div id="vm_fblike-html5" class="vm2s_service"><div id="fb-root" ></div>
+						<script>(function(d, s, id) {
+						  var js, fjs = d.getElementsByTagName(s)[0];
+						  if (d.getElementById(id)) return;
+						  js = d.createElement(s); js.id = id;
+						  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.8&appId=739550822721946";
+						  fjs.parentNode.insertBefore(js, fjs);
+						}(document, 'script', 'facebook-jssdk'));</script><div class="fb-like" data-href="https://www.nordmograph.com/extensions/index.php?option=com_virtuemart&view=productdetails&virtuemart_product_id=114&virtuemart_category_id=1&Itemid=58" 
+					data-width="200" data-layout="button_count" 
+					data-action="like"  data-show-faces="false" 
+					data-share="true"></div></div><div class="fb_send vm2s_service">
+				<div class="fb-send " data-href="https://www.nordmograph.com/extensions/index.php?option=com_virtuemart&view=productdetails&virtuemart_product_id=114&virtuemart_category_id=1&Itemid=58"  ></div></div><div id="vm_qrcode" class="vm2s_service">
+				<a href="//chart.googleapis.com/chart?cht=qr&chs=350x350&chld=L&choe=UTF-8&chl=https%3A%2F%2Fwww.nordmograph.com%2Fextensions%2Findex.php%3Foption%3Dcom_virtuemart%26view%3Dproductdetails%26virtuemart_product_id%3D114%26virtuemart_category_id%3D1%26Itemid%3D58" 
+				class="modal" rel="{handler: 'iframe', size: {x: 350, y: 350}}" >
+				<img src="https://www.nordmograph.com/extensions/plugins/content/vm2share/img/chart.png" alt="QRCode" width="24" height="24" 
+				title="QRCode" class="hasTooltip" /></a></div><div style="clear:both;"></div></div><div class="vm2wishlists" id="vm2wishlists" ><div class="wm2wishlist" style="width:100%;" ><div class="vm2w-button" id="fave1-114"><a title="Wishlist: Extensions I need" disabled="disabled"   class="btn btn-primary btn-small">
+					<i class="vm2w-icon-list"></i> Add to Wishlist</a></div></div><div style="clear:both;"></div><div class="wm2wishlist" style="width:100%;" ><div class="vm2w-button" id="fave2-114"><a title="Favorites: My favourite extensions" disabled="disabled"   class="btn btn-primary btn-small">
+					<i class="vm2w-icon-heart"></i> Add to Favorites</a><a class="btn btn-primary btn-small " disabled>1</a></div><a href="/extensions/index.php?option=com_vm2wishlists&amp;view=adders&amp;listid=2&amp;productid=114&amp;tmpl=component"  rel="{handler: 'iframe', size: {x: 300, y: 250}}" class="vm2w-adders modal btn btn-default btn-small hasTooltip" title="They added it">
+					<i class="vm2w-icon-users"></i></a></div><div style="clear:both;"></div><div style="clear:both;"></div></div><div>A must have module for any webmaster wanting to show off figures in a nice and trendy way. Create an animated (Javascript) counter for any Joomla data. You can build your MySQL query in beginner or expert mode or even use a fixe value without any query. Counter comes with various themes and customisation options. Intro and outro texts support Joomla language strings and multiple instances are supported on the same page. If you're not comfortable with MySQL you can use the Wizard mode or ask for custom query in our forum or set a fixe value.</div><br /><br /><div class="product-field product-field-type-E">
+					<span class="product-fields-title">
+						<strong>Product Tags</strong>
+					</span>
+					</div><div id="content-vm2tags" ><i class="vm2t-icon-tags"></i> <a class="btn btn-mini" 
+					href="/extensions/index.php?option=com_vm2tags&amp;view=productslist&amp;tag=layout&amp;Itemid=58">layout</a> <a class="btn btn-mini" 
+					href="/extensions/index.php?option=com_vm2tags&amp;view=productslist&amp;tag=design&amp;Itemid=58">design</a> </div><div style="clear:both;"></div>        </div>
+	    <div class="product-related-products"><div class="product-fields-title-wrapper">
+		<span class="product-fields-title">
+		<strong>Related Products</strong>
+        </span></div><div id="masonry_container"><div class="product-field product-field-type-R brick"><div class="product-field-display"><a href="/extensions/index.php?option=com_virtuemart&amp;view=productdetails&amp;virtuemart_product_id=113&amp;virtuemart_category_id=1&amp;Itemid=58" title="Particles module for Joomla"><img src="/extensions/images/stories/virtuemart/product/resized/box_particles_400_200x200.jpg" alt="box_particles_400"  /> Particles module for Joomla</a><div class="PricesalesPrice vm-display vm-price-value"><span class="vm-price-desc"></span><span class="PricesalesPrice">9.00 €</span></div></div></div><div class="product-field product-field-type-R brick"><div class="product-field-display"><a href="/extensions/index.php?option=com_virtuemart&amp;view=productdetails&amp;virtuemart_product_id=78&amp;virtuemart_category_id=1&amp;Itemid=58" title="Parallax Scroll Module for Joomla"><img src="/extensions/images/stories/virtuemart/product/resized/box_parrallaxscroll_400_200x200.jpg" alt="box_parrallaxscroll_400"  /> Parallax Scroll Module for Joomla</a><div class="PricesalesPrice vm-display vm-price-value"><span class="vm-price-desc"></span><span class="PricesalesPrice">11.00 €</span></div></div></div><div class="product-field product-field-type-R brick"><div class="product-field-display"><a href="/extensions/index.php?option=com_virtuemart&amp;view=productdetails&amp;virtuemart_product_id=108&amp;virtuemart_category_id=1&amp;Itemid=58" title="Background Youtube Video for Joomla"><img src="/extensions/images/stories/virtuemart/product/resized/box_background_youtube_400_200x200.jpg" alt="box_background_youtube_400"  /> Background Youtube Video for Joomla</a><div class="PricesalesPrice vm-display vm-price-value"><span class="vm-price-desc"></span><span class="PricesalesPrice">9.00 €</span></div></div></div><div class="product-field product-field-type-R brick"><div class="product-field-display"><a href="/extensions/index.php?option=com_virtuemart&amp;view=productdetails&amp;virtuemart_product_id=110&amp;virtuemart_category_id=1&amp;Itemid=58" title="Sure to Leave ? Unsubmitted form warning plugins for Joomla"><img src="/extensions/images/stories/virtuemart/product/resized/box_areyousuretoleave_200x200.jpg" alt="box_areyousuretoleave"  /> Sure to Leave ? Unsubmitted form warning plugins for Joomla</a><div class="PricesalesPrice vm-display vm-price-value"><span class="vm-price-desc"></span><span class="PricesalesPrice">9.00 €</span></div></div></div><div class="product-field product-field-type-R brick"><div class="product-field-display"><a href="/extensions/index.php?option=com_virtuemart&amp;view=productdetails&amp;virtuemart_product_id=92&amp;virtuemart_category_id=1&amp;Itemid=58" title="Flip Countdown Module  for Joomla"><img src="/extensions/images/stories/virtuemart/product/resized/box_flip_countdown_400_200x200.jpg" alt="box_flip_countdown_400"  /> Flip Countdown Module  for Joomla</a><div class="PricesalesPrice vm-display vm-price-value"><span class="vm-price-desc"></span><span class="PricesalesPrice">9.00 €</span></div></div></div><div class="product-field product-field-type-R brick"><div class="product-field-display"><a href="/extensions/index.php?option=com_virtuemart&amp;view=productdetails&amp;virtuemart_product_id=117&amp;virtuemart_category_id=1&amp;Itemid=58" title="Flexible Timelines for any Joomla data"><img src="/extensions/images/stories/virtuemart/product/resized/box_flexible_timeline_400_200x200.jpg" alt="box_flexible_timeline_400"  /> Flexible Timelines for any Joomla data</a><div class="PricesalesPrice vm-display vm-price-value"><span class="vm-price-desc"></span><span class="PricesalesPrice">11.00 €</span></div></div></div><div class="clear"></div></div></div>	<script id="vm.countryState_js" type="text/javascript">//<![CDATA[ 
+jQuery(document).ready( function($) {
+			$("#virtuemart_country_id_field").vm2front("list",{dest : "#virtuemart_state_id_field",ids : "",prefiks : ""});
+		}); //]]>
+</script><script id="vm.countryStateshipto__js" type="text/javascript">//<![CDATA[ 
+jQuery(document).ready( function($) {
+			$("#shipto_virtuemart_country_id_field").vm2front("list",{dest : "#shipto_virtuemart_state_id_field",ids : "",prefiks : "shipto_"});
+		}); //]]>
+</script><script id="updDynamicListeners_js" type="text/javascript">//<![CDATA[ 
+jQuery(document).ready(function() { // GALT: Start listening for dynamic content update.
+	// If template is aware of dynamic update and provided a variable let's
+	// set-up the event listeners.
+	if (Virtuemart.container)
+		Virtuemart.updateDynamicUpdateListeners();
+}); //]]>
+</script><script id="ready.vmprices_js" type="text/javascript">//<![CDATA[ 
+jQuery(document).ready(function($) {
+
+		Virtuemart.product($("form.product"));
+}); //]]>
+</script><script id="popups_js" type="text/javascript">//<![CDATA[ 
+jQuery(document).ready(function($) {
+		
+		$('a.ask-a-question, a.printModal, a.recommened-to-friend, a.manuModal').click(function(event){
+		  event.preventDefault();
+		  $.fancybox({
+			href: $(this).attr('href'),
+			type: 'iframe',
+			height: 550
+			});
+		  });
+		
+	}); //]]>
+</script><script id="imagepopup_js" type="text/javascript">//<![CDATA[ 
+jQuery(document).ready(function() {
+	Virtuemart.updateImageEventListeners()
+});
+Virtuemart.updateImageEventListeners = function() {
+	jQuery("a[rel=vm-additional-images]").fancybox({
+		"titlePosition" 	: "inside",
+		"transitionIn"	:	"elastic",
+		"transitionOut"	:	"elastic"
+	});
+	jQuery(".additional-images a.product-image.image-0").removeAttr("rel");
+	jQuery(".additional-images img.product-image").click(function() {
+		jQuery(".additional-images a.product-image").attr("rel","vm-additional-images" );
+		jQuery(this).parent().children("a.product-image").removeAttr("rel");
+		var src = jQuery(this).parent().children("a.product-image").attr("href");
+		jQuery(".main-image img").attr("src",src);
+		jQuery(".main-image img").attr("alt",this.alt );
+		jQuery(".main-image a").attr("href",src );
+		jQuery(".main-image a").attr("title",this.alt );
+		jQuery(".main-image .vm-img-desc").html(this.alt);
+		}); 
+	} //]]>
+</script></div>
+<script>
+	// GALT
+	/*
+	 * Notice for Template Developers!
+	 * Templates must set a Virtuemart.container variable as it takes part in
+	 * dynamic content update.
+	 * This variable points to a topmost element that holds other content.
+	 */
+	// If this <script> block goes right after the element itself there is no
+	// need in ready() handler, which is much better.
+	//jQuery(document).ready(function() {
+	Virtuemart.container = jQuery('.productdetails-view');
+	Virtuemart.containerSelector = '.productdetails-view';
+	//Virtuemart.container = jQuery('.main');
+	//Virtuemart.containerSelector = '.main';
+	//});	  	
+</script>
+
+                </main>
+                
+                
+            </div>
+            
+                                                            <aside class="tm-sidebar-a uk-width-medium-3-10"><div class="uk-panel uk-panel-box style-inset badge-hot" ><h3 class="uk-panel-title">VM2TAGS CLOUD</h3><div style="text-align:center;" > <a class="btn btn-mini hasTooltip" href="/extensions/index.php?option=com_vm2tags&amp;view=productslist&amp;tag=easysocial&amp;Itemid=58"  ><span style="font-size:12px">easysocial</span></a> <a class="btn btn-mini hasTooltip" href="/extensions/index.php?option=com_vm2tags&amp;view=productslist&amp;tag=geolocation&amp;Itemid=58"  ><span style="font-size:12px">geolocation</span></a> <a class="btn btn-mini hasTooltip" href="/extensions/index.php?option=com_vm2tags&amp;view=productslist&amp;tag=checkin&amp;Itemid=58"  ><span style="font-size:12px">checkin</span></a> <a class="btn btn-mini hasTooltip" href="/extensions/index.php?option=com_vm2tags&amp;view=productslist&amp;tag=virtuemart&amp;Itemid=58"  ><span style="font-size:16px">virtuemart</span></a> <a class="btn btn-mini hasTooltip" href="/extensions/index.php?option=com_vm2tags&amp;view=productslist&amp;tag=profile&amp;Itemid=58"  ><span style="font-size:16px">profile</span></a> <a class="btn btn-mini hasTooltip" href="/extensions/index.php?option=com_vm2tags&amp;view=productslist&amp;tag=community-builder&amp;Itemid=58"  ><span style="font-size:12px">community builder</span></a> <a class="btn btn-mini hasTooltip" href="/extensions/index.php?option=com_vm2tags&amp;view=productslist&amp;tag=orders&amp;Itemid=58"  ><span style="font-size:12px">orders</span></a> <a class="btn btn-mini hasTooltip" href="/extensions/index.php?option=com_vm2tags&amp;view=productslist&amp;tag=vm3&amp;Itemid=58"  ><span style="font-size:14px">vm3</span></a> <a class="btn btn-mini hasTooltip" href="/extensions/index.php?option=com_vm2tags&amp;view=productslist&amp;tag=qrcode&amp;Itemid=58"  ><span style="font-size:12px">qrcode</span></a> <a class="btn btn-mini hasTooltip" href="/extensions/index.php?option=com_vm2tags&amp;view=productslist&amp;tag=free&amp;Itemid=58"  ><span style="font-size:25px">free</span></a> <a class="btn btn-mini hasTooltip" href="/extensions/index.php?option=com_vm2tags&amp;view=productslist&amp;tag=guru&amp;Itemid=58"  ><span style="font-size:12px">guru</span></a> <a class="btn btn-mini hasTooltip" href="/extensions/index.php?option=com_vm2tags&amp;view=productslist&amp;tag=aup&amp;Itemid=58"  ><span style="font-size:16px">aup</span></a> <a class="btn btn-mini hasTooltip" href="/extensions/index.php?option=com_vm2tags&amp;view=productslist&amp;tag=altauserpoints&amp;Itemid=58"  ><span style="font-size:16px">altauserpoints</span></a> <a class="btn btn-mini hasTooltip" href="/extensions/index.php?option=com_vm2tags&amp;view=productslist&amp;tag=particules&amp;Itemid=58"  ><span style="font-size:12px">particules</span></a> <a class="btn btn-mini hasTooltip" href="/extensions/index.php?option=com_vm2tags&amp;view=productslist&amp;tag=design&amp;Itemid=58"  ><span style="font-size:16px">design</span></a> <a class="btn btn-mini hasTooltip" href="/extensions/index.php?option=com_vm2tags&amp;view=productslist&amp;tag=phocagallery&amp;Itemid=58"  ><span style="font-size:12px">phocagallery</span></a> <a class="btn btn-mini hasTooltip" href="/extensions/index.php?option=com_vm2tags&amp;view=productslist&amp;tag=geommunity&amp;Itemid=58"  ><span style="font-size:18px">geommunity</span></a> <a class="btn btn-mini hasTooltip" href="/extensions/index.php?option=com_vm2tags&amp;view=productslist&amp;tag=google-maps&amp;Itemid=58"  ><span style="font-size:12px">google maps</span></a> <a class="btn btn-mini hasTooltip" href="/extensions/index.php?option=com_vm2tags&amp;view=productslist&amp;tag=jomsocial&amp;Itemid=58"  ><span style="font-size:14px">jomsocial</span></a> <a class="btn btn-mini hasTooltip" href="/extensions/index.php?option=com_vm2tags&amp;view=productslist&amp;tag=geommunity3&amp;Itemid=58"  ><span style="font-size:12px">geommunity3</span></a></div></div>
+<div class="uk-panel uk-panel-box" ><h3 class="uk-panel-title">Login</h3><form action="https://www.nordmograph.com/extensions/index.php?option=com_comprofiler&amp;view=login&amp;Itemid=517" method="post" id="login-form" class="form-inline cbLoginForm">
+	<input type="hidden" name="option" value="com_comprofiler" />
+	<input type="hidden" name="view" value="login" />
+	<input type="hidden" name="op2" value="login" />
+	<input type="hidden" name="return" value="B:aHR0cHM6Ly93d3cubm9yZG1vZ3JhcGguY29tL2V4dGVuc2lvbnMvaW5kZXgucGhwP29wdGlvbj1jb21fdmlydHVlbWFydCZhbXA7dmlldz1wcm9kdWN0ZGV0YWlscyZhbXA7dmlydHVlbWFydF9wcm9kdWN0X2lkPTExNCZhbXA7dmlydHVlbWFydF9jYXRlZ29yeV9pZD0xJmFtcDtJdGVtaWQ9NTg=" />
+	<input type="hidden" name="message" value="1" />
+	<input type="hidden" name="loginfrom" value="loginmodule" />
+	<input type="hidden" name="cbsecuritym3" value="cbm_65d4dac3_4b8c62fb_ef43249269892eead3dff24f0e8e16ac" />
+						<div class="userdata">
+			<div id="form-login-username" class="control-group">
+				<div class="controls">
+																									<div class="input-prepend input-append">
+								<span class="add-on">
+									<span class="cb_template cb_template_default">
+										<span class="cbModuleUsernameIcon fa fa-user" title="Username or email"></span>
+									</span>
+								</span>
+								<input id="modlgn-username" type="text" name="username" class="input-small" size="14" placeholder="Username or email" />
+							</div>
+															</div>
+			</div>
+			<div id="form-login-password" class="control-group">
+				<div class="controls">
+																									<div class="input-prepend input-append">
+								<span class="add-on">
+									<span class="cb_template cb_template_default">
+										<span class="cbModulePasswordIcon fa fa-lock" title="Password"></span>
+									</span>
+								</span>
+								<input id="modlgn-passwd" type="password" name="passwd" class="input-small" size="14" placeholder="Password"  />
+							</div>
+															</div>
+			</div>
+										<div id="form-login-remember" class="control-group checkbox">
+					<label for="modlgn-remember" class="control-label">Remember Me</label>
+					<input id="modlgn-remember" type="checkbox" name="remember" class="inputbox" value="yes" />
+				</div>
+									<div id="form-login-submit" class="control-group">
+				<div class="controls">
+					<button type="submit" name="Submit" class="btn btn-primary">
+																			Log in											</button>
+				</div>
+			</div>
+					</div>
+				<ul id="form-login-links" class="unstyled">
+							<li id="form-login-forgot">
+					<a href="https://www.nordmograph.com/extensions/index.php?option=com_comprofiler&amp;view=lostpassword&amp;Itemid=519">
+																			Forgot Login?											</a>
+				</li>
+										<li id="form-login-register">
+					<a href="https://www.nordmograph.com/extensions/index.php?option=com_comprofiler&amp;view=registers&amp;Itemid=63">
+																			Sign up											</a>
+				</li>
+					</ul>
+				</form>
+</div>
+<div class="uk-panel uk-panel-box uk-panel-box-primary" ><h3 class="uk-panel-title"><i class="uk-icon-cart-arrow-down"></i> SHOPPING CART</h3>
+<!-- Virtuemart 2 Ajax Card -->
+<div class="vmCartModule " id="vmCartModule">
+
+	<div class="total" style="float: right;">
+			</div>
+
+<div class="total_products">Cart empty</div>
+<div class="show_cart">
+	</div>
+<div style="clear:both;"></div>
+	<div class="payments-signin-button" ></div>
+<noscript>
+Please wait</noscript>
+</div>
+
+</div>
+<div class="uk-panel uk-panel-box" ><h3 class="uk-panel-title">My VM WishLists</h3><div class="vm2w-mylists"><a class="btn btn-primary btn-large btn-block hasTooltip" title="Wishlist" href="/extensions/index.php?option=com_vm2wishlists&amp;view=list&amp;id=1&amp;userid=0&amp;Itemid=722" ><i class="vm2w-icon-list"></i> Wishlist <div class="badge badge-success">0</div></a><a class="btn btn-primary btn-large btn-block hasTooltip" title="Favorites" href="/extensions/index.php?option=com_vm2wishlists&amp;view=list&amp;id=2&amp;userid=0&amp;Itemid=723" ><i class="vm2w-icon-heart"></i> Favorites <div class="badge badge-success">0</div></a></div></div>
+<div class="uk-panel uk-panel-box style-frame " ><h3 class="uk-panel-title">EXTENSIONS CATEGORIES</h3>
+<ul class="menumenu menu-sidebar" >
+
+<li >
+	<div>
+		<a href="/extensions/index.php?option=com_virtuemart&amp;view=category&amp;virtuemart_category_id=8&amp;Itemid=58" >AltaUserPoints Extensions</a>	</div>
+</li>
+
+<li >
+	<div>
+		<a href="/extensions/index.php?option=com_virtuemart&amp;view=category&amp;virtuemart_category_id=18&amp;Itemid=58" >Community Builder Extensions</a>	</div>
+</li>
+
+<li >
+	<div>
+		<a href="/extensions/index.php?option=com_virtuemart&amp;view=category&amp;virtuemart_category_id=21&amp;Itemid=58" >Design Extensions</a>	</div>
+</li>
+
+<li >
+	<div>
+		<a href="/extensions/index.php?option=com_virtuemart&amp;view=category&amp;virtuemart_category_id=15&amp;Itemid=58" >EasySocial Extensions</a>	</div>
+</li>
+
+<li >
+	<div>
+		<a href="/extensions/index.php?option=com_virtuemart&amp;view=category&amp;virtuemart_category_id=2&amp;Itemid=58" >Geo Checkin suites</a>	</div>
+</li>
+
+<li >
+	<div>
+		<a href="/extensions/index.php?option=com_virtuemart&amp;view=category&amp;virtuemart_category_id=20&amp;Itemid=58" >Geommunity 3rd party plugins</a>	</div>
+</li>
+
+<li >
+	<div>
+		<a href="/extensions/index.php?option=com_virtuemart&amp;view=category&amp;virtuemart_category_id=7&amp;Itemid=58" >Geommunity3 Suites</a>	</div>
+</li>
+
+<li >
+	<div>
+		<a href="/extensions/index.php?option=com_virtuemart&amp;view=category&amp;virtuemart_category_id=14&amp;Itemid=58" >jEvents Extensions</a>	</div>
+</li>
+
+<li >
+	<div>
+		<a href="/extensions/index.php?option=com_virtuemart&amp;view=category&amp;virtuemart_category_id=17&amp;Itemid=58" >Jomsocial Extensions</a>	</div>
+</li>
+
+<li >
+	<div>
+		<a href="/extensions/index.php?option=com_virtuemart&amp;view=category&amp;virtuemart_category_id=13&amp;Itemid=58" >JVA</a>	</div>
+</li>
+
+<li >
+	<div>
+		<a href="/extensions/index.php?option=com_virtuemart&amp;view=category&amp;virtuemart_category_id=5&amp;Itemid=58" >MyPlayer</a>	</div>
+</li>
+
+<li class="active">
+	<div>
+		<a href="/extensions/index.php?option=com_virtuemart&amp;view=category&amp;virtuemart_category_id=1&amp;Itemid=58" >Other Joomla Extensions</a>	</div>
+</li>
+
+<li >
+	<div>
+		<a href="/extensions/index.php?option=com_virtuemart&amp;view=category&amp;virtuemart_category_id=6&amp;Itemid=58" >QR Code Extensions</a>	</div>
+</li>
+
+<li >
+	<div>
+		<a href="/extensions/index.php?option=com_virtuemart&amp;view=category&amp;virtuemart_category_id=16&amp;Itemid=58" >Runtastic Extensions</a>	</div>
+</li>
+
+<li >
+	<div>
+		<a href="/extensions/index.php?option=com_virtuemart&amp;view=category&amp;virtuemart_category_id=10&amp;Itemid=58" >SobiPro Extensions</a>	</div>
+</li>
+
+<li >
+	<div>
+		<a href="/extensions/index.php?option=com_virtuemart&amp;view=category&amp;virtuemart_category_id=11&amp;Itemid=58" >Soundcloud Extensions</a>	</div>
+</li>
+
+<li >
+	<div>
+		<a href="/extensions/index.php?option=com_virtuemart&amp;view=category&amp;virtuemart_category_id=4&amp;Itemid=58" >Virtuemart Extensions</a>	</div>
+</li>
+
+<li >
+	<div>
+		<a href="/extensions/index.php?option=com_virtuemart&amp;view=category&amp;virtuemart_category_id=3&amp;Itemid=58" >VMVendor Suite</a>	</div>
+</li>
+</ul>
+</div>
+<div class="uk-panel uk-hidden-small" ><div class="mod_pro_facebook_widget ">
+   <div class="fb-page" 
+        data-href="https://www.facebook.com/nordmograph" 
+        data-tabs="timeline" 
+        data-width="362" 
+        data-height="235" 
+        data-small-header="true" 
+        data-adapt-container-width="true" 
+        data-hide-cover="false" 
+        data-hide-cta="true"
+        data-show-facepile="false">
+        <div class="fb-xfbml-parse-ignore">
+          <blockquote cite="https://www.facebook.com/nordmograph">
+            <a href="https://www.facebook.com/nordmograph">Nordmograph</a>
+          </blockquote>
+        </div>
+      </div>
+</div>  
+ <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=262562957268319";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script></div></aside>
+                        
+        </div>
+        
+        
+                <section id="tm-bottom-b" class="tm-bottom-b uk-grid uk-grid-match" data-uk-grid-match="{target:'> div > .uk-panel'}" data-uk-grid-margin>
+            
+<div class="uk-width-1-1"><div class="uk-panel uk-panel-box" ><h3 class="uk-panel-title">Some of our Featured Joomla extensions</h3>
+<div class="vmgroup">
+
+
+
+	
+		<div class="vmproduct productdetails">
+
+			
+			<div class="minibrick  width20 floatleft" style="text-align:center;width:200px;padding:10px 20px;">
+
+				<div class="spacer" >
+
+					<a href="/extensions/index.php?option=com_virtuemart&amp;view=productdetails&amp;virtuemart_product_id=117&amp;virtuemart_category_id=1&amp;Itemid=58" title="Flexible Timelines for any Joomla data"><img src="/extensions/images/stories/virtuemart/product/resized/box_flexible_timeline_400_200x200.jpg" alt="box_flexible_timeline_400" class="featuredProductImage" border="0" /></a><div class="clear"></div>
+					<a href="/extensions/index.php?option=com_virtuemart&amp;view=productdetails&amp;virtuemart_product_id=117&amp;virtuemart_category_id=1&amp;Itemid=58">Flexible Timelines for any Joomla data</a>        <div class="clear"></div><div class="PricesalesPrice vm-display vm-price-value" ><span class="PricesalesPrice" >11.00 €</span></div>
+				</div>
+
+			</div>
+
+			
+			<div class="minibrick  width20 floatleft" style="text-align:center;width:200px;padding:10px 20px;">
+
+				<div class="spacer" >
+
+					<a href="/extensions/index.php?option=com_virtuemart&amp;view=productdetails&amp;virtuemart_product_id=88&amp;virtuemart_category_id=7&amp;Itemid=58" title="Geommunity3 Maps for Community Builder"><img src="/extensions/images/stories/virtuemart/product/resized/box_geommunity3_400_200x200.jpg" alt="box_geommunity3_400" class="featuredProductImage" border="0" /></a><div class="clear"></div>
+					<a href="/extensions/index.php?option=com_virtuemart&amp;view=productdetails&amp;virtuemart_product_id=88&amp;virtuemart_category_id=7&amp;Itemid=58">Geommunity3 Maps for Community Builder</a>        <div class="clear"></div><div class="PricesalesPrice vm-display vm-price-value" ><span class="PricesalesPrice" >34.00 €</span></div>
+				</div>
+
+			</div>
+
+			
+			<div class="minibrick  width20 floatleft" style="text-align:center;width:200px;padding:10px 20px;">
+
+				<div class="spacer" >
+
+					<a href="/extensions/index.php?option=com_virtuemart&amp;view=productdetails&amp;virtuemart_product_id=87&amp;virtuemart_category_id=7&amp;Itemid=58" title="Geommunity3 Maps for Jomsocial"><img src="/extensions/images/stories/virtuemart/product/resized/box_geommunity3_400_200x200.jpg" alt="box_geommunity3_400" class="featuredProductImage" border="0" /></a><div class="clear"></div>
+					<a href="/extensions/index.php?option=com_virtuemart&amp;view=productdetails&amp;virtuemart_product_id=87&amp;virtuemart_category_id=7&amp;Itemid=58">Geommunity3 Maps for Jomsocial</a>        <div class="clear"></div><div class="PricesalesPrice vm-display vm-price-value" ><span class="PricesalesPrice" >34.00 €</span></div>
+				</div>
+
+			</div>
+
+			
+			<div class="minibrick  width20 floatleft" style="text-align:center;width:200px;padding:10px 20px;">
+
+				<div class="spacer" >
+
+					<a href="/extensions/index.php?option=com_virtuemart&amp;view=productdetails&amp;virtuemart_product_id=15&amp;virtuemart_category_id=4&amp;Itemid=58" title="VM Share plugin for Virtuemart"><img src="/extensions/images/stories/virtuemart/product/resized/box_vm2share_400_200x200.jpg" alt="Social share buttons plugin for Virtuemart products" class="featuredProductImage" border="0" /></a><div class="clear"></div>
+					<a href="/extensions/index.php?option=com_virtuemart&amp;view=productdetails&amp;virtuemart_product_id=15&amp;virtuemart_category_id=4&amp;Itemid=58">VM Share plugin for Virtuemart</a>        <div class="clear"></div><div class="PricesalesPrice vm-display vm-price-value" ><span class="PricesalesPrice" >9.00 €</span></div>
+				</div>
+
+			</div>
+
+			
+			<div class="minibrick  width20 floatleft" style="text-align:center;width:200px;padding:10px 20px;">
+
+				<div class="spacer" >
+
+					<a href="/extensions/index.php?option=com_virtuemart&amp;view=productdetails&amp;virtuemart_product_id=104&amp;virtuemart_category_id=17&amp;Itemid=58" title="Who Visited My Profile for Jomsocial"><img src="/extensions/images/stories/virtuemart/product/resized/box_whovisitedmyprofile_400_200x200.jpg" alt="box_whovisitedmyprofile_400" class="featuredProductImage" border="0" /></a><div class="clear"></div>
+					<a href="/extensions/index.php?option=com_virtuemart&amp;view=productdetails&amp;virtuemart_product_id=104&amp;virtuemart_category_id=17&amp;Itemid=58">Who Visited My Profile for Jomsocial</a>        <div class="clear"></div><div class="PricesalesPrice vm-display vm-price-value" ><span class="PricesalesPrice" >14.00 €</span></div>
+				</div>
+
+			</div>
+
+				</div><div style='clear:both;'>
+			<div class="minibrick  width20 floatleft" style="text-align:center;width:200px;padding:10px 20px;">
+
+				<div class="spacer" >
+
+					<a href="/extensions/index.php?option=com_virtuemart&amp;view=productdetails&amp;virtuemart_product_id=111&amp;virtuemart_category_id=1&amp;Itemid=58" title="Discreet Dating component for Joomla"><img src="/extensions/images/stories/virtuemart/product/resized/box_discreetdating_400_200x200.jpg" alt="box_discreetdating_400" class="featuredProductImage" border="0" /></a><div class="clear"></div>
+					<a href="/extensions/index.php?option=com_virtuemart&amp;view=productdetails&amp;virtuemart_product_id=111&amp;virtuemart_category_id=1&amp;Itemid=58">Discreet Dating component for Joomla</a>        <div class="clear"></div><div class="PricesalesPrice vm-display vm-price-value" ><span class="PricesalesPrice" >39.00 €</span></div>
+				</div>
+
+			</div>
+
+			
+			<div class="minibrick  width20 floatleft" style="text-align:center;width:200px;padding:10px 20px;">
+
+				<div class="spacer" >
+
+					<a href="/extensions/index.php?option=com_virtuemart&amp;view=productdetails&amp;virtuemart_product_id=56&amp;virtuemart_category_id=3&amp;Itemid=58" title="VM Tags suite for Virtuemart"><img src="/extensions/images/stories/virtuemart/product/resized/box_vm2tags_400_200x200.jpg" alt="tag cloud solution for Virtuemart" class="featuredProductImage" border="0" /></a><div class="clear"></div>
+					<a href="/extensions/index.php?option=com_virtuemart&amp;view=productdetails&amp;virtuemart_product_id=56&amp;virtuemart_category_id=3&amp;Itemid=58">VM Tags suite for Virtuemart</a>        <div class="clear"></div><div class="PricesalesPrice vm-display vm-price-value" ><span class="PricesalesPrice" >27.00 €</span></div>
+				</div>
+
+			</div>
+
+			
+			<div class="minibrick  width20 floatleft" style="text-align:center;width:200px;padding:10px 20px;">
+
+				<div class="spacer" >
+
+					<a href="/extensions/index.php?option=com_virtuemart&amp;view=productdetails&amp;virtuemart_product_id=114&amp;virtuemart_category_id=1&amp;Itemid=58" title="Flexible Odometer Counter module for Joomla"><img src="/extensions/images/stories/virtuemart/product/resized/box_flexible_odometer_400_200x200.jpg" alt="box_flexible_odometer_400" class="featuredProductImage" border="0" /></a><div class="clear"></div>
+					<a href="/extensions/index.php?option=com_virtuemart&amp;view=productdetails&amp;virtuemart_product_id=114&amp;virtuemart_category_id=1&amp;Itemid=58">Flexible Odometer Counter module for Joomla</a>        <div class="clear"></div><div class="PricesalesPrice vm-display vm-price-value" ><span class="PricesalesPrice" >9.00 €</span></div>
+				</div>
+
+			</div>
+
+			
+			<div class="minibrick  width20 floatleft" style="text-align:center;width:200px;padding:10px 20px;">
+
+				<div class="spacer" >
+
+					<a href="/extensions/index.php?option=com_virtuemart&amp;view=productdetails&amp;virtuemart_product_id=103&amp;virtuemart_category_id=15&amp;Itemid=58" title="Who Visited My Profile for EasySocial"><img src="/extensions/images/stories/virtuemart/product/resized/box_whovisitedmyprofile_400_200x200.jpg" alt="box_whovisitedmyprofile_400" class="featuredProductImage" border="0" /></a><div class="clear"></div>
+					<a href="/extensions/index.php?option=com_virtuemart&amp;view=productdetails&amp;virtuemart_product_id=103&amp;virtuemart_category_id=15&amp;Itemid=58">Who Visited My Profile for EasySocial</a>        <div class="clear"></div><div class="PricesalesPrice vm-display vm-price-value" ><span class="PricesalesPrice" >14.00 €</span></div>
+				</div>
+
+			</div>
+
+			
+			<div class="minibrick  width20 floatleft" style="text-align:center;width:200px;padding:10px 20px;">
+
+				<div class="spacer" >
+
+					<a href="/extensions/index.php?option=com_virtuemart&amp;view=productdetails&amp;virtuemart_product_id=107&amp;virtuemart_category_id=5&amp;Itemid=58" title="MyPlayer component: Community HTML5 MP3 players & podcasts for Joomla"><img src="/extensions/images/stories/virtuemart/product/resized/box_myplayer_400_200x200.jpg" alt="box_myplayer_400" class="featuredProductImage" border="0" /></a><div class="clear"></div>
+					<a href="/extensions/index.php?option=com_virtuemart&amp;view=productdetails&amp;virtuemart_product_id=107&amp;virtuemart_category_id=5&amp;Itemid=58">MyPlayer component: Community HTML5 MP3 players & podcasts for Joomla</a>        <div class="clear"></div><div class="PricesalesPrice vm-display vm-price-value" ><span class="PricesalesPrice" >29.00 €</span></div>
+				</div>
+
+			</div>
+
+				</div><div style='clear:both;'>
+			<div class="minibrick  width20 floatleft" style="text-align:center;width:200px;padding:10px 20px;">
+
+				<div class="spacer" >
+
+					<a href="/extensions/index.php?option=com_virtuemart&amp;view=productdetails&amp;virtuemart_product_id=90&amp;virtuemart_category_id=15&amp;Itemid=58" title="First Automatic Friends for CB Jomsocial and EasySocial"><img src="/extensions/images/stories/virtuemart/product/resized/box_autofriends_400_200x200.jpg" alt="box_autofriends_400" class="featuredProductImage" border="0" /></a><div class="clear"></div>
+					<a href="/extensions/index.php?option=com_virtuemart&amp;view=productdetails&amp;virtuemart_product_id=90&amp;virtuemart_category_id=15&amp;Itemid=58">First Automatic Friends for CB Jomsocial and EasySocial</a>        <div class="clear"></div><div class="PricesalesPrice vm-display vm-price-value" ><span class="PricesalesPrice" >9.00 €</span></div>
+				</div>
+
+			</div>
+
+			
+			<div class="minibrick  width20 floatleft" style="text-align:center;width:200px;padding:10px 20px;">
+
+				<div class="spacer" >
+
+					<a href="/extensions/index.php?option=com_virtuemart&amp;view=productdetails&amp;virtuemart_product_id=106&amp;virtuemart_category_id=18&amp;Itemid=58" title="Who Visited My Profile for Community Builder"><img src="/extensions/images/stories/virtuemart/product/resized/box_whovisitedmyprofile_400_200x200.jpg" alt="box_whovisitedmyprofile_400" class="featuredProductImage" border="0" /></a><div class="clear"></div>
+					<a href="/extensions/index.php?option=com_virtuemart&amp;view=productdetails&amp;virtuemart_product_id=106&amp;virtuemart_category_id=18&amp;Itemid=58">Who Visited My Profile for Community Builder</a>        <div class="clear"></div><div class="PricesalesPrice vm-display vm-price-value" ><span class="PricesalesPrice" >11.00 €</span></div>
+				</div>
+
+			</div>
+
+			
+			<div class="minibrick  width20 floatleft" style="text-align:center;width:200px;padding:10px 20px;">
+
+				<div class="spacer" >
+
+					<a href="/extensions/index.php?option=com_virtuemart&amp;view=productdetails&amp;virtuemart_product_id=142&amp;virtuemart_category_id=7&amp;Itemid=58" title="Geommunity3 Lite"><img src="/extensions/images/stories/virtuemart/product/resized/box_geommunity3_400_200x200.jpg" alt="box_geommunity3_400" class="featuredProductImage" border="0" /></a><div class="clear"></div>
+					<a href="/extensions/index.php?option=com_virtuemart&amp;view=productdetails&amp;virtuemart_product_id=142&amp;virtuemart_category_id=7&amp;Itemid=58">Geommunity3 Lite</a>        <div class="clear"></div><div class="PricesalesPrice vm-display vm-price-value" ><span class="PricesalesPrice" >9.00 €</span></div>
+				</div>
+
+			</div>
+
+			
+			<div class="minibrick  width20 floatleft" style="text-align:center;width:200px;padding:10px 20px;">
+
+				<div class="spacer" >
+
+					<a href="/extensions/index.php?option=com_virtuemart&amp;view=productdetails&amp;virtuemart_product_id=120&amp;virtuemart_category_id=8&amp;Itemid=58" title="AltaUserPoints component for Joomla"><img src="/extensions/images/stories/virtuemart/product/resized/box_altauserpoints400_200x200.jpg" alt="box_altauserpoints400" class="featuredProductImage" border="0" /></a><div class="clear"></div>
+					<a href="/extensions/index.php?option=com_virtuemart&amp;view=productdetails&amp;virtuemart_product_id=120&amp;virtuemart_category_id=8&amp;Itemid=58">AltaUserPoints component for Joomla</a>        <div class="clear"></div>
+				</div>
+
+			</div>
+
+			
+			<div class="minibrick  width20 floatleft" style="text-align:center;width:200px;padding:10px 20px;">
+
+				<div class="spacer" >
+
+					<a href="/extensions/index.php?option=com_virtuemart&amp;view=productdetails&amp;virtuemart_product_id=62&amp;virtuemart_category_id=4&amp;Itemid=58" title="Virtuemart Wishlists component"><img src="/extensions/images/stories/virtuemart/product/resized/box_vm2wishlists_400_200x200.jpg" alt="box_vm2wishlists_400" class="featuredProductImage" border="0" /></a><div class="clear"></div>
+					<a href="/extensions/index.php?option=com_virtuemart&amp;view=productdetails&amp;virtuemart_product_id=62&amp;virtuemart_category_id=4&amp;Itemid=58">Virtuemart Wishlists component</a>        <div class="clear"></div><div class="PricesalesPrice vm-display vm-price-value" ><span class="PricesalesPrice" >29.00 €</span></div>
+				</div>
+
+			</div>
+
+				</div><div style='clear:both;'>
+			<div class="minibrick  width20 floatleft" style="text-align:center;width:200px;padding:10px 20px;">
+
+				<div class="spacer" >
+
+					<a href="/extensions/index.php?option=com_virtuemart&amp;view=productdetails&amp;virtuemart_product_id=86&amp;virtuemart_category_id=7&amp;Itemid=58" title="Geommunity3 Maps for EasySocial"><img src="/extensions/images/stories/virtuemart/product/resized/box_geommunity3_400_200x200.jpg" alt="box_geommunity3_400" class="featuredProductImage" border="0" /></a><div class="clear"></div>
+					<a href="/extensions/index.php?option=com_virtuemart&amp;view=productdetails&amp;virtuemart_product_id=86&amp;virtuemart_category_id=7&amp;Itemid=58">Geommunity3 Maps for EasySocial</a>        <div class="clear"></div><div class="PricesalesPrice vm-display vm-price-value" ><span class="PricesalesPrice" >34.00 €</span></div>
+				</div>
+
+			</div>
+
+			
+			<div class="minibrick  width20 floatleft" style="text-align:center;width:200px;padding:10px 20px;">
+
+				<div class="spacer" >
+
+					<a href="/extensions/index.php?option=com_virtuemart&amp;view=productdetails&amp;virtuemart_product_id=154&amp;virtuemart_category_id=8&amp;Itemid=58" title="Share4 Points"><img src="/extensions/images/stories/virtuemart/product/resized/box_share4pts_4005_200x200.jpg" alt="box_share4pts_4005" class="featuredProductImage" border="0" /></a><div class="clear"></div>
+					<a href="/extensions/index.php?option=com_virtuemart&amp;view=productdetails&amp;virtuemart_product_id=154&amp;virtuemart_category_id=8&amp;Itemid=58">Share4 Points</a>        <div class="clear"></div><div class="PricesalesPrice vm-display vm-price-value" ><span class="PricesalesPrice" >29.00 €</span></div>
+				</div>
+
+			</div>
+
+			
+			<div class="minibrick  width20 floatleft" style="text-align:center;width:200px;padding:10px 20px;">
+
+				<div class="spacer" >
+
+					<a href="/extensions/index.php?option=com_virtuemart&amp;view=productdetails&amp;virtuemart_product_id=60&amp;virtuemart_category_id=3&amp;Itemid=58" title="VMVendor - Multivendor Marketplace for Virtuemart & Joomla"><img src="/extensions/images/stories/virtuemart/product/resized/box_vmvendor_4004_200x200.jpg" alt="VMVendor Multivendor for Virtuemart and Joomla" class="featuredProductImage" border="0" /></a><div class="clear"></div>
+					<a href="/extensions/index.php?option=com_virtuemart&amp;view=productdetails&amp;virtuemart_product_id=60&amp;virtuemart_category_id=3&amp;Itemid=58">VMVendor - Multivendor Marketplace for Virtuemart & Joomla</a>        <div class="clear"></div><div class="PricesalesPrice vm-display vm-price-value" ><span class="PricesalesPrice" >59.00 €</span></div>
+				</div>
+
+			</div>
+
+			
+			<div class="minibrick  width20 floatleft" style="text-align:center;width:200px;padding:10px 20px;">
+
+				<div class="spacer" >
+
+					<a href="/extensions/index.php?option=com_virtuemart&amp;view=productdetails&amp;virtuemart_product_id=78&amp;virtuemart_category_id=1&amp;Itemid=58" title="Parallax Scroll Module for Joomla"><img src="/extensions/images/stories/virtuemart/product/resized/box_parrallaxscroll_400_200x200.jpg" alt="box_parrallaxscroll_400" class="featuredProductImage" border="0" /></a><div class="clear"></div>
+					<a href="/extensions/index.php?option=com_virtuemart&amp;view=productdetails&amp;virtuemart_product_id=78&amp;virtuemart_category_id=1&amp;Itemid=58">Parallax Scroll Module for Joomla</a>        <div class="clear"></div><div class="PricesalesPrice vm-display vm-price-value" ><span class="PricesalesPrice" >11.00 €</span></div>
+				</div>
+
+			</div>
+
+			
+		</div>
+
+		<br style='clear:both;'/>
+
+
+
+		
+</div></div></div>
+        </section>
+        
+        
+                <section id="tm-bottom-d" class="tm-bottom-d uk-grid uk-grid-match uk-grid-collapse" data-uk-grid-match="{target:'> div > .uk-panel'}" data-uk-grid-margin>
+            
+<div class="uk-width-1-1 uk-width-medium-1-4"><div class="uk-panel uk-panel-box uk-panel-box-secondary -" ><h3 class="uk-panel-title"><i class="uk-icon-asterisk"></i> Featured Apps</h3><ul class="uk-nav uk-nav-parent-icon uk-nav-side" data-uk-nav="{}"><li><a href="/extensions/index.php?option=com_virtuemart&amp;view=category&amp;virtuemart_category_id=7&amp;Itemid=58">Geommunity3 Maps</a></li><li><a href="https://www.nordmograph.com/extensions/index.php?option=com_virtuemart&amp;view=productdetails&amp;virtuemart_product_id=60&amp;virtuemart_category_id=4&amp;Itemid=58">VMVendor Virtuemart Marketplace</a></li><li><a href="https://www.nordmograph.com/extensions/index.php?option=com_virtuemart&amp;view=productdetails&amp;virtuemart_product_id=154&amp;virtuemart_category_id=8&amp;Itemid=58">Social Share for Points</a></li><li><a href="/extensions/index.php?option=com_virtuemart&amp;view=productdetails&amp;virtuemart_product_id=107&amp;virtuemart_category_id=5&amp;Itemid=58">MyPlayer users playlists &amp; podcasts</a></li></ul></div></div>
+
+<div class="uk-width-1-1 uk-width-medium-1-4"><div class="uk-panel uk-panel-box uk-panel-box-secondary" ><h3 class="uk-panel-title"><i class="uk-icon-bank"></i> Shop Account</h3><ul class="uk-nav uk-nav-parent-icon uk-nav-side" data-uk-nav="{}"><li><a href="/extensions/index.php?option=com_virtuemart&amp;view=orders&amp;layout=list&amp;Itemid=593">My Orders</a></li><li><a href="/extensions/index.php?option=com_virtuemart&amp;view=user&amp;layout=edit&amp;Itemid=594">Account Maintenance</a></li><li><a href="/extensions/index.php?option=com_virtuemart&amp;view=vendor&amp;layout=tos&amp;virtuemart_vendor_id=1&amp;Itemid=918">Terms of Service</a></li></ul></div></div>
+
+<div class="uk-width-1-1 uk-width-medium-1-4"><div class="uk-panel uk-panel-box uk-panel-box-secondary" ><h3 class="uk-panel-title"><i class="uk-icon-cube"></i> Misc.</h3><ul class="uk-nav uk-nav-parent-icon uk-nav-side" data-uk-nav="{}"><li><a href="https://www.nordmograph.com/workshop" target="_blank">Extensions Demo Site</a></li><li><a href="/extensions/index.php?option=com_wrapper&amp;view=wrapper&amp;Itemid=106">Licence</a></li><li><a href="/extensions/index.php?option=com_xmap&amp;view=html&amp;id=1&amp;Itemid=150">Sitemap</a></li><li><a href="/extensions/index.php?option=com_contact&amp;view=contact&amp;id=1&amp;Itemid=1174">Contact</a></li></ul></div></div>
+
+<div class="uk-hidden-small uk-width-medium-1-4"><div class="uk-panel uk-panel-box uk-panel-box-secondary uk-hidden-small" ><h3 class="uk-panel-title"><i class="uk-icon-group"></i> Follow Us</h3><ul class="uk-nav uk-nav-parent-icon uk-nav-side" data-uk-nav="{}"><li><a href="http://www.twitter.com/nordmograph" target="_blank"><i class="uk-icon-twitter"></i> Twitter</a></li><li><a href="http://www.facebook.com/pages/Nordmograph-Web-marketing-and-Joomla-expertise/368385633962" target="_blank"><i class="uk-icon-facebook"></i> Facebook</a></li><li><a href="https://fr.linkedin.com/in/nordmograph" target="_blank"><i class="uk-icon-linkedin"></i> Linkedin</a></li><li><a href="https://community.joomla.org/user-groups/966-joomla-user-group-lille.html" target="_blank"><i class="uk-icon-joomla"></i> JUG Lille</a></li></ul></div></div>
+        </section>
+        
+                <footer id="tm-footer" class="tm-footer tm-footer-margin-top">
+            <div class="uk-panel uk-panel-space uk-text-center">
+                                <a class="tm-totop-scroller uk-link-reset" data-uk-smooth-scroll href="#"></a>
+                
+                <div class="uk-panel" ><div class="footer1">Copyright &#169; 2016 Nordmograph - Joomla extensions. All Rights Reserved.</div>
+<div class="footer2"><a href="https://www.joomla.org">Joomla!</a> is Free Software released under the <a href="http://www.gnu.org/licenses/gpl-2.0.html">GNU General Public License.</a></div>
+</div><!--googleoff: all-->
+	<!-- Template Default bootstrap -->
+	<div class="jb cookie bottom black blue ">
+	    
+		<!-- BG color -->
+		<div class='jb cookie-bg black'></div>
+	    
+		<h2>In order to provide you with the best online experience this website uses cookies.</h2>
+	     
+		<p>By using our website, you agree to our use of cookies.					</p>
+	    
+		<div class="btn btn-primary jb accept blue">I agree</div>
+	    
+	</div>
+	
+	
+<!--googleon: all-->
+
+
+	
+	<script type="text/javascript">
+	    jQuery(document).ready(function () { 
+		
+			function setCookie(c_name,value,exdays)
+			{
+				var exdate=new Date();
+				exdate.setDate(exdate.getDate() + exdays);
+				var c_value=escape(value) + ((exdays==null) ? "" : "; expires="+exdate.toUTCString()) + "; path=/";
+				document.cookie=c_name + "=" + c_value;
+			}
+			
+			function readCookie(name) {
+				var nameEQ = name + "=";
+				var jb = document.cookie.split(';');
+				for(var i=0;i < jb.length;i++) {
+					var c = jb[i];
+					while (c.charAt(0)==' ') c = c.substring(1,c.length);
+						if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+					}
+				return null;
+			}
+		    
+			var $jb_cookie = jQuery('.jb.cookie');
+			var $jb_infoaccept = jQuery('.jb.accept');
+			var jbcookies = readCookie('jbcookies');
+	
+			if(!(jbcookies == "yes")){
+			
+				$jb_cookie.delay(1000).slideDown('fast'); 
+	
+				$jb_infoaccept.click(function(){
+					setCookie("jbcookies","yes",365);
+					jQuery.post('https://www.nordmograph.com/extensions/index.php', 'set_cookie=1', function(){});
+					$jb_cookie.slideUp('slow');
+				});
+			} 
+	    });
+	</script>
+
+
+
+	<img title="Hosted by PlanetHoster" src="images/logo_small.png" alt="Nordmograph" width="234" height="62" border="0" />
+<!-- PWebContact -->
+
+
+<div id="pwebcontact177" class="pwebcontact pweb-left pweb-offset-top pweb-slidebox pweb-labels-inline pweb-bg-white pweb-form-blue pweb-vertical pweb-toggler-slide pweb-icomoon" dir="ltr">
+	
+		
+		<div id="pwebcontact177_box" class="pwebcontact-box pweb-slidebox pweb-labels-inline pweb-bg-white pweb-form-blue pweb-vertical pweb-toggler-slide pweb-icomoon pweb-init" dir="ltr">
+	<div id="pwebcontact177_container" class="pwebcontact-container">
+	
+		<div id="pwebcontact177_toggler" class="pwebcontact177_toggler pwebcontact_toggler pweb-closed pweb-toggler-gray"><span class="pweb-text"> </span><span class="pweb-icon"></span></div>		
+				
+		<form name="pwebcontact177_form" id="pwebcontact177_form" class="pwebcontact-form" action="https://www.nordmograph.com/extensions/index.php?option=com_virtuemart&view=productdetails&virtuemart_product_id=114&virtuemart_category_id=1&Itemid=58" method="post" accept-charset="utf-8">
+			
+						
+			<div class="pweb-fields">
+								<div class="pweb-field-container pweb-field-name pweb-field-name">
+												<div class="pweb-label">
+							<label id="pwebcontact177_field-name-lbl" for="pwebcontact177_field-name">
+								Name								<span class="pweb-asterisk">*</span>							</label>
+						</div>
+												<div class="pweb-field">
+														<input type="text" name="fields[name]" id="pwebcontact177_field-name" class="pweb-input required" value="" data-role="none">
+													</div>
+					</div>
+										<div class="pweb-field-container pweb-field-email pweb-field-email">
+												<div class="pweb-label">
+							<label id="pwebcontact177_field-email-lbl" for="pwebcontact177_field-email">
+								Email								<span class="pweb-asterisk">*</span>							</label>
+						</div>
+												<div class="pweb-field">
+														<input type="email" name="fields[email]" id="pwebcontact177_field-email" class="pweb-input required" value="" data-role="none">
+													</div>
+					</div>
+										<div class="pweb-field-container pweb-field-textarea pweb-field-message">
+												<div class="pweb-label">
+							<label id="pwebcontact177_field-message-lbl" for="pwebcontact177_field-message">
+								Message								<span class="pweb-asterisk">*</span>							</label>
+						</div>
+												<div class="pweb-field">
+														<textarea name="fields[message]" id="pwebcontact177_field-message" cols="50" rows="5" maxlength="1000" class="required" data-role="none"></textarea>
+														<div class="pweb-chars-counter"><span id="pwebcontact177_field-message-limit">1000</span> characters left</div>
+								
+													</div>
+					</div>
+										<div class="pweb-field-container pweb-field-captcha">
+						<div class="pweb-label">
+							<label for="pwebcontact177_captcha" id="pwebcontact177_captcha-lbl">
+								Captcha code								<span class="pweb-asterisk">*</span>
+							</label>
+						</div>
+						<div class="pweb-field pweb-captcha">
+							<div id="pwebcontact177_captcha" class="g-recaptcha pweb-input required" data-sitekey="6LcLn9sSAAAAAPmvuCpKOw7ssn5L9QaBG3lGmwuo" data-theme="light" data-size="normal"></div>						</div>
+					</div>
+										<div class="pweb-field-container pweb-field-buttons">
+						<div class="pweb-field">
+							<button id="pwebcontact177_send" type="button" class="btn" data-role="none">Send</button>
+																				</div>
+					</div>
+						</div>
+			
+			<div class="pweb-msg pweb-msg-after"><div id="pwebcontact177_msg" class="pweb-progress"><script type="text/javascript">document.getElementById("pwebcontact177_msg").innerHTML="Initializing form..."</script></div></div>			
+						<input type="hidden" name="c313b59c2c8799cba7d3dc2d759a73c8" value="1" id="pwebcontact177_token">
+		</form>
+		
+			
+	</div>
+	</div>
+	</div>
+
+<script type="text/javascript">
+jQuery(document).ready(function($){pwebContact177=new pwebContact({id:177,layout:"slidebox",position:"left",offsetPosition:"top",basePath:"/extensions",ajaxUrl:"index.php?option=com_ajax&module=pwebcontact&Itemid=58&method=",slideDuration:400})});</script>
+<!-- PWebContact end -->
+            </div>
+        </footer>
+        
+    </div>
+
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-656746-4', 'auto');
+  ga('send', 'pageview');
+
+</script>
+        <div id="offcanvas" class="uk-offcanvas">
+        <div class="uk-offcanvas-bar uk-offcanvas-bar-flip"><ul class="uk-nav uk-nav-offcanvas"><li class="uk-parent"><a href="#"><i class="uk-icon-joomla"></i> Joomla Extensions</a>
+<ul class="uk-nav-sub"><li><a href="/extensions/index.php?option=com_virtuemart&amp;view=category&amp;virtuemart_category_id=4&amp;Itemid=58"><i class="uk-icon-cart-arrow-down"></i> Virtuemart Extensions</a></li><li><a href="/extensions/index.php?option=com_virtuemart&amp;view=category&amp;virtuemart_category_id=18&amp;Itemid=58"><i class="uk-icon-users"></i> Community Builder Extensions</a></li><li><a href="/extensions/index.php?option=com_virtuemart&amp;view=category&amp;virtuemart_category_id=17&amp;Itemid=58"><i class="uk-icon-users"></i> Jomsocial Extensions</a></li><li><a href="/extensions/index.php?option=com_virtuemart&amp;view=category&amp;virtuemart_category_id=15&amp;Itemid=58"><i class="uk-icon-users"></i> EasySocial Extensions</a></li><li><a href="/extensions/index.php?option=com_virtuemart&amp;view=category&amp;virtuemart_category_id=10&amp;Itemid=58"><i class="uk-icon-archive"></i> SobiPro Extensions</a></li><li><a href="/extensions/index.php?option=com_virtuemart&amp;view=category&amp;virtuemart_category_id=3&amp;Itemid=58"><i class="uk-icon-cart-arrow-down"></i> VMVendor Marketplace Suite</a></li><li class="uk-parent"><a href="/extensions/index.php?option=com_virtuemart&amp;view=category&amp;virtuemart_category_id=7&amp;Itemid=58"><i class="uk-icon-map-marker"></i> Geommunity AJAX Maps</a><ul><li><a href="/extensions/index.php?option=com_virtuemart&amp;view=category&amp;virtuemart_category_id=20&amp;Itemid=58"><i class="uk-icon-puzzle-piece"></i> Geommunity plugins directory</a></li></ul></li><li><a href="/extensions/index.php?option=com_virtuemart&amp;view=category&amp;virtuemart_category_id=8&amp;Itemid=58"><i class="uk-icon-star"></i> AltaUserPoints Extensions</a></li><li><a href="/extensions/index.php?option=com_virtuemart&amp;view=category&amp;virtuemart_category_id=11&amp;Itemid=58"><i class="uk-icon-soundcloud"></i> Soundcloud Extensions</a></li><li><a href="/extensions/index.php?option=com_virtuemart&amp;view=category&amp;virtuemart_category_id=1&amp;Itemid=58">Other Joomla extensions</a></li></ul></li><li class="uk-parent"><a href="#"><i class="uk-icon-map-marker"></i> Geommunity3 Maps</a>
+<ul class="uk-nav-sub"><li><a href="https://www.nordmograph.com/workshop/index.php?option=com_content&amp;view=article&amp;id=1&amp;Itemid=128" target="_blank"><i class="uk-icon-map"></i> Demo</a></li><li class="uk-parent"><a href="/extensions/index.php?option=com_vm2tags&amp;view=productslist&amp;tag=geommunity3&amp;Itemid=58"><i class="uk-icon-cart-plus"></i> Buy and download</a><ul><li><a href="/extensions/index.php?option=com_virtuemart&amp;view=productdetails&amp;virtuemart_product_id=86&amp;virtuemart_category_id=7&amp;Itemid=58">Geommunity3 for EasySocial</a></li><li><a href="/extensions/index.php?option=com_virtuemart&amp;view=productdetails&amp;virtuemart_product_id=87&amp;virtuemart_category_id=7&amp;Itemid=58">Geommunity3 for Jomsocial</a></li><li><a href="/extensions/index.php?option=com_virtuemart&amp;view=productdetails&amp;virtuemart_product_id=88&amp;virtuemart_category_id=7&amp;Itemid=58">Geommunity3 for CB</a></li><li><a href="/extensions/index.php?option=com_virtuemart&amp;view=productdetails&amp;virtuemart_product_id=142&amp;virtuemart_category_id=7&amp;Itemid=58">Geommunity3 Lite</a></li></ul></li><li><a href="https://www.nordmograph.com/extensions/index.php?option=com_virtuemart&amp;view=category&amp;virtuemart_category_id=20&amp;Itemid=58"><i class="uk-icon-puzzle-piece"></i> Third party Plugins</a></li><li><a href="http://googlemaps.github.io/js-samples/styledmaps/wizard/index.html" onclick="window.open(this.href, 'targetWindow', 'toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=yes,'); return false;"><i class="uk-icon-wrench"></i> Google Maps Styler</a></li></ul></li><li><a href="/extensions/index.php?option=com_contact&amp;view=contact&amp;id=1&amp;Itemid=1174"><i class="uk-icon-cogs"></i> Custom Dev</a></li><li class="uk-parent"><a href="#"><i class="uk-icon-support"></i> Support</a>
+<ul class="uk-nav-sub"><li><a href="/extensions/index.php?option=com_content&amp;view=categories&amp;id=50&amp;Itemid=288"><i class="uk-icon-book"></i> Documentation</a></li><li><a href="/extensions/index.php?option=com_kunena&amp;view=home&amp;defaultmenu=645&amp;Itemid=40"><i class="uk-icon-comments-o"></i> Support Forum</a></li></ul></li><li class="uk-parent"><a href="/extensions/index.php?option=com_comprofiler&amp;view=registers&amp;Itemid=63"><i class="uk-icon-user"></i> Account</a><ul class="uk-nav-sub"><li><a href="/extensions/index.php?option=com_comprofiler&amp;view=userprofile&amp;Itemid=268"><i class="uk-icon-user"></i> Community Profile</a></li><li><a href="/extensions/index.php?option=com_vm2wishlists&amp;view=list&amp;Itemid=722"><i class="uk-icon-binoculars"></i> My Wishlist</a></li><li><a href="/extensions/index.php?option=com_vm2wishlists&amp;view=list&amp;Itemid=723"><i class="uk-icon-heart"></i> My Favourites list</a></li></ul></li><li><a href="/extensions/index.php?option=com_virtuemart&amp;view=cart&amp;Itemid=244"><i class="uk-icon-cart-arrow-down"></i> Shopping Cart</a></li></ul></div>
+    </div>
+    
+</body>
+</html>

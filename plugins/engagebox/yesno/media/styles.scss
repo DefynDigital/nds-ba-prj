@@ -1,0 +1,36 @@
+$gutter: 25px;
+
+.ebox-yes-no {
+
+	text-align:center;
+
+	.ebox-yn-text {
+		margin-bottom: $gutter;
+	}
+
+	.ebox-yn-headline {
+		line-height:1.2;
+	}
+
+	.ebox-ys-footer {
+		margin-top: $gutter;
+	}
+
+	.ebox-ys-btn {
+		border-radius:3px;
+		display:inline-block;
+		padding:10px 20px;
+		line-height: 1.3;
+		font-size: 16px;
+		margin:5px;
+		min-width:100px;
+		font-weight:bold;
+		text-decoration:none;
+		border:solid 3px rgba(0,0,0,.04);
+		transition: all 200ms linear;
+
+		&:hover {
+			opacity:.9;
+		}
+	}
+}

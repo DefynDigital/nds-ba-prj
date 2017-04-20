@@ -1,0 +1,99 @@
+/**********login page******************/
+.view-login {background-color: #01ceb8;
+    background-image: -moz-linear-gradient(top,#01ceb8,#01ceb8);
+	background-image: -webkit-gradient(linear,0 0,0 100%,from(#01ceb8),to(#01ceb8));
+	background-image: -webkit-linear-gradient(top,#01ceb8,#01ceb8);
+	background-image: -o-linear-gradient(top,#01ceb8,#01ceb8);
+	background-image: linear-gradient(to bottom,#01ceb8,#01ceb8);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff01ceb8', endColorstr='#ff01ceb8', GradientType=0);
+	border-color: none;}
+.register-title {
+  line-height: 43px;
+  margin: 50px auto 20px;
+  font-size: 19px;
+  font-weight: 500;
+  font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: white;
+  color: rgba(255, 255, 255, 0.95);
+  text-align: center;
+  text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+  background: #ffd200;
+  border-radius:3px;
+  background-image: -webkit-linear-gradient(top, #ffd200, #ffd200);
+  background-image: -moz-linear-gradient(top, #ffd200, #ffd200);
+  background-image: -o-linear-gradient(top, #ffd200, #ffd200);
+  background-image: linear-gradient(to bottom, #ffd200, #ffd200);
+  -webkit-box-shadow: 5px 5px rgba(102, 102, 102, 0.1);
+  box-shadow: 5px 5px rgba(102, 102, 102, 0.1);
+}
+.register {
+  margin: 0 auto;
+  padding: 20px;
+  background: #f4f4f4;
+  border-radius: 0px;
+  -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+.login.well{background: #ececec;border-radius:3px;padding: 20px 20px 20px 20px;box-shadow: 5px 5px rgba(102, 102, 102, 0.1);}
+#form-login .btn-group > .btn{color: #fff;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+	background-color: #2d2f40;
+	background-image: -moz-linear-gradient(top,#4591fb,#4591fb);
+	background-image: -webkit-gradient(linear,0 0,0 100%,from(#4591fb),to(#4591fb));
+	background-image: -webkit-linear-gradient(top,#4591fb,#4591fb);
+	background-image: -o-linear-gradient(top,#4591fb,#4591fb);
+	background-image: linear-gradient(to bottom,#4591fb,#4591fb);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4591fb', endColorstr='#4591fb', GradientType=0);
+	border-color: #4591fb #4591fb #212231;
+	*background-color: #4591fb;
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);border-radius: 2px;
+ box-shadow: 5px 5px rgba(102, 102, 102, 0.1);
+  box-shadow: 5px 5px rgba(102, 102, 102, 0.1);
+  padding:0;
+  margin:0;
+  border:0;    cursor: pointer;
+    display: block;
+    font-weight: 500;
+    line-height: 42px;
+    margin:25px 0 0 0;
+    padding: 0;
+    text-align: center;
+    text-shadow: 0 1px #3e82e1;}
+#form-login .btn-group > .btn:hover,#form-login .btn-group > .btn:focus {
+	background-position: 0 -45px;}
+#form-login{ margin-bottom:0;}
+.view-login .input-medium{ }
+#form-login .input-prepend,#form-login .input-append{ background:#d3d3d3;display: block;}
+.login .chzn-container, .login .chzn-drop {font-family: Rajdhani,"Lucida Grande",Arial,sans-serif; line-height:28px;   min-width: 232px;}
+.chzn-container-single .chzn-single span{line-height:28px;}
+/**/
+.view-login .navbar-fixed-bottom{margin: 0px auto 0px;
+  padding:6px 4px 0px 8px;
+  font: 10px/18px 'Lucida Grande', Arial, sans-serif;
+  color: #666;
+  text-align: center;
+  text-shadow: 0 1px rgba(255, 255, 255, 0.25);
+  background: #eee;
+  background: rgba(250, 250, 250, 0.8);
+  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1));
+  background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1));
+  background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1));
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1));
+  -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.3), inset 0 0 0 1px rgba(255, 255, 255, 0.1), 0 0 6px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 1px rgba(255, 255, 255, 0.3), inset 0 0 0 1px rgba(255, 255, 255, 0.1), 0 0 6px rgba(0, 0, 0, 0.2);}
+  
+.view-login .navbar-fixed-bottom a {
+  color: #333;
+  text-decoration: none;
+  -webkit-transition: background 0.1s;
+  -moz-transition: background 0.1s;
+  -o-transition: background 0.1s;
+    transition: all 0.3s linear 0s;
+}
+.view-login .navbar-fixed-bottom a:hover {
+  color: #000;
+  text-decoration: none;
+}
+.alert {font-family: rajdhani,arial,helvetica;}
